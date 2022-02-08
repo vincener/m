@@ -11,11 +11,15 @@
   "cateId": "/@href",
   "cateIdR": "/type/(\\S+).html",
    "cateManual": {
-      "电影":"1",
+    "电影":"1",
     "连续剧":"2",
+    "国产剧":"12",
+    "港台剧":"13",
+    "综艺":"3",
     "动漫":"4",
     "韩剧":"14",
-    "综艺":"3"},    
+    "美剧":"15"
+    },    
   "homeVodNode": "//ul[contains(@class, 'tbox_m')]/li[contains(@class,'vbox')]/a[contains(@class,'vbox_t')]",
   "homeVodName": "/@title",
   "homeVodId": "/@href",
