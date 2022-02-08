@@ -10,6 +10,7 @@
         "港剧": "14",
         "电影": "1",
         "连续剧": "2",
+        "综艺": "3",
         "韩剧": "15",
         "美剧": "16",
         "日剧": "24",
@@ -18,6 +19,7 @@
         "英剧": "27",
         "大陆综艺": "29",
         "台湾综艺": "30",
+        "香港综艺": "34",
         "韩国综艺": "31"
     },
     "homeVodNode": "//div[contains(@class, 'myui-panel-bg')]//ul[contains(@class,'myui-vodlist')]/li//a[contains(@class,'myui-vodlist__thumb') and contains(@href,'voddetail')]",
