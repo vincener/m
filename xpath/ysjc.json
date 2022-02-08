@@ -14,7 +14,6 @@
   "homeVodImgR": "\\S+(http\\S+)",
   "homeVodMark": "/span[contains(@class,'pic-text')]/text()",
   "cateUrl": "https://www.ik4.cc/vodshow/{cateId}--------{catePg}---.html",
-  
   "cateVodNode": "//ul[contains(@class,'myui-vodlist')]//li//a[contains(@class,'myui-vodlist__thumb')]",
   "cateVodName": "/@title",
   "cateVodId": "/@href",
