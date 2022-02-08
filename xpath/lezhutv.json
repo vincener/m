@@ -23,8 +23,7 @@
     "港台综艺":"29",
     "日韩综艺":"30",
     "动漫":"4",
-    "韩剧":"14",
-    "美剧":"15"
+    "韩剧":"14"
     },    
   "homeVodNode": "//ul[contains(@class, 'tbox_m')]/li[contains(@class,'vbox')]/a[contains(@class,'vbox_t')]",
   "homeVodName": "/@title",
