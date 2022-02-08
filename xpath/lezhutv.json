@@ -16,10 +16,7 @@
     "国产剧":"12",
     "港剧":"13",
     "台剧":"25",
-    "泰剧":"26",
-    "日剧":"24",
     "综艺":"3",
-    "日韩综艺":"30",
     "韩剧":"14"
     },    
   "homeVodNode": "//ul[contains(@class, 'tbox_m')]/li[contains(@class,'vbox')]/a[contains(@class,'vbox_t')]",
