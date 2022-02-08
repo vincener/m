@@ -4,7 +4,7 @@
   "cateNode": "//ul[contains(@class,'myui-header__menu nav-menu')]/li[contains(@class, 'dropdown-hover')]//div/ul/li/a[contains(@href, 'vodtype') and not(contains(@href,'label'))]",
   "cateName": "/text()",
   "cateId": "/@href",
-  "cateIdR": "/vodtype/(\\w+).htm",
+  "cateIdR": "/vodtype/(\\w+).html",
   "cateManual": {},
   "homeVodNode": "//div[contains(@class, 'padding-0')]//ul[contains(@class,'myui-vodlist')]/li//a[contains(@class,'myui-vodlist__thumb')]",
   "homeVodName": "/@title",
