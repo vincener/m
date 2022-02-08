@@ -6,17 +6,6 @@
     "cateId": "/@href",
     "cateIdR": "/vodtype/(\\d+).html",
     "cateManual": {
-        "国产剧": "13",
-        "港剧": "14",
-        "电影": "1",
-        "连续剧": "2",
-        "综艺": "3",
-        "韩剧": "15",
-        "美剧": "16",
-        "日剧": "24",
-        "泰剧": "25",
-        "台剧": "26",
-        "韩国综艺": "31"
     },
     "homeVodNode": "//div[contains(@class, 'myui-panel-bg')]//ul[contains(@class,'myui-vodlist')]/li//a[contains(@class,'myui-vodlist__thumb') and contains(@href,'voddetail')]",
     "homeVodName": "/@title",
