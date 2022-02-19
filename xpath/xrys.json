@@ -6,7 +6,7 @@
   "pCfgJsR": "[\\W|\\S|.]*?MacPlayerConfig.player_list[\\W|\\S|.]*?=([\\W|\\S|.]*?),MacPlayerConfig.downer_list",
   "dcShow2Vip": {},
   "dcPlayUrl": "true",
-  "cateManual": {},
+  "cateManual": {"电影": "1","动漫": "4","连续剧": "2","综艺": "3","哔哩哔哩":"20"},
   "homeVodNode": "//div[@class='module-item-cover']/div[@class='module-item-pic']",
   "homeVodName": "/a/@title",
   "homeVodId": "/a/@href",
