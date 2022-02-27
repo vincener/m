@@ -92,7 +92,7 @@
 	"homeVodImg": "/img/@src",
 	"homeVodIdR": "/voddetail/(\\w+).html",
 	"homeVodImg": "/img/@src",
-	"homeVodImgR": "\\S+(http\\S+)",
+	"homeVodImgR": "",
 	"homeVodMark": "//div[contains(@class,'module-item-titlebox')]/div[contains(@class,'module-item-text')]/text()",
 	"cateUrl": "https://www.haokanju1.cc/vodshow/{cateId}--------{catePg}---.html",
 	"cateVodNode": "//div[contains(@class,'module-item')]/div[contains(@class,'module-item-cover')]/div[contains(@class,'module-item-pic')]",
