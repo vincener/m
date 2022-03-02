@@ -8,8 +8,9 @@
     "dcPlayUrl": "true",
     "cateManual": {
         "电影": "1",
-        "连续剧": "2",
-        "动漫": "26",
+        "国产剧": "2",
+        "韩剧": "3",
+        "日剧": "5",
         "综艺": "22"
     },
     "homeVodNode": "//li[@class='col-md-5 col-sm-4 col-xs-3 ']/div[@class='stui-vodlist__box']/a",
