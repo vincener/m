@@ -1,10 +1,6 @@
-{	"ua":"",
-	"homeUrl":"https://www.o8tv.com",
-    "dcVipFlag": "true",
-    "pCfgJs": "https://www.o8tv.com/static/js/playerconfig.js",
-    "pCfgJsR": "[\\W|\\S|.]*?MacPlayerConfig.player_list[\\W|\\S|.]*?=([\\W|\\S|.]*?),MacPlayerConfig.downer_list",
-    "dcShow2Vip": {},
-    "dcPlayUrl": "true",
+{
+  "ua": "", 
+  "homeUrl": "https://www.o8tv.com",
 	"cateNode":"//ul[contains(@class,'myui-header__menu')]/li/a[contains(@href,'vodtype')]",
 	"cateName":"/text()",
 	"cateId":"/@href",
