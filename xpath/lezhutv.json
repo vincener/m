@@ -77,5 +77,17 @@
   "scVodId": "id",
   "scVodIdR": "",
   "scVodImg": "pic",
-  "scVodMark": ""
+  "scVodMark": "",
+  "filter": {
+    "1": [
+     {
+        "key": "by",
+        "name": "排序",
+        "value": [
+          {"n": "時間","v": "time"},
+          {"n": "人氣","v": "score"},
+          {"n": "評分","v": "hits"}
+        ]
+      }
+    ],
 }
