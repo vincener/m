@@ -2,6 +2,7 @@
   "ua": "",
   "homeUrl": "https://www.subaibaiys.com",
   "cateManual": {
+    "电影":"new-movie",
     "电视剧":"dianshiju",
     "国产剧": "guochanju",
     "港台剧": "gangju",
