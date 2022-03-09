@@ -18,7 +18,7 @@
   "homeVodImg": "/@data-original",
   "homeVodImgR": "\\S+(http\\S+)",
   "homeVodMark": "/span[contains(@class,'pic-text')]/text()",
-  "cateUrl": "https://www.ysgc.cc/vodshow/{cateId}-{area}-{by}-{cate}-{language}-------{year}.html",
+  "cateUrl": "https://www.ysgc.cc/vodshow/{cateId}-{area}-{by}-{cate}-----{catePg}---{year}.html",
   "cateVodNode": "//ul[contains(@class,'myui-vodlist')]//li//a[contains(@class,'myui-vodlist__thumb')]",
   "cateVodName": "/@title",
   "cateVodId": "/@href",
@@ -145,21 +145,6 @@
           {"n": "時間","v": "time"},
           {"n": "人氣","v": "hits"},
           {"n": "評分","v": "score"}
-        ]
-      },
-      {
-        "key": "language",
-        "name": "语言",
-        "value": [
-          {"n": "国语","v": "国语"},
-          {"n": "英语","v": "英语"},
-          {"n": "粤语","v": "粤语"},
-          {"n": "闽南语","v": "闽南语"},
-          {"n": "韩语","v": "韩语"},
-          {"n": "日语","v": "日语"},
-          {"n": "法语","v": "法语"},
-          {"n": "德语","v": "德语"},
-          {"n": "其它","v": "其它"}
         ]
       }
     ]
