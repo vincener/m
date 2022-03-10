@@ -18,7 +18,7 @@
         "泰剧":"25",
         "内地综艺":"29",
         "台湾综艺":"30",
-        "韩国综艺":"31",
+        "韩国综艺":"31"
     },
     "homeVodNode": "//div[contains(@class, 'myui-panel-bg')]//ul[contains(@class,'myui-vodlist')]/li//a[contains(@class,'myui-vodlist__thumb') and contains(@href,'voddetail')]",
     "homeVodName": "/@title",
