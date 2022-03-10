@@ -24,7 +24,7 @@
   "homeVodImg": "/div/@data-original",
   "homeVodImgR": "\\S+(http\\S+)",
   "homeVodMark": "/span[@class='pack-prb hidden']/text()", 
-  "cateUrl": "http://www.ikuwoo.cn/index.php/vod/show/id/{cateId}/page/{catePg}.html",
+  "cateUrl": "http://www.ikuwoo.cn/index.php/vod/show/area/{area}/id/{cateId}/page/{catePg}.html",
   "cateVodNode": "//div[contains(@class, 'vodlist hotgrow')]//a[@class='aplus-exp ecimgbor']",
   "cateVodName": "/@title",
   "cateVodId": "/@href",
