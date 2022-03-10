@@ -15,7 +15,7 @@
     "homeVodImg": "@data-original",
     "homeVodImgR": "\\S+(http\\S+)",
     "homeVodMark": "/span[contains(@class,'pic-text')]/text()",
-    "cateUrl": "https://fantuan.tv/vodtype/{cateId}-{catePg}.html",
+    "cateUrl": "https://fantuan.tv/vodshow/{area}/{by}/{class}/{cateId}/{catePg}/{year}.html",
     "cateVodNode": "//ul[contains(@class,'myui-vodlist')]//li//a[contains(@class,'myui-vodlist__thumb')]",
     "cateVodName": "/@title",
     "cateVodId": "/@href",
