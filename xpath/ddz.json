@@ -14,7 +14,7 @@
   "homeVodImg": "/img/@data-src",
   "homeVodImgR": "\\S+(http\\S+)",
   "homeVodMark": "/span[contains(@class,'ep')]/text()",
-  "cateUrl": "https://dandanzan.net/{cateId}/{catePg}",
+  "cateUrl": "https://dandanzan.net/{cateId}",
   "cateVodNode": "//div[contains(@class,'ui container')]/div[contains(@class,'ui eight doubling')]/div/a",
   "cateVodName": "/@title",
   "cateVodId": "/@href",
