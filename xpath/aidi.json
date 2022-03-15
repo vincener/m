@@ -22,7 +22,7 @@
   "dtUrl": "https://aidi.tv/movie/{vid}.html",
   "dtNode": "//div[contains(@class,'content_thumb fl')]/a[contains(@class,'vodlist_thumb picture')]",
   "dtName": "/@title",
-  "dtImg":"/img/@src",
+  "dtImg":"/img/@data-original",
   "dtFromNode": "//div[contains(@class,'play_source_tab list_scroll clearfix')]/a",
   "dtFromName": "/text()",
   "dtUrlNode": "//ul[contains(@class,'content_playlist clearfix')]",
