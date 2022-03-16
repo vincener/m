@@ -19,7 +19,7 @@
  "homeVodImg": "/@data-original",
  "homeVodImgR": "\\S+(http\\S+)",
  "homeVodMark": "/span[contains(@class,'pic-text')]/text()",
- "cateUrl": "http://bc.haokanju1.cc/vodtype/{cateId}--------{catePg}---.html",
+ "cateUrl": "http://bc.haokanju1.cc/vodshow/{cateId}--------{catePg}---.html",
  "cateVodNode": "//ul[contains(@class,'myui-vodlist')]//li//a[contains(@class,'myui-vodlist__thumb')]",
  "cateVodName": "/@title",
  "cateVodId": "/@href",
