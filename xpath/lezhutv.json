@@ -72,7 +72,7 @@
   "dtUrlNameR": "",
   "playUrl": "http://www.lezhutv.com/play/{playUrl}.html",
   "playUa": "",
-  "searchUrl": "http://www.lezhutv.com//index.php?m=vod-search&mid=1&wd={wd}&limit=10",
+  "searchUrl": "http://www.lezhutv.com//index.php?m=vod-search",
   "scVodNode": "json:list",
   "scVodName": "name",
   "scVodId": "id",
