@@ -11,8 +11,8 @@
     "cateId": "/@href", 
     "cateIdR": "/vodtype/(\\d+).html", 
     "cateManual": {
-        "电视剧":"4",
-        "电影":"2",
+        "电视剧":"2",
+        "电影":"1",
         "综艺":"46",
         "bilibili":"38",
     }, 
