@@ -10,7 +10,12 @@
     "cateName": "/@title", 
     "cateId": "/@href", 
     "cateIdR": "/vodtype/(\\d+).html", 
-    "cateManual": {}, 
+    "cateManual": {
+        "电视剧":"4",
+        "电影":"2",
+        "综艺":"46",
+        "bilibili":"38",
+    }, 
     "homeVodNode": "//div[contains(@class,'module-list')]//div[contains(@class,'module-item-pic')]", 
     "homeVodName": "/a/@title", 
     "homeVodId": "/a/@href", 
