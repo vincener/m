@@ -14,7 +14,7 @@
       "韩剧":"22",
       "日剧":"24",
       "美剧":"23",
-      "英剧":"25",
+      "英剧":"25"
   },
   "homeVodNode": "//ul[@class='v_list']/li/div[@class='v_img']",
   "homeVodName": "/a/@title",
