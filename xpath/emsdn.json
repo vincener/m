@@ -53,7 +53,7 @@
 	"dtUrlNameR": "",
 	"playUrl": "https://v.emsdn.cn/{playUrl}.html",
 	"playUa": "",
-	"searchUrl": "https://v.emsdn.cn/index.php?m=vod-search-{wd}.html",
+	"searchUrl": "https://v.emsdn.cn/index.php?m=vod-search&{wd}.html",
 	"scVodNode": "/ul[@class='list_01 list_01_03_02']/li/a[@class='b_a']",
 	"scVodName": "/@title",
 	"scVodId": "/@href",
