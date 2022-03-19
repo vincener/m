@@ -72,7 +72,7 @@
   "dtUrlNameR": "",
   "playUrl": "http://www.lezhutv.com/play/{playUrl}.html",
   "playUa": "",
-  "searchUrl": "http://www.lezhutv.com/search-pg-1-wd-",
+  "searchUrl": "http://api.pullword.com/get.php?source={wd}&param1=0&param2=0&json=1",
   "scVodNode": "json:list",
   "scVodName": "name",
   "scVodId": "id",
