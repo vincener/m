@@ -15,9 +15,10 @@
 		"连续剧": "2",
         "港台剧":"15",
         "日韩剧":"44",
-		"综艺记录片": "3",
+        "热门剧":"13",
+		"综艺": "3",
 		"动漫": "4",
-		"福利": "124"
+		"勿点": "124"
 	},
 	"homeVodNode": "//ul[contains(@class, 'myui-vodlist')]/li/div[contains(@class, 'myui-vodlist__box')]",
 	"homeVodName": "/a/@title",
