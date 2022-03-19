@@ -17,7 +17,7 @@
   "homeVodImg": "/a/@data-original",
   "homeVodImgR": "\\S+(http\\S+)",
   "homeVodMark": "/span[contains(@class,'pic-text')]/text()",
-  "cateUrl": "https://www.siguyy.net/show/{cateId}--------{catePg}---{year}.html",
+  "cateUrl": "https://www.siguyy.net/show/{cateId}-{area}-{by}---------{year}.html",
   "cateVodNode": "//ul[contains(@class, 'myui-vodlist')]/li/div[contains(@class, 'myui-vodlist__box')]",
   "cateVodName": "/div/h4/a/@title",
   "cateVodId": "/div/h4/a//@href",
@@ -56,25 +56,6 @@
   "scVodMark": "",
   "filter": {
     "tv": [
-      {
-        "key": "type",
-        "name": "类型",
-        "value": [
-          { "n": "全部", "v": "" },
-          { "n": "古装", "v": "古装" },
-          { "n": "青春", "v": "青春" },
-          { "n": "偶像", "v": "偶像" },
-          { "n": "喜剧", "v": "喜剧" },
-          { "n": "家庭", "v": "家庭" },                   
-          { "n": "犯罪", "v": "犯罪" },
-          { "n": "动作", "v": "动作" },         
-          { "n": "剧情", "v": "剧情" },         
-          { "n": "历史", "v": "历史" },
-          { "n": "情景", "v": "情景" },         
-          { "n": "商战", "v": "商战" },
-          { "n": "网剧", "v": "网剧" }
-        ]
-      },
        {
         "key": "by",
         "name": "排序",
