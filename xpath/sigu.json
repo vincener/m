@@ -5,7 +5,11 @@
   "cateName": "/text()",
   "cateId": "/@href",
   "cateIdR": "/type/(\\S+).html",
-  "cateManual":{},
+  "cateManual":{
+      "电视剧":"tv",
+      "电影":"m",
+      "综艺":"va"
+  },
   "homeVodNode": "//ul[contains(@class, 'myui-vodlist')]/li/div[contains(@class, 'myui-vodlist__box')]",
   "homeVodName": "/a/@title",
   "homeVodId": "/a/@href",
