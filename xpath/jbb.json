@@ -24,7 +24,7 @@
  "cateUrl": "https://www.jubaibai.cc/vodshow/id/{cateId}.html",
  "cateVodNode": "//ul[contains(@class, 'stui-vodlist clearfix')]/li/div[contains(@class, 'stui-vodlist__box')]",
  "cateVodName": "/div/li/a/@title",
- "cateVodId": ""/div/li/a/@href",
+ "cateVodId": "/div/li/a/@href",
  "cateVodIdR": "/vod/(\\w+).html",
  "cateVodImg": "/a/@data-original",
  "cateVodMark":"/span[contains(@class,'pic-text')]/text()",
