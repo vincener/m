@@ -20,7 +20,7 @@
  "homeVodIdR": "/vod/(\\w+).html",
  "homeVodImg": "/@data-original",
  "homeVodMark": "/div[contains(@class,'note')]/span/text()",
- "cateUrl": "https://www.jubaibai.cc/type/{cateId}-{catePg}.html",
+ "cateUrl": "https://www.jubaibai.cc/vodshow/{area}/{class}/id/{cateId}/{year}.html",
  "cateVodNode": "//div[contains(@class, 'lists-content')]/ul/li/a[contains(@class, 'vodlist__thumb')]",
  "cateVodName": "/@title",
  "cateVodId": "/@href",
