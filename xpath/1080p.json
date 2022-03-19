@@ -6,7 +6,8 @@
   "cateId": "/@href",
   "cateIdR": "/vodtype/(\\d+).html",
   "cateManual": {
-   "电视剧":"2"
+   "电视剧":"2"，
+   "电影":"1"
               },
   "homeVodNode": "//div[@class='pack-packcover']/a",
   "homeVodName": "/a/@title",
