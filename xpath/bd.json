@@ -35,7 +35,7 @@
   //"dtYear": "//ul[@class='moviedteail_list']/li[contains(text(),'年份')]/a/text()",
   //"dtArea": "//ul[@class='moviedteail_list']/li[contains(text(),'地区')]/a/text()",
   "dtActor": "//div[@class='video-info-items']//span[contains(@class,'video-info-item') and contains(text(), '主演')]",
-  "dtDirector": "div[@class='video-info-items']//span[contains(@class,'slash') and contains(text(), '导演')]/a/text(),
+  "dtDirector": "div[@class='video-info-items']//span[contains(@class,'slash') and contains(text(), '导演')]/a/text()",
   "dtFromNode": "//div[contains(@class,'mi_paly_box')]//div[@class='ypxingq_t']",
   "dtFromName": "/text()",
   "dtFromNode":"//div[2][@class='module-tab-content']//div//span",
