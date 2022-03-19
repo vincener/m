@@ -47,6 +47,8 @@
   "dtActorR": "",
   "dtDirector": "//span[contains(text(), '导演')]/following-sibling::*/text()",
   "dtDirectorR": "",
+  "dtDesc": "//span[contains(@id, 'cText')]/text()",
+  "dtDescR": "",
   "dtFromNode": "//a[contains(@class, 'channelname swiper-slide')]",
   "dtFromName": "/text()",
   "dtFromNameR": "",
