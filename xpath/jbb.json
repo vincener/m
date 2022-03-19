@@ -30,7 +30,7 @@
  "cateVodMark":"/span[contains(@class,'pic-text')]/text()",
  "dtUrl": "https://www.jubaibai.cc/vod/{vid}.html",
   "dtNode": "//body",
-  "dtName": "//div[@class='stui-content']/div[@class='stui-content__thumb']/a/@title",",
+  "dtName": "//div[@class='stui-content']/div[@class='stui-content__thumb']/a/@title",
   "dtNameR": "",
   "dtImg": "//div[@class='stui-content']/div[@class='lazyload']/a/img/@data-original",
   "dtImgR": "\\S+(http\\S+)",
