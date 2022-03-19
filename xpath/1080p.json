@@ -1,6 +1,11 @@
 {
   "ua": "",
   "homeUrl": "https://1080p.one/",
+  "dcVipFlag": "true",
+  "pCfgJs": "https://1080p.one/static/js/playerconfig.js",
+  "pCfgJsR": "[\\W|\\S|.]*?MacPlayerConfig.player_list[\\W|\\S|.]*?=([\\W|\\S|.]*?),MacPlayerConfig.downer_list",
+  "dcShow2Vip": {},
+  "dcPlayUrl": "true",
   "cateNode": "//div[contains(@class,'nav-text-box')]/a[contains(@href, 'vodshow')]",
   "cateName": "/text()",
   "cateId": "/@href",
