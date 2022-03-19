@@ -22,7 +22,7 @@
  "homeVodImg": "/a/@data-original",
  "homeVodMark": "/span[contains(@class,'pic-text')]/text()",
  "cateUrl": "https://www.jubaibai.cc/vodshow/id/{cateId}.html",
- "cateVodNode": "//ul[contains(@class, 'stui-vodlist clearfix')]/li/div[contains(@class, 'stui-vodlist__box')],
+ "cateVodNode": "//ul[contains(@class, 'stui-vodlist clearfix')]/li/div[contains(@class, 'stui-vodlist__box')]",
  "cateVodName": "/div/li/a/@title",
  "cateVodId": ""/div/li/a/@href",
  "cateVodIdR": "/vod/(\\w+).html",
