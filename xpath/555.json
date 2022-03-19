@@ -54,7 +54,7 @@
 	"dtDirectorR": "",
 	"dtDesc": "//div[@class='myui-content__detail']//span[contains(@class,'text-muted') and contains(text(), '简介')]/parent::text()",
 	"dtDescR": "",
-	"dtFromNode": "//a[@data-toggle='tab' and contains(@href, 'playlist')]",
+	"dtFromNode": "//ul[@class='nav nav-tabs active']/li/a",
 	"dtFromName": "/text()",
 	"dtFromNameR": "",
 	"dtUrlNode": "//div[contains(@class,'tab-content')]/div[contains(@id, 'playlist')]",
