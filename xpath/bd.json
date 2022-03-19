@@ -38,7 +38,7 @@
   "dtFromNode":"//div[2][@class='module-tab-content']//div//span",
   "dtFromName": "/text()",
   "dtFromNameR": "",
-  "dtActor": "//span[contains(@class,'video-info-itemtitle') and contains(text(), '主演')]/following-sibling::*/text()",
+  "dtActor": ""//div[contains(@class,'video-info')]/span[contains(@class,'video-info-itemtitle')]/a/text(),
   "dtActorR": "",
   "dtDirector": "//span[contains(@class,'video-info-itemtitle') and contains(text(), '导演')]/following-sibling::*/text()",
   "dtDirectorR": "",
