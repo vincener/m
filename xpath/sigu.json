@@ -8,7 +8,8 @@
   "cateManual":{
       "电视剧":"tv",
       "电影":"m",
-      "综艺":"va"
+      "综艺":"va",
+      "动漫":"ct"
   },
   "homeVodNode": "//ul[contains(@class, 'myui-vodlist')]/li/div[contains(@class, 'myui-vodlist__box')]",
   "homeVodName": "/a/@title",
@@ -53,26 +54,5 @@
   "scVodId": "id",
   "scVodIdR": "",
   "scVodImg": "pic",
-  "scVodMark": "",
-  "filter": {
-    "tv": [
-       {
-        "key": "year",
-        "name": "年份",
-        "value": [
-          { "n": "全部", "v": "" },
-          { "n": "2021", "v": "2021" },
-          { "n": "2020", "v": "2020" },
-          { "n": "2019", "v": "2019" },
-          { "n": "2018", "v": "2018" },
-          { "n": "2017", "v": "2017" },
-          { "n": "2016", "v": "2016" },
-          { "n": "2015", "v": "2015" },
-          { "n": "2014", "v": "2014" },
-          { "n": "2013", "v": "2013" },
-          { "n": "2012", "v": "2012" }
-        ]
-      }
-    ]
-}
+  "scVodMark": ""
 }
