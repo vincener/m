@@ -22,7 +22,7 @@
   "homeVodImg": "/div/@data-original",
   "homeVodImgR": "\\S+(http\\S+)",
   "homeVodMark": "/span[contains(@class,'pack-prb hidden')]/text()",
-  "cateUrl": "https://1080p.one/vodshow/{cateId}.html",
+  "cateUrl": "https://1080p.one/vodtype/{cateId}.html",
   "cateVodNode": "//div[contains(@class, 'vodlist hotgrow')]//a[@class='aplus-exp ecimgbor']",
   "cateVodName": "/@title",
   "cateVodId": "/@href",
