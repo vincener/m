@@ -57,7 +57,7 @@
  "dtFromNameR": "",
  "dtUrlSubNode": "//li/a",
  "dtUrlId": "@href",
- "dtUrlIdR": "/play/id/(\\S+).html",
+ "dtUrlIdR": "/play/(\\S+).html",
  "dtUrlName": "/text()",
  "dtUrlNameR": "",
  "playUrl": "http://www.tvyb02.com/vod/play/id/{playUrl}.html ",
