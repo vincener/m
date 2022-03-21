@@ -4,7 +4,7 @@
  "cateNode": "//ul[contains(@class,'myui-header__menu nav-menu')]/li[contains(@class, 'hidden-sm hidden-xs')]//div/ul/li/a[contains(@href, 'vodtype')]",
  "cateName": "/text()",
  "cateId": "/@href",
- "cateIdR": "/type/id/(\\w+).html",
+ "cateIdR": "/vod/type/id/(\\d+).html",
  "cateManual": {
      "电影": "1",
      "电视剧": "2",
@@ -26,7 +26,7 @@
  "cateVodNode": "//ul[contains(@class,'myui-vodlist')]//li//a[contains(@class,'myui-vodlist__thumb')]",
  "cateVodName": "/@title",
  "cateVodId": "/@href",
- "cateVodIdR": "/detail/id/(\\w+).html",
+ "cateVodIdR": "/vod/detail/id/(\\w+).html",
  "cateVodImg": "/@data-original",
  "cateVodImgR": "\\S+(http\\S+)",
  "cateVodMark": "/span[contains(@class,'pic-tag pic-tag-top')]/text()",
