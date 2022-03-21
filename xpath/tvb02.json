@@ -60,7 +60,7 @@
  "dtUrlIdR": "/play/(\\S+).html",
  "dtUrlName": "/text()",
  "dtUrlNameR": "",
- "playUrl": "http://www.tvyb02.com/vod/play/id/{playUrl}.html ",
+ "playUrl": "http://www.tvyb02.com/{playUrl}.html ",
  "playUa": "",
  "searchUrl": "http://www.tvyb02.com/index.php/ajax/suggest?mid=1&wd={wd}&limit=10 ",
  "scVodNode": "json:list",
