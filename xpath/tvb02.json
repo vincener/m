@@ -31,7 +31,7 @@
  "cateVodImgR": "\\S+(http\\S+)",
  "cateVodMark": "/span[contains(@class,'pic-tag pic-tag-top')]/text()",
  "dtUrl": "http://www.tvyb02.com/vod/detail/id/{vid}.html",
- "dtNode": "//div[contains(@class,'col-lg-wide-75')]",
+ "dtNode": "//div[contains(@class,'col-xs-1')]",
  "dtName": "//div[@class='myui-content__thumb']/a[contains(@class,'myui-vodlist__thumb')]/@title",
  "dtNameR": "",
  "dtImg": "//div[@class='myui-content__thumb']/a[contains(@class,'myui-vodlist__thumb')]/img/@data-original",
