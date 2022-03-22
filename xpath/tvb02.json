@@ -19,7 +19,7 @@
      "日韩剧": "15",
      "欧美剧": "16"
      },
- "homeVodNode": "//div[contains(@class, 'padding-0')]//ul[contains(@class,'stui-vodlist')]/li//a[contains(@class,'stui-vodlist__thumb')]",
+ "homeVodNode": "//div[contains(@class, 'col-lg-8  col-md-8 col-sm-4 col-xs-3')]//ul[contains(@class,'myui-vodlist__box')]/li//a[contains(@class,'myui-vodlist__thumb lazyload')]",
  "homeVodName": "/@title",
  "homeVodId": "/@href",
  "homeVodIdR": "/detail/id/(\\w+).html",
@@ -54,7 +54,7 @@
  "dtDesc": "//p[@class='col-pd']/text()",
  "dtDescR": "",
  "dtFromNode": "//h3[@class='title']",
- "dtFromName": "[substring-before(text(),'()']",
+ "dtFromName":"/text()",
  "dtFromNameR": "",
  "dtUrlNode": "//ul[contains(@class,'myui-content__list scrollbar sort-list clearfix')]",
  "dtFromNameR": "",
