@@ -56,7 +56,7 @@
  "dtFromNode": "//h3[@class='title']",
  "dtFromName":"/text()",
  "dtFromNameR": "",
- "dtUrlNode": "//ul[contains(@class,'sort-list')]//li[contains(@class,'col-lg-10 col-md-8 col-sm-6 col-xs-4')]",
+ "dtUrlNode": "//ul[contains(@class,'myui-content__list scrollbar sort-list clearfix')]",
  "dtFromNameR": "",
  "dtUrlSubNode": "//li/a",
  "dtUrlId": "@href",
