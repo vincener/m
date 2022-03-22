@@ -19,7 +19,7 @@
      "日韩剧": "15",
      "欧美剧": "16"
      },
- "homeVodNode": "//ul[contains(@class, 'myui-vodlist clearfix')]/li[contains(@class, 'col-lg-8  col-md-8 col-sm-4 col-xs-3')]/li//a[contains(@class,'myui-vodlist__box')]",
+ "homeVodNode": "//div[contains(@class, 'padding-0')]//ul[contains(@class,'myui-vodlist')]/li//a[contains(@class,'myui-vodlist__thumb')]",
  "homeVodName": "/@title",
  "homeVodId": "/@href",
  "homeVodIdR": "/detail/id/(\\w+).html",
