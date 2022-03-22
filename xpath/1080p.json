@@ -27,7 +27,7 @@
   "cateVodName": "/@title",
   "cateVodId": "/@href",
   "cateVodIdR": "/voddetail/(\\w+).html",
-  "cateVodImg": "/div/@data-original",
+  "cateVodImg": "/@data-original",
   "cateVodImgR": "\\S+(http\\S+)",
   "cateVodMark": "/span[contains(@class,'pack-prb hidden')]/text()",
   "dtUrl": "https://1080p.one/voddetail/{vid}.html",
