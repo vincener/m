@@ -1,7 +1,7 @@
 {
  "ua": "",
  "homeUrl": "http://www.tvyb02.com/",
- "cateNode": "//ul[contains(@class,'myui-header__menu nav-menu')]/li[contains(@class, 'hidden-sm hidden-xs')]/li/a[contains(@href, 'vod/type')]",
+ "cateNode": "//ul[contains(@class,'myui-header__menu nav-menu')]/li[contains(@class,'hidden-sm hidden-xs')]/li/a[contains(@href, 'vod/type')]",
  "cateName": "/text()",
  "cateId": "/@href",
  "cateIdR": "/vod/type/id/(\\d+).html",
