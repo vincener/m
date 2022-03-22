@@ -53,7 +53,7 @@
  "dtDirectorR": "",
  "dtDesc": "//p[@class='col-pd']/text()",
  "dtDescR": "",
- "dtFromNode": "//h3[@class='title']",
+ "dtFromNode": "//h3[@class='title',and not(contains('剧情简介'))]",
  "dtFromName":"/text()",
  "dtFromNameR": "",
  "dtUrlNode": "//ul[contains(@class,'myui-content__list scrollbar sort-list clearfix')]",
