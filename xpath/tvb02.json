@@ -24,7 +24,7 @@
  "homeVodId": "/@href",
  "homeVodIdR": "/detail/id/(\\w+).html",
  "homeVodImg": "/@data-original",
- "homeVodMark": "/span[contains(@class,'pic-tag pic-tag-top')]/text()",
+ "homeVodMark": "/span[contains(@class,'pic-tag')]/text()",
  "cateUrl": "http://www.tvyb02.com/vod/show/{area}/{by}/{class}/id/{cateId}/{year}.html",
  "cateVodNode": "//ul[contains(@class,'myui-vodlist')]//li//a[contains(@class,'myui-vodlist__thumb')]",
  "cateVodName": "/@title",
