@@ -27,7 +27,7 @@
 	"homeVodImg": "/@data-original",
 //--------主页推荐集数--------
 	"homeVodMark": "/span[contains(@class,'pic-text')]/text()",
-	"cateUrl": "https://www.wudeyy.com/show/{cateId}-----------{year}.html",
+	"cateUrl": "https://www.wudeyy.com/show/{cateID}--------{catePg}---{year}.html",
 	"cateVodNode": "//div[contains(@class,'stui-vodlist__box')]/a[contains(@class,'stui-vodlist__thumb')]",
 	"cateVodName": "/@title",
 	"cateVodId": "/@href",
