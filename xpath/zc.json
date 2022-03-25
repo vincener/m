@@ -13,7 +13,7 @@
     "homeVodImg": "/div/@data-original", 	
     "homeVodImgR": "\\S+(http\\S+)", 	
     "homeVodMark": "/span[contains(@class,'pack-prb hidden')]/text()", 
-    "cateUrl": "https://www.4kcz.com/vodshow/{cateId}/page/{catePg}.html", 	
+    "cateUrl": "https://www.4kcz.com/index.php/vodshow/{cateId}/page/{catePg}.html", 	
     "cateVodNode": "//div[contains(@class, 'vodlist')]//a[contains(@class, 'aplus-exp')]", 	
     "cateVodName": "/@title", 	
     "cateVodId": "/@href", 	
