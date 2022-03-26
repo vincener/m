@@ -26,7 +26,7 @@
   "homeVodIdR":"/index.php/vod/detail/id/(\\w+).html",
   "homeVodImg": "//div[@class='module-item-pic']/img/@data-src",
   "homeVodImgR": "\\S+(http\\S+)",
-  "homeVodMark": "//div[@class='module-item-caption']/span[1]/text()",
+  "homeVodMark": "//div[@class='module-item-text']/text()",
   "cateUrl": "https://www.nfuxs.com/index.php/vod/show/{area}/{by}/id/{cateId}/page/{catePg}/{year}.html",
 //----------------
   "cateVodNode": "//div[@class='module-item']",
@@ -35,7 +35,7 @@
   "cateVodIdR": "/index.php/vod/detail/id/(\\w+).html",
   "cateVodImg": "//div[@class='module-item-pic']/img/@data-src",
   "cateVodImgR": "\\S+(http\\S+)",
-  "cateVodMark":"//div[@class='module-item-caption']/span[1]/text()",
+  "cateVodMark":"//div[@class='module-item-text']/text()",
   "dtUrl": "https://www.nfuxs.com/index.php/vod/detail/id/{vid}.html",
 //--------剧界面--------
   "dtNode": "//body",
