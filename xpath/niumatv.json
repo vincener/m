@@ -36,12 +36,12 @@
 	"cateVodMark": "/span[contains(@class,'pic-text')]/text()",
 	"dtUrl": "https://www.jubaibai.cc/vod/{vid}.html",
   //--------剧界面--------
-	"dtNode": "//div[contains(@class,'stui-content')]",
+	"dtNode": "//div[contains(@class,'stui-content__detail')]",
   //--------剧界面标题名--------
-	"dtName": "//a[contains(@class,'stui-vodlist__thumb')]/@title",
+	"dtName": "//h1/@title",
 	"dtNameR": "",
   //--------剧界面图片--------
-	"dtImg": "//a[contains(@class,'stui-vodlist__thumb')]/img/@data-original",
+	"dtImg": "//p/img/@data-original",
 	"dtImgR": "\\S+(http\\S+)",
 	"dtCate": "//span[contains(@class,'date') and contains(text(), '类型')]/following-sibling::*/text()",
 	"dtCateR": "",
@@ -59,7 +59,7 @@
 	"dtDesc": "//span[contains(@class,'left')]/text()",
 	"dtDescR": "",
 //--------播放线路--------
-	"dtFromNode": "//h3[contains(@class,'title')]",
+	"dtFromNode": "//ul[contains(@class,'nav nav-tabs')]",
 //--------播放线路名称--------
 	"dtFromName": "[substring-before(text(),'(')]",
 //--------播放集数--------
