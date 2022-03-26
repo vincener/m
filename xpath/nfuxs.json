@@ -23,19 +23,19 @@
   "homeVodNode": "//div[@class='module-item']",
   "homeVodName": "//div[@class='module-item-pic']/a/@title",
   "homeVodId": "//div[@class='module-item-pic']/a/@href",
-  "homeVodIdR": "/index.php/vod/detail/id/(\\w+).html",
+  "homeVodIdR":"/index.php/vod/detail/id/(\\w+).html",
   "homeVodImg": "//div[@class='module-item-pic']/img/@data-src",
   "homeVodImgR": "\\S+(http\\S+)",
   "homeVodMark": "//div[@class='module-item-caption']/span[1]/text()",
   "cateUrl": "https://www.nfuxs.com/index.php/vod/show/{area}/{by}/id/{cateId}/page/{catePg}/{year}.html",
 //----------------
-  "cateVodNode": "//div[contains(@class, 'module-item-cover')]",
+  "cateVodNode": "//div[@class='module-item']",
   "cateVodName": "//div[@class='module-item-pic']/a/@title",
   "cateVodId": "//div[@class='module-item-pic']/a/@href",
   "cateVodIdR": "/index.php/vod/detail/id/(\\w+).html",
   "cateVodImg": "//div[@class='module-item-pic']/img/@data-src",
   "cateVodImgR": "\\S+(http\\S+)",
-  "cateVodMark": "//div[@class='module-item-text']/text()", 
+  "cateVodMark":"//div[@class='module-item-caption']/span[1]/text()",
   "dtUrl": "https://www.nfuxs.com/index.php/vod/detail/id/{vid}.html",
 //--------剧界面--------
   "dtNode": "//body",
@@ -61,12 +61,12 @@
   "dtDesc": "//span[contains(@class= 'video-info-itemtitle')]/text()",
   "dtDescR": "",
 //--------播放线路--------
-  "dtFromNode": "//div[contains(@class, 'module-tab-content')]",
+  "dtFromNode": "//div[@class='module-tab-content']/div/span",
 //--------播放线路名称--------
   "dtFromName": "/text()",
   "dtFromNameR": "",
 //--------播放集数--------
-  "dtUrlNode": "//div[contains(@class,'scroll-content')]",
+  "dtUrlNode": "//div[contains(@class='scroll-content')]",
   "dtUrlSubNode": "/a",
   "dtUrlId": "@href",
   "dtUrlIdR": "/index.php/vod/play/id/(\\S+).html",
