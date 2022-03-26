@@ -29,7 +29,7 @@
   "homeVodImgR": "\\S+(http\\S+)",
 //--------主页推荐集数--------
   "homeVodMark": "//div[@class='module-item-text']/text()", 
-  "cateUrl": "https://www.nfuxs.com/index.php/vod/show/{area}/{by}/id/{cateId}/page/{catePg}/{year}.html",
+  "cateUrl": "https://www.nfuxs.com/index.php/vod/show/id/{cateId}/page/{catePg}/{year}.html",
 //----------------
   "cateVodNode": "//div[contains(@class, 'module-item')]",
   "cateVodName": "//div[@class='module-item-pic']/a/@title",
