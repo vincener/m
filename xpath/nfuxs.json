@@ -7,7 +7,7 @@
   "dcShow2Vip": {},
   "dcPlayUrl": "true",
 //--------首页分类--------
-  "cateNode": "//ul[contains(@class,'nav-menu-items')]/li[contains(@class, 'nav-menu-item')]/a[contains(@href, 'index.php/vod/type/id')]",
+  "cateNode": "//div[contains(@class,'header-content ')]/ul[contains(@class, 'nav-menu-items')]/li/a[contains(@href, 'index.php/vod/type/id')]",
   "cateName": "/text()",
   "cateId": "/@href",
 //--------首页分类地址--------
