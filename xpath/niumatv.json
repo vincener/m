@@ -20,7 +20,7 @@
 		"动漫": "dongman"
 	},
 //--------主页推荐--------
-	"homeVodNode": "//div[contains(@class,'stui-vodlist__box')]/a[contains(@class,'stui-vodlist__thumb')]",
+	"homeVodNode": "//div[contains(@class,'stui-vodlist__box')]/a[contains(@class,'stui-vodlist__detail')]",
 	"homeVodName": "/@title",
 	"homeVodId": "/@href",
 	"homeVodIdR": "/type/(\\w+).html",
@@ -28,7 +28,7 @@
 //--------主页推荐集数--------
 	"homeVodMark": "/span[contains(@class,'pic-text')]/text()",
 	"cateUrl": "https://www.jubaibai.cc/vodshow/{area}/{by}/{class}/id/{cateId}/{year}.html",
-	"cateVodNode": "//div[contains(@class,'stui-vodlist__box')]/a[contains(@class,'stui-vodlist__thumb')]",
+	"cateVodNode": "//div[contains(@class,'stui-vodlist__box')]/a[contains(@class,'stui-vodlist__detail')]",
 	"cateVodName": "/@title",
 	"cateVodId": "/@href",
 	"cateVodIdR": "/vod/(\\w+).html",
@@ -36,7 +36,7 @@
 	"cateVodMark": "/span[contains(@class,'pic-text')]/text()",
 	"dtUrl": "https://www.jubaibai.cc/vod/{vid}.html",
   //--------剧界面--------
-	"dtNode": "//div[contains(@class,'stui-content__thumb')]",
+	"dtNode": "//div[contains(@class,'stui-content')]",
   //--------剧界面标题名--------
 	"dtName": "//a[contains(@class,'stui-vodlist__thumb')]/@title",
 	"dtNameR": "",
@@ -63,7 +63,7 @@
 //--------播放线路名称--------
 	"dtFromName": "[substring-before(text(),'(')]",
 //--------播放集数--------
-	"dtUrlNode": "//div[contains(@id,'playlist')]/ul[contains(@class,'stui-content__playlist')]",
+	"dtUrlNode": "//div[contains(@class,'tab-content stui-pannel_bd')]/ul[contains(@class,'stui-content__playlist')]",
 	"dtUrlSubNode": "/li/a",
 	"dtUrlId": "@href",
 	"dtUrlIdR": "/play/(\\S+).html",
