@@ -20,7 +20,7 @@
   	"动漫":"4"
 },
 //--------主页推荐--------
-  "homeVodNode": "//div[@class='module-item-titlebox']",
+  "homeVodNode": "//div[@class='module-item']",
   "homeVodName": "//div[@class='module-item-titlebox']/a/@title",
   "homeVodId": "//div[@class='module-item-titlebox']/a/@href",
   "homeVodIdR":"/index.php/vod/detail/id/(\\w+).html",
@@ -29,7 +29,7 @@
   "homeVodMark": "//div[@class='module-item-caption']/span[1]/text()",
   "cateUrl": "https://www.nfuxs.com/index.php/vod/show/{area}/{by}/id/{cateId}/page/{catePg}/{year}.html",
 //----------------
-  "cateVodNode": "//div[@class='module-item-titlebox']",
+  "cateVodNode": "//div[@class='module-item']",
   "cateVodName": "//div[@class='module-item-titlebox']/a/@title",
   "cateVodId": "//div[@class='module-item-titlebox']/a/@href",
   "cateVodIdR": "/index.php/vod/detail/id/(\\w+).html",
