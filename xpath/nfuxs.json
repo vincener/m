@@ -21,8 +21,8 @@
 },
 //--------主页推荐--------
   "homeVodNode": "//div[@class='module-item']",
-  "homeVodName": "//div[@class='module-item-style video-name']/a/@title",
-  "homeVodId": "//div[@class='module-item-style video-name']/a/@href",
+  "homeVodName": "//div[@class='module-item-pic']/a/@title",
+  "homeVodId": "//div[@class='module-item-pic']/a/@href",
   "homeVodIdR":"/index.php/vod/detail/id/(\\w+).html",
   "homeVodImg": "//div[@class='module-item-pic']/img/@data-src",
   "homeVodImgR": "\\S+(http\\S+)",
@@ -30,8 +30,8 @@
   "cateUrl": "https://www.nfuxs.com/index.php/vod/show/{area}/{by}/id/{cateId}/page/{catePg}/{year}.html",
 //----------------
   "cateVodNode": "//div[@class='module-item']",
-  "cateVodName": "//div[@class='module-item-style video-name']/a/@title",
-  "cateVodId": "//div[@class='module-item-style video-name']/a/@href",
+  "cateVodName": "//div[@class='module-item-pic']/a/@title",
+  "cateVodId": "//div[@class='module-item-pic']/a/@href",
   "cateVodIdR": "/index.php/vod/detail/id/(\\w+).html",
   "cateVodImg": "//div[@class='module-item-pic']/img/@data-src",
   "cateVodImgR": "\\S+(http\\S+)",
