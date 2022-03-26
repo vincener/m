@@ -32,10 +32,10 @@
   "cateVodNode": "//div[contains(@class,'stui-vodlist__box')]/a[contains(@class,'stui-vodlist__thumb')]",
   "cateVodName": "/@title",
   "cateVodId": "/@href",
-  "cateVodIdR": "/vod/(\\d+).html",
+  "cateVodIdR": "/vod/(\\w+).html",
   "cateVodImg": "/div/@data-original",
   "cateVodImgR": "\\S+(http\\S+)",
-  "cateVodMark": "/span[@class,'pic-text']/text()",
+  "cateVodMark": "/span[@class='pic-text']/text()",
   "dtUrl": "https://www.jubaibai.cc/vod/{vid}.html",
 //--------剧界面--------
   "dtNode": "//body",
@@ -43,7 +43,7 @@
   "dtName": "//div[contains(@class,'stui-content__detail']/h1/text()",
   "dtNameR": "",
 //--------剧界面图片--------
-  "dtImg": "//div[@class,'stui-content__thumb']/a/img/@src",
+  "dtImg": "//div[@class='stui-content__thumb']/a/img/@src",
   "dtImgR": "\\S+(http\\S+)",
   "dtCate": "//span[contains(text(), '分类')]/following-sibling::*/text()",
   "dtCateR": "",
