@@ -58,15 +58,15 @@
   "dtDirector": "//span[contains(text(), '导演')]/following-sibling::*/text()",
   "dtDirectorR": "",
 //--------剧界面简介--------
-  "dtDesc": "//span[contains(@class= 'video-info-itemtitle')]/text()",
+  "dtDesc": "//span[contains(@class,'video-info-items')]/text()",
   "dtDescR": "",
 //--------播放线路--------
-  "dtFromNode": "//div[@class='module-tab-content']/div/span",
+  "dtFromNode": "//div[contains(@class,'module-tab-item tab-item')]",
 //--------播放线路名称--------
   "dtFromName": "/text()",
   "dtFromNameR": "",
 //--------播放集数--------
-  "dtUrlNode": "//div[contains(@class='scroll-content')]",
+  "dtUrlNode": "//div[contains(@class,'scroll-content')]",
   "dtUrlSubNode": "/a",
   "dtUrlId": "@href",
   "dtUrlIdR": "/index.php/vod/play/id/(\\S+).html",
