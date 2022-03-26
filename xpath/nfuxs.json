@@ -38,9 +38,9 @@
   "cateVodMark":"//div[@class='module-item-text']/text()",
   "dtUrl": "https://www.nfuxs.com/index.php/vod/detail/id/{vid}.html",
 //--------剧界面--------
-  "dtNode": "//body",
+  "dtNode": "//div[@class='video-info']",
 //--------剧界面标题名--------
-  "dtName": "//div[@class='video-info']/h1/text()",
+  "dtName": "//div[@class='video-info-header']/h1/text()",
   "dtNameR": "",
 //--------剧界面图片--------
   "dtImg": "//div[@class='module-item-pic']/a/img/@src",
