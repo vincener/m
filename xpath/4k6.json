@@ -31,7 +31,7 @@
  "cateVodId": "/a/@href",
  "cateVodIdR": "/voddetail/(\\w+).html",
  "cateVodImg": "/img/@data-src",
- "cateVodMark": "",
+ "cateVodMark": "/div[contains(@class,'module-item-text')]/text(),
  "dtUrl": "http://4k6.net/voddetail/{vid}.html",
   "dtNode": "//div[contains(@class, 'box view-heading')]",
   "dtName": "/div[@class='video-cover']//div[@class='module-item-pic']/img/@alt",
