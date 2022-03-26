@@ -38,12 +38,12 @@
   "cateVodMark":"//div[@class='module-item-text']/text()",
   "dtUrl": "https://www.nfuxs.com/index.php/vod/detail/id/{vid}.html",
 //--------剧界面--------
-  "dtNode": "//div[@class='video-info']",
+  "dtNode":"//div[contains(@class,'box view-heading')]",
 //--------剧界面标题名--------
-  "dtName": "//div[@class='video-info-header']/h1/text()",
+  "dtName": "//div[contains(@class,'video-info-header')]/h1/text()",
   "dtNameR": "",
 //--------剧界面图片--------
-  "dtImg": "//div[@class='module-item-pic']/a/img/@src",
+  "dtImg": "//div[contains(@class,'module-item-pic']/a/img/@src",
   "dtImgR": "\\S+(http\\S+)",
   "dtCate": "//span[contains(text(), '分类')]/following-sibling::*/text()",
   "dtCateR": "",
@@ -61,12 +61,12 @@
   "dtDesc": "//span[contains(@class,'video-info-items')]/text()",
   "dtDescR": "",
 //--------播放线路--------
-  "dtFromNode": "//div[contains(@class,'module-tab-item tab-item')]",
+  "dtFromNode": "//div[contains(@class,'module-tab-item tab-item selected')]",
 //--------播放线路名称--------
   "dtFromName": "/text()",
   "dtFromNameR": "",
 //--------播放集数--------
-  "dtUrlNode": "//div[contains(@class,'scroll-content')]",
+  "dtUrlNode": "//div[contains(@class,'sort-item')]",
   "dtUrlSubNode": "/a",
   "dtUrlId": "@href",
   "dtUrlIdR": "/index.php/vod/play/id/(\\S+).html",
