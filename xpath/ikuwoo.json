@@ -6,7 +6,7 @@
   "pCfgJsR": "[\\W|\\S|.]*?MacPlayerConfig.player_list[\\W|\\S|.]*?=([\\W|\\S|.]*?),MacPlayerConfig.downer_list",
   "dcShow2Vip": {},
   "dcPlayUrl": "true",
-  "cateNode": "//div[contains(@class,'current')]/li[contains(@class, 'swiper-slide navbar-item')]/a[contains(@href, 'index.php/vod/type/id')",
+  "cateNode": "//li[contains(@class, 'swiper-slide navbar-item')]/a[contains(@href, 'index.php/vod/type/id')",
   "cateName": "/text()",
   "cateId": "/@href",
   "cateIdR": "/index.php/vod/type/id/(\\d+).html",
