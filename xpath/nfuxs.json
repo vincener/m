@@ -66,7 +66,7 @@
   "dtFromName": "/text()",
   "dtFromNameR": "",
 //--------播放集数--------
-  "dtUrlNode": "//div[contains(@class,'sort-item')]",
+  "dtUrlNode": "//div[contains(@class,'module-blocklist scroll-box scroll-box-y')]",
   "dtUrlSubNode": "/a",
   "dtUrlId": "@href",
   "dtUrlIdR": "/index.php/vod/play/id/(\\S+).html",
