@@ -43,7 +43,7 @@
   "dtName": "//div[contains(@class,'video-info-header')]/h1/text()",
   "dtNameR": "",
 //--------剧界面图片--------
-  "dtImg": "//div[contains(@class,'module-item-pic']/a/img/@src",
+  "dtImg": "//div[contains(@class,'module-item-pic']/a/img/@data-src",
   "dtImgR": "\\S+(http\\S+)",
   "dtCate": "//span[contains(text(), '分类')]/following-sibling::*/text()",
   "dtCateR": "",
