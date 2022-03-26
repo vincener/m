@@ -40,8 +40,7 @@
 //--------剧界面--------
   "dtNode": "//body",
 //--------剧界面标题名--------
-  "dtName": "//div[contains(@class,'stui-content__detail
-']/h1/text()",
+  "dtName": "//div[contains(@class,'stui-content__detail']/h1/text()",
   "dtNameR": "",
 //--------剧界面图片--------
   "dtImg": "//div[@class,'stui-content__thumb']/a/img/@src",
