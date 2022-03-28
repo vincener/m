@@ -31,7 +31,7 @@
   "homeVodMark": "/span[@class='pic-text']/text()", 
   "cateUrl": "https://www.jubaibai.cc/vodshow/id/{cateId}/page/{catePg}.html",
 //----------------
-  "cateVodNode": "//div[contains(@class, 'stui-vodlist__detail')]/a[contains(@class,'stui-vodlist__thumb']",
+  "cateVodNode": "//ul[contains(@class,'stui-vodlist clearfix')]/li/div[@class,'stui-vodlist__box']",
   "cateVodName": "/@title",
   "cateVodId": "/@href",
   "cateVodIdR": "/vod/(\\d+).html",
