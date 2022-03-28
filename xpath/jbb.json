@@ -65,7 +65,7 @@
   "dtFromName": "/text()",
   "dtFromNameR": "",
 //--------播放集数--------
-  "dtUrlNode": ""//div[contains(@id, 'playlist')]//ul[contains(@class,'sort-list')]",",
+  "dtUrlNode": //div[contains(@id, 'playlist')]//ul[contains(@class,'sort-list')],
   "dtUrlSubNode": "/li/a",
   "dtUrlId": "@href",
   "dtUrlIdR": "/play/(\\S+).html",
