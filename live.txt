@@ -28,8 +28,6 @@ ELTA體育1,rtmp://59.124.75.138/sat/md051
 TVBS新聞,rtmp://59.124.75.138/sat/tv551
 中天新闻,http://flv3948069e.live.126.net/live/dabadqdszbtest78612.flv
 
-
-
 🇨🇳央视,#genre#
 CCTV1,http://39.134.115.163:8080/PLTV/88888910/224/3221225642/index.m3u8
 CCTV2,http://39.134.115.163:8080/PLTV/88888910/224/3221225643/index.m3u8
@@ -45,8 +43,6 @@ CCTV12,http://39.134.115.163:8080/PLTV/88888910/224/3221225637/index.m3u8
 CCTV13,http://39.134.115.163:8080/PLTV/88888910/224/3221225638/index.m3u8
 CCTV14,http://39.134.115.163:8080/PLTV/88888910/224/3221225640/index.m3u8
 CCTV15,http://39.134.115.163:8080/PLTV/88888910/224/3221225641/index.m3u8
-
-
 
 🇨🇳卫视,#genre#
 北京卫视,http://117.148.179.168/PLTV/88888888/224/3221231732/index.m3u8
@@ -110,8 +106,6 @@ CCTV15,http://39.134.115.163:8080/PLTV/88888910/224/3221225641/index.m3u8
 深圳卫视,http://iptv.tvfix.org/hls/szhd.m3u8
 四川卫视,http://iptv.tvfix.org/hls/schd.m3u8
 河南卫视,http://iptv.tvfix.org/hls/hnhd.m3u8
-
-
 
 🇨🇳央视2,#genre#
 CCTV1,http://111.40.196.25/PLTV/88888888/224/3221225548/index.m3u8
@@ -368,7 +362,6 @@ CNC英文,http://cms-wowza.lunabyte.io/wbrz-live-1/_definst_/smil:wbrz-live.smil
 风云足球,http://117.148.179.147/PLTV/88888888/224/3221231547/index.m3u8
 风云足球,http://117.148.179.160/PLTV/88888888/224/3221231547/index.m3u8
 高尔夫网球,http://117.148.179.160/PLTV/88888888/224/3221231619/index.m3u8
-
 
 🇨🇳卫视2,#genre#
 三沙卫视,http://pull2.ssws.tv/live/SswsTV20210803.m3u8
