@@ -20,15 +20,12 @@
   	"动漫":"dongman"
 },
 //--------主页推荐--------
-"homeVodNode":  "//ul[contains(@class,'stui-vodlist clearfix')]/li/div[@class,'stui-vodlist__box']",
-//--------主页推荐标题名--------
-  "homeVodName": "/@title",
-  "homeVodId": "/@href",
-  "homeVodIdR": "/vod/(\\d+).html",
-  "homeVodImg": "/@data-original",
-  "homeVodImgR": "\\S+(http\\S+)",
-//--------主页推荐集数--------
-  "homeVodMark": "/span[@class='pic-text']/text()", 
+ "homeVodNode": "//ul[contains(@class, 'stui-vodlist clearfix')]/li/div[contains(@class, 'stui-vodlist__box')]",
+ "homeVodName": "/a/@title",
+ "homeVodId": "/a/@href",
+ "homeVodIdR": "/vod/(\\w+).html",
+ "homeVodImg": "/a/@data-original",
+ "homeVodMark": "/span[contains(@class,'pic-text')]/text()",
   "cateUrl": "https://www.jubaibai.cc/vodshow/id/{cateId}/page/{catePg}.html",
 //----------------
   "cateVodNode": "//ul[contains(@class,'stui-vodlist clearfix')]/li/div[@class,'stui-vodlist__box']",
