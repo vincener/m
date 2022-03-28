@@ -11,7 +11,7 @@
   "cateName": "/text()",
   "cateId": "/@href",
 //--------首页分类地址--------
-  "cateIdR": "/type/(\\w+).html",
+  "cateIdR": "/type/(\\s+).html",
 //--------首页分类目录--------
   "cateManual": {
 	"电影":"dianying",
