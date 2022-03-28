@@ -7,7 +7,7 @@
 //	"dcShow2Vip": {},
 //	"dcPlayUrl": "true",
 //--------首页分类--------
-	"cateNode": "//div[contains(@class，'main-nav')]/li/span/a[contains(@href,'/*/')]",
+	"cateNode": "//div[contains(@class，'main-nav')]/li/span/a[contains @href]",
 	"cateName": "/text()",
 	"cateId": "/@href",
 //--------首页分类地址--------
