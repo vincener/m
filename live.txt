@@ -134,6 +134,38 @@ CCTV15,http://39.134.115.163:8080/PLTV/88888910/224/3221225641/index.m3u8
 家庭剧场,http://223.110.243.164/ott.js.chinamobile.com/PLTV/3/224/3221227600/index.m3u8
 家庭剧场,http://39.135.138.60:18890/PLTV/88888910/224/3221225713/index.m3u8
 
+港台tv侠,#genre#
+凤凰中文,https://playtv-live.ifeng.com/live/06OLEGEGM4G.m3u8
+凤凰资讯,http://61.222.202.191/hodlive/yzyh.php?id=2
+凤凰资讯,https://playtv-live.ifeng.com/live/06OLEEWQKN4.m3u8
+凤凰资讯,http://playtv-live.ifeng.com:80/live/06OLEEWQKN4_tv2.m3u8
+凤凰资讯,http://iptv.tvfix.org/hls/fhzx.m3u8
+凤凰香港,http://61.222.202.191/hodlive/yzyh.php?id=3
+凤凰电影,http://iptv.tvfix.org/hls/fhdy.m3u8
+香港卫视,http://zhibo.hkstv.tv/livestream/mutfysrq/playlist.m3u8
+TVB翡翠,http://51.222.193.143:10010/2
+TVB翡翠,http://iptv.tvfix.org/hls/jade.m3u8
+TVB翡翠,http://iptv.tvfix.org/hls/jadenhk.m3u8
+TVB翡翠,http://iptv.tvfix.org/hls/jadenhk.m3u8
+TVB翡翠,http://iptv.tvfix.org/hls/jadenhk2.m3u8
+TVB明珠,http://iptv.tvfix.org/hls/pearl.m3u8
+TVB星河,http://iptv.tvfix.org/hls/tvbxh.m3u8
+TVB星河,http://iptv.tvfix.org/hls/tvbxh2.m3u8
+TVB功夫,http://iptv.tvfix.org/hls/tvbkf.m3u8
+ViuTV6,http://51.222.193.143:10010/4
+ViuTV,http://iptv.tvfix.org/hls/viutv.m3u8#http://51.222.193.143:10010/3
+RTHK31,http://iptv.tvfix.org/hls/rthk31.m3u8
+RTHK32,http://iptv.tvfix.org/hls/rthk32.m3u8
+时尚频道,http://juyunlive.juyun.tv/live/24950198.m3u8
+天映经典,http://iptv.tvfix.org/hls/tyjd.m3u8 
+美亚电影,http://iptv.tvfix.org/hls/mydy.m3u8 
+美亚电影,http://v3948069e.live.126.net:80/live/2377c02556.flv
+星空卫视,http://iptv.tvfix.org/hls/startv.m3u8
+国家地理,http://iptv.tvfix.org/hls/natlgeo.m3u8
+Animax,http://iptv.tvfix.org/hls/animax2.m3u8
+Thrill,http://iptv.tvfix.org/hls/thrill.m3u8
+Channel V,http://iptv.tvfix.org/hls/channelv.m3u8
+
 🇭🇰港台,#genre#
 ATV亚视,http://8.crtv1.ml/hstv/crtv.php?id=1457&type=.m3u8
 ELTA影剧,http://212.95.133.2/tv/js.php?id=55
