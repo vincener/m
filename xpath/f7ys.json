@@ -28,7 +28,7 @@
  "cateVodImgR": "\\S+(http\\S+)",
  "cateVodMark": "/span[contains(@class,'module-item-caption')]/text()",
  "dtUrl": "http://bc.haokanju1.cc/voddetail/{vid}.html ",
- "dtNode": "//div[contains(@class,'box view-heading')]",
+ "dtNode": "//div[contains(@class,'mobile-play')]",
  "dtName": "//div[contains(@class,'video-info')]/h1/text()",
  "dtNameR": "",
  "dtImg": "//div[contains(@class,'video-cover')]/div[@class='module-item-pic']/img/@data-src",
