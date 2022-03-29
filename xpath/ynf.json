@@ -1,43 +1,88 @@
 {
-  "ua": "",
-  "homeUrl": "https://yanetflix.com",
-  "cateNode": "//li[contains(@class,'search-ul')]//ul/li/a[contains(@href, '/list/')]",
-  "cateName": "/text()",
-  "cateId": "/@href",
-  "cateIdR": "/list/(\\d+)",
-  "cateManual": {},
-  "homeVodNode": "//ul[contains(@class,'myui-vodlist clearfix')]/li[position()<6]/div/a",
-  "homeVodName": "/@title",
-  "homeVodId": "/@href",
-  "homeVodIdR": "/detail/(\\w+)",
-  "homeVodImg": "/@data-original",
-  "homeVodMark": "/span[contains(@class, 'pic-text')]/text()",
-  "cateUrl": "https://yanetflix.com/list/{cateId}-{catePg}",
-  "cateVodNode": "//ul[contains(@class,'myui-vodlist clearfix')]/li/div/a",
-  "cateVodName": "/@title",
-  "cateVodId": "/@href",
-  "cateVodIdR": "/detail/(\\w+)",
-  "cateVodImg": "/@data-original",
-  "cateVodMark": "/span[contains(@class, 'pic-text')]/text()",
-  "dtUrl": "https://yanetflix.com/detail/{vid}",
-  "dtNode": "//div[contains(@class,'myui-content__thumb')]/parent::*",
-  "dtName": "//a[contains(@class,'myui-vodlist__thumb')]/@title",
-  "dtImg": "//a[contains(@class,'myui-vodlist__thumb')]/img/@data-original",
-  "dtFromNode": "//a[@data-toggle='tab' and contains(@href, 'playlist')]",
-  "dtFromName": "/text()",
-  "dtUrlNode": "//div[contains(@class,'tab-content')]/div[contains(@id, 'playlist')]",
-  "dtUrlSubNode": "//li/a",
-  "dtUrlId": "@href",
-  "dtUrlIdR": "/video/(\\S+)",
-  "dtUrlName": "/text()",
-  "dtUrlNameR": "",
-  "playUrl": "https://yanetflix.com/video/{playUrl}",
-  "playUa": "",
-  "searchUrl": "https://yanetflix.com/search.php?searchword={wd}",
-  "scVodNode": "//ul[contains(@class,'myui-vodlist__media')]//div[@class='thumb']",
-  "scVodName": "/a/@title",
-  "scVodId": "/a/@href",
-  "scVodIdR": "/detail/(\\w+)",
-  "scVodImg": "/a/@data-original",
-  "scVodMark": "/a/span[contains(@class, 'pic-text')]/text()"
+	"ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1",
+	"homeUrl": "https://netflix.mom/",
+	"dcVipFlag": "true",
+     "pCfgJs": "https://netflix.mom/static/js/playerconfig.js",
+     "pCfgJsR": "[\\W|\\S|.]*?MacPlayerConfig.player_list[\\W|\\S|.]*?=([\\W|\\S|.]*?),MacPlayerConfig.downer_list",
+  "dcShow2Vip": {},
+  "dcPlayUrl": "true",
+	"cateManual": {"电影": "1","电视剧": "2", "综艺": "3","动漫": "4","4K": "34"},
+    // 首页推荐视频的节点
+	"homeVodNode": "//div[@class=('module-item-pic')]",
+    // 首页推荐视频的名称
+	"homeVodName": "/a/@title",
+    // 二次处理正则
+    "homeVodNameR": "",
+    // 首页推荐视频的id
+	"homeVodId": "/a/@href",
+    // 二次处理正则
+	"homeVodIdR": "/id/(\\w+).html",
+    // 首页推荐视频的图片
+	"homeVodImg": "/img/@data-src",
+    // 二次处理正则
+    "homeVodImgR": "(http\\S+)",
+    // 首页推荐视频的简介
+	"homeVodMark": "//div[@class='module-item-caption']/span/text()",
+    // 二次处理正则
+    "homeVodMarkR": "",
+    // 分类页地址 {cateId} 分类id {catePg} 当前页
+	"cateUrl": "https://netflix.mom/index.php/vod/show/id/{cateId}/page/{catePg}.html",
+    // 同上面的homeVod字段 分类列表中的视频信息
+	"cateVodNode": "//div[@class=('module-item-pic')]",
+	"cateVodName": "/a/@title",
+	"cateVodId": "/a/@href",
+	"cateVodIdR": "/id/(\\w+).html",
+	"cateVodImg": "/img/@data-src",
+	"cateVodImgR": "(http\\S+)",
+	"cateVodMark": "/div[@class='module-item-caption']/span/text()",
+    // 详情页地址 用于获取详情页信息 及 播放列表和地址
+	"dtUrl": "https://netflix.mom/index.php/vod/detail/id/{vid}.html",
+    // 详情节点
+	"dtNode": "//body",
+    // 视频名
+	"dtName": "//div[contains(@class,'video-info-header')]/h1[@class='page-title']/text()",
+	"dtNameR": "",
+    // 视频图片
+	"dtImg": "//div[@class=('module-item-pic')]/img/@data-src",
+	"dtImgR": "",
+    // 视频分类
+	"dtCate": "//div[contains(@class,'tag-link')]/a/text()",
+	"dtCateR": "",
+    // 视频年份
+	"dtYear": "//div[contains(@class,'video-info-aux scroll-content')]/a[2]/text()",
+    // 视频简介
+	"dtDesc": "//div[contains(@class,'video-info-item video-info-content vod_content')]/span/text()",
+	"dtDescR": "",
+    // 播放源节点
+	"dtFromNode": "//div[contains(@class,'module-tab-items')]/div[2]/div/span",
+    // 播放源名称
+	"dtFromName": "/text()",
+    // 二次处理正则
+	"dtFromNameR": "",
+    // 播放列表节点
+	"dtUrlNode": "//div[contains(@class,'module-tab-content')]//div[contains(@class,'sort-item')]",
+    // 播放地址节点
+	"dtUrlSubNode": "/a",
+    // 播放地址
+	"dtUrlId": "/@href",
+    // 二次处理正则
+	"dtUrlIdR": "/index.php/vod/play/id/(\\S+).html",
+    // 剧集名称
+	"dtUrlName": "/span/text()",
+    // 二次处理正则
+	"dtUrlNameR": "",
+    // 播放页面的地址 {playUrl} 对应上面 dtUrlId 获取到的地址
+	"playUrl": "https://netflix.mom/index.php/vod/play/id/{playUrl}.html",
+    // 解析webview的user-agent
+	"playUa": "",
+    // 搜索地址
+	"searchUrl": "https://netflix.mom/index.php/vod/search/wd/{wd}.html",
+    // 同上面的homeVod字段 搜索结果中的视频信息, 这里有对苹果cms suggest搜索接口的特殊支持，参考示例中的极品影视
+	"scVodNode": "//div[@class=('module-item-pic')]",
+	"scVodName": "/a/@title",
+	"scVodId": "/a/@href",
+	"scVodIdR": "/id/(\\w+).html",
+	"scVodImg": "/img/@data-src",
+	"scVodImgR": "(http\\S+)",
+	"scVodMark": "//div[@class='module-item-caption']/span/text()"
 }
