@@ -31,7 +31,7 @@
  "dtNode": "//div[contains(@class,'box view-heading')]",
  "dtName": "//div[contains(@class,'video-info')]/h1/text()",
  "dtNameR": "",
- "dtImg": "//div[@class='module-item-pic']/img/@data-src",
+ "dtImg": "//div[contains(@class,'video-cover')]/div[@class='module-item-pic']/img/@data-src",
  "dtImgR": "\\S+(http\\S+)",
  "dtCate": "//div[@class='video-info-items']//span[contains(@class,'video-info-itemtitle') and contains(text(), '分类')]/following-sibling::*/text()",
  "dtCateR": "",
