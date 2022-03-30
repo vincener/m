@@ -1,7 +1,7 @@
 {
 	"ua": "",
 	"homeUrl": "https://www.dianyi.ng/",
-        "cateNode":"//ul[@class='nav-menu-items']/li[contains(@class,'nav-menu-item')]/a[contains(@href, 'v')]",
+        "cateNode":"//div[contains(@class,'nav']/ul[contains(@class,'nav-menu-items']/li[contains(@class,'nav-menu-item')]/a[contains(@href, 'v')]",
         "cateName":"/text()",
         "cateId":"/@href",
         "cateIdR":"/v/(\\w+).html",
@@ -12,7 +12,7 @@
         "电视剧": "4"
 },
     // 首页推荐视频的节点
-	"homeVodNode": "//div[@class='module-list module-lines-list']/div[@class='module-item-pic']",
+	"homeVodNode": "//div[contains(@class,'module-item-titlebox']",
     // 首页推荐视频的名称
 	"homeVodName": "/@title",
     // 二次处理正则
@@ -20,13 +20,13 @@
     // 首页推荐视频的id
 	"homeVodId": "/@href",
     // 二次处理正则
-	"homeVodIdR": "/v/(\\w+).html",
+	"homeVodIdR": "/show-(\\w+).html",
     // 首页推荐视频的图片
-	"homeVodImg": "/a/@data-src",
+	"homeVodImg": "/@data-src",
     // 二次处理正则
     "homeVodImgR": "",
     // 首页推荐视频的简介
-	"homeVodMark": "//div[@class='module-item-caption']/span/text()",
+	"homeVodMark": "//div[@class='module-item-caption']/text()",
     // 二次处理正则
     "homeVodMarkR": "",
     // 分类页地址 {cateId} 分类id {catePg} 当前页
