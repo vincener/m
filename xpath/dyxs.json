@@ -32,7 +32,7 @@
     // 分类页地址 {cateId} 分类id {catePg} 当前页
 	"cateUrl": "https://www.dianyi.ng/pianku-{cateId}--------{catePg}---.html",
     // 同上面的homeVod字段 分类列表中的视频信息
-	"cateVodNode": "//div[@class='module-item-content']",
+	"cateVodNode": "//div[@class='module-item-pic']",
 	"cateVodName": "/@title",
 	"cateVodId": "/@href",
 	"cateVodIdR": "/show-(\\w+).html",
