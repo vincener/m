@@ -1,7 +1,7 @@
 {
 	"ua": "",
 	"homeUrl": "https://www.dianyi.ng/",
-        "cateNode":"//div[contains(@class,'nav')]/li[contains(@class,'nav-menu-item')]/a[contains(@href, '/v')]",
+        "cateNode":"//div[contains(@class,'nav')]/li[contains(@class,'nav-menu-item')]/a[contains(@href, 'v')]",
         "cateName":"/text()",
         "cateId":"/@href",
         "cateIdR":"/v/(\\w+).html",
