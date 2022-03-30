@@ -6,10 +6,10 @@
         "cateId":"/@href",
         "cateIdR":"/v/(\\w+).html",
 	"cateManual": {
-        "电影": "1",
-        "电视剧": "2",
-        "综艺": "3",
-        "电视剧": "4"
+        "电影": "dianying",
+        "电视剧": "dianshiju",
+        "综艺": "zongyi",
+        "动漫": "dongman"
 },
     // 首页推荐视频的节点
 	"homeVodNode": "//div[contains(@class,'module-item-cover')]/div/a",
