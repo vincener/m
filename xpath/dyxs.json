@@ -12,17 +12,17 @@
         "电视剧": "4"
 },
     // 首页推荐视频的节点
-	"homeVodNode": "//div[contains(@class,'module-items')]",
+	"homeVodNode": "//div[contains(@class,'module-list module-lines-list')]/div/a",
     // 首页推荐视频的名称
-	"homeVodName": "/a/@title",
+	"homeVodName": "/@title",
     // 二次处理正则
     "homeVodNameR": "",
     // 首页推荐视频的id
-	"homeVodId": "/a/@href",
+	"homeVodId": "/@href",
     // 二次处理正则
 	"homeVodIdR": "/show-(\\w+).html",
     // 首页推荐视频的图片
-	"homeVodImg": "/a/@data-src",
+	"homeVodImg": "/@data-src",
     // 二次处理正则
     "homeVodImgR": "",
     // 首页推荐视频的简介
