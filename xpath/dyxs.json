@@ -24,7 +24,7 @@
     // 首页推荐视频的图片
 	"homeVodImg": "/img/@src",
     // 二次处理正则
-    "homeVodImgR": "",
+    "homeVodImgR": "\\S+(http\\S+)",
     // 首页推荐视频的简介
 	"homeVodMark": "//div[@class='module-item-caption']/text()",
     // 二次处理正则
@@ -37,14 +37,15 @@
 	"cateVodId": "/@href",
 	"cateVodIdR": "/show-(\\w+).html",
 	"cateVodImg": "/img/@src",
+ 	"cateVodImgR": "\\S+(http\\S+)",
 	"cateVodMark": "/div[@class='module-item-caption']/text()",
     // 详情页地址 用于获取详情页信息 及 播放列表和地址
 	"dtUrl": "https://www.dianyi.ng/show-{vid}.html",
     // 详情节点
-	"dtNode": "//div[contains(@class,'mobile-play')]",
+	"dtNode": "//div[contains(@class,'module-heading')]",
     // 视频名
 	"dtName": "//h1[contains(@class,'title')]/text()",
-	"dtNameR": "",
+	"dtNameR": "\\S+(http\\S+)",
     // 视频图片
 	"dtImg": "//div[contains(@class,'video-cover')]/div/a/img/@data-src",
 	"dtImgR": "",
