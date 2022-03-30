@@ -39,7 +39,7 @@
 	"cateVodImg": "/@data-src",
 	"cateVodMark": "/div[@class='module-item-caption']/text()",
     // 详情页地址 用于获取详情页信息 及 播放列表和地址
-	"dtUrl": "https://www.dianyi.ng/show-{vid}.html",
+	"dtUrl": "https://www.dianyi.ng/{vid}.html",
     // 详情节点
 	"dtNode": "//div[contains(@class,'mobile-play')]",
     // 视频名
