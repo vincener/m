@@ -56,7 +56,7 @@
  "dtFromName": "/text()",
  "dtFromNameR": "",
  "dtUrlNode": "//div[contains(@class,'scroll-content')]",
- "dtUrlSubNode": "/a/span",
+ "dtUrlSubNode": "/a",
  "dtUrlId": "/@href",
  "dtUrlIdR": "/vodplay/(\\S+).html",
  "dtUrlName": "/text()",
