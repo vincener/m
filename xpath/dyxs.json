@@ -16,7 +16,7 @@
     // 首页推荐视频的名称
 	"homeVodName": "/div/a/@title",
     // 二次处理正则
-    "homeVodNameR": "",
+    "homeVodNameR": "\\S+(http\\S+)",
     // 首页推荐视频的id
 	"homeVodId": "/div/a/@href",
     // 二次处理正则
@@ -28,7 +28,7 @@
     // 首页推荐视频的简介
 	"homeVodMark": "//div[@class='module-item-caption']/text()",
     // 二次处理正则
-    "homeVodMarkR": "",
+    "homeVodMarkR": "\\S+(http\\S+)",
     // 分类页地址 {cateId} 分类id {catePg} 当前页
 	"cateUrl": "https://www.dianyi.ng/pianku-{cateId}--------{catePg}---.html",
     // 同上面的homeVod字段 分类列表中的视频信息
