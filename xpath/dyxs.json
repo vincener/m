@@ -38,7 +38,7 @@
     "cateVodImgR":"\\S+(http\\S+)",
 	"cateVodMark": "/div[@class='module-item-caption']/text()",
     // 详情页地址 用于获取详情页信息 及 播放列表和地址
-	"dtUrl": "https://www.dianyi.ng/show-{vid}.html",
+	"dtUrl": "https://www.dianyi.ng/show{vid}.html",
     // 详情节点
 	"dtNode": "//div[@class='box view-heading']",
     // 视频名
@@ -72,9 +72,9 @@
     // 剧集名称
 	"dtUrlName": "/text()",
     // 二次处理正则
-	"dtUrlNameR":"/play-(\\S+).html",
+	"dtUrlNameR":"/play(\\S+).html",
     // 播放页面的地址 {playUrl} 对应上面 dtUrlId 获取到的地址
-	"playUrl": "https://www.dianyi.ng/paly-{playUrl}.html",
+	"playUrl": "https://www.dianyi.ng/paly{playUrl}.html",
     // 解析webview的user-agent
 	"playUa": "",
     // 搜索地址
