@@ -41,7 +41,7 @@
   "dtYear": "//span[@class='video-info-itemtitle' and contains(text(),  '上映')]/a/text()",
   "dtArea": "",
   "dtMark": "",
-  "dtDirector": "//span[@class='video-info-itemtitle' and contains(text(), '导演')]/a/text()",
+  "dtDirector": "//span[contains(text(), '导演')]/following-sibling::*/text()",
   "dtActor": "//span[@class='video-info-itemtitle' and contains(text(), '主演')]/a/text()",
 // 视频简介
   "dtDesc": "//span[@class='video-info-itemtitle' and contains(text(), '剧情')]/a/text()",
