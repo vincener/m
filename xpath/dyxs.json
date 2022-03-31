@@ -51,7 +51,7 @@
   "dtFromName": "/text()",
   "dtFromNameR": "",
 // 播放集数
-  "dtUrlNode": "//div[contains(@id,'sort-item')]",
+  "dtUrlNode": "//div[@class='sort-item']",
 // 播放集数节点
   "dtUrlSubNode": "/a/span",
   "dtUrlId": "/@href",
