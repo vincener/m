@@ -2,7 +2,7 @@
   "ua": "",
   "homeUrl": "https://www.dianyi.ng/",
   "cateNode": "//div[contains(@class,'nav')]/ul[contains(@class,'nav-menu-items')]/li/a[contains(@href, 'v')]",
-  "cateName": "/text()",
+  "cateName": "/span/text()",
   "cateId": "/@href",
   "cateIdR": "/v/(\\w+).html",
   "cateManual": {
