@@ -37,14 +37,14 @@
   "dtNameR": "",
   "dtImg": "//div[@class='video-cover']/div[@class='module-item-cover']/div[@class='module-item-pic']/a/@data-src",
   "dtImgR": "",
-  "dtCate": "//div[@class='video-info-items']/span[@class='video-info-itemtitle' and contains(text(), '类型：')]/following-sibling::span/text()",
-  "dtYear": "//div[@class='video-info-items']/span[@class='video-info-itemtitle' and contains(text(), '年份')]/following-sibling::span/text()",
-  "dtArea": "//div[@class='video-info-items']/span[@class='video-info-itemtitle' and contains(text(), '地区')]/following-sibling::span/text()",
+  "dtCate": "//span[@class='video-info-itemtitle' and contains(text(), '类型：')]/following-sibling::/a/text()",
+  "dtYear": "//span[@class='video-info-itemtitle' and contains(text(),  '年份')]/following-sibling::/a/text()",
+  "dtArea": "//span[@class='video-info-itemtitle' and contains(text(),  '地区')]/following-sibling::/a/text()",
   "dtMark": "",
-  "dtDirector": "//span[@class='video-info-itemtitle' and contains(text(), '导演')]/parent::*/a/text()",
-  "dtActor": "//span[@class='video-info-itemtitle' and contains(text(), '主演')]/parent::*/a/text()",
+  "dtDirector": "//span[@class='video-info-itemtitle' and contains(text(), '导演')]/parent::/a/text()",
+  "dtActor": "//span[@class='video-info-itemtitle' and contains(text(), '主演')]/parent::/a/text()",
 // 视频简介
-  "dtDesc": "//div[@class='video-info-items']/span[@class='video-info-itemtitle' and contains(text(), '剧情')]/following-sibling::span/text()",
+  "dtDesc": "//span[@class='video-info-itemtitle' and contains(text(), '剧情')]/following-sibling::*/text()",
 // 播放源节点
   "dtFromNode": "//div[@class='module-tab-content']/div/span",
 // 播放源名称
