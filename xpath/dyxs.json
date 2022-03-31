@@ -42,16 +42,16 @@
     // 详情节点
 	"dtNode": "//div[@class='box view-heading']",
     // 视频名
-	"dtName": "/h1[@class='page-title']/text()",
+	"dtName": "/h1/text()",
 	"dtNameR": "",
     // 视频图片
-	"dtImg": "//div[contains(@class,'module-item-pic')]/@data-src",
+	"dtImg": "/a/@data-src",
 	"dtImgR":"\\S+(http\\S+)",
     // 视频分类
 	"dtCate": "/span[@class='video-info-itemtitle' and contains(text(), '类型：')]/following-sibling::*/text()",
 	"dtCateR": "",
     // 视频年份
-	"dtYear": "//span[@class='video-info-itemtitle' and contains(text(), '年份：')]/following-sibling::*/text()",
+	"dtYear": "/span[@class='video-info-itemtitle' and contains(text(), '年份：')]/following-sibling::*/text()",
     // 视频简介
 	"dtDesc": "//div[contains(@class,'vod_content')]/span/text()",
 	"dtDescR": "",
