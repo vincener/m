@@ -12,7 +12,7 @@
         "动漫": "dongman"
 },
     // 首页推荐视频的节点
-	"homeVodNode": "//div[contains(@class,'module-item-titlebox')]",
+	"homeVodNode": "//div[contains(@class,'module-item-pic')]",
     // 首页推荐视频的名称
 	"homeVodName": "/@title",
     // 二次处理正则
@@ -32,7 +32,7 @@
     // 分类页地址 {cateId} 分类id {catePg} 当前页
 	"cateUrl": "https://www.dianyi.ng/pianku-{cateId}-{area}--{class}-----{catePg}---.html",
     // 同上面的homeVod字段 分类列表中的视频信息
-	"cateVodNode": "//div[contains(@class,'module-item-titlebox')]",
+	"cateVodNode": "//div[contains(@class,'module-item-pic')]",
 	"cateVodName": "/@title",
 	"cateVodId": "/@href",
 	"cateVodIdR": "/show-(\\w+).html",
