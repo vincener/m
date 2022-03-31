@@ -16,7 +16,7 @@
 // 二次处理正则
   "homeVodIdR": "/show-(\\w+).html",
 // 首页推荐视频的图片
-  "homeVodImg": "/div/a/@data-src",
+  "homeVodImg": "//img[@class='lazy lazyloaded']/@data-src",
   "homeVodImgR": "\\S+(http\\S+)",
 // 首页推荐视频更新集数
   "homeVodMark": "//div[@class='module-item-caption']/text()",
