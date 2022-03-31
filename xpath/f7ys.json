@@ -28,7 +28,7 @@
  "cateVodImgR": "\\S+(http\\S+)",
  "cateVodMark": "/span[@class='module-item-text']/text()",
  "dtUrl": "https://www.f7ys.com/voddetail/{vid}.html ",
- "dtNode": "//body",
+ "dtNode": "//div[contains(@class,'box view-heading')]",
  "dtName": "//div[contains(@class,'video-info-header')]/h1/text()",
  "dtNameR": "",
  "dtImg": "//img[@class='lazyload']/@data-src",
