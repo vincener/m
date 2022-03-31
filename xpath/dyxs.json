@@ -58,7 +58,7 @@
     // 播放源节点
 	"dtFromNode": "//div[@class='module-tab-content']/div/span",
     // 播放源名称
-	"dtFromName": "//text()",
+	"dtFromName": "/text()",
     // 二次处理正则
 	"dtFromNameR": "\\S+(http\\S+)",
     // 播放列表节点
