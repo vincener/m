@@ -24,11 +24,9 @@
     // 首页推荐视频的图片
 	"homeVodImg": "/div/a/@data-src",
     // 二次处理正则
-    "homeVodImgR": "",
+    "homeVodImgR":"\\S+(http\\S+)",
     // 首页推荐视频的简介
 	"homeVodMark": "//div[@class='module-item-caption']/text()",
-    // 二次处理正则
-    "homeVodMarkR": "\\S+(http\\S+)",
     // 分类页地址 {cateId} 分类id {catePg} 当前页
 	"cateUrl": "https://www.dianyi.ng/pianku-{cateId}--------{catePg}---.html",
     // 同上面的homeVod字段 分类列表中的视频信息
@@ -37,17 +35,18 @@
 	"cateVodId": "/div/a/@href",
 	"cateVodIdR": "/show-(\\w+).html",
 	"cateVodImg": "/div/a/@data-src",
+    "cateVodImgR":"\\S+(http\\S+)",
 	"cateVodMark": "/div[@class='module-item-caption']/text()",
     // 详情页地址 用于获取详情页信息 及 播放列表和地址
-	"dtUrl": "https://www.dianyi.ng/{vid}.html",
+	"dtUrl": "https://www.dianyi.ng/show-{vid}.html",
     // 详情节点
-	"dtNode": "//div[contains(@class,'box view-heading')]",
+	"dtNode": "//div[@class='box view-heading']",
     // 视频名
-	"dtName": "//h1[contains(@class,'page-title')]/text()",
+	"dtName": "//h1[@class='page-title']/text()",
 	"dtNameR": "",
     // 视频图片
-	"dtImg": "//div[contains(@class,'mobile-play')]/div/@data-src",
-	"dtImgR": "",
+	"dtImg": "//div[contains(@class,'module-item-pic')]/@data-src",
+	"dtImgR":"\\S+(http\\S+)",
     // 视频分类
 	"dtCate": "//span[@class='video-info-itemtitle' and contains(text(), '类型：')]/following-sibling::*/text()",
 	"dtCateR": "",
