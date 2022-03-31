@@ -56,12 +56,12 @@
   "dtUrlSubNode": "/a/span",
   "dtUrlId": "/@href",
 // 播放地址节点
-  "dtUrlIdR": "/(\\w+).html",
+  "dtUrlIdR": "/paly-(\\S+).html",
 // 剧集名称
   "dtUrlName": "/text()",
   "dtUrlNameR": "",
 // 播放页面的地址 {playUrl} 对应上面 dtUrlId 获取到的地址
-  "playUrl": "https://www.dianyi.ng/{playUrl}.html",
+  "playUrl": "https://www.dianyi.ng/paly-{playUrl}.html",
   "playUa": "",
   "searchUrl":"https://www.dianyi.ng/index.php/ajax/suggest?mid=1&wd={wd}&limit=10",
   "scVodNode": "json:list",
