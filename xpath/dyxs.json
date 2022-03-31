@@ -37,14 +37,14 @@
   "dtNameR": "",
   "dtImg": "//img[@class='lazyload']/@data-src",
   "dtImgR": "",
-  "dtCate": "//span[@class='video-info-itemtitle' and contains(text(), '集数：')]/following-sibling::/a/text()",
-  "dtYear": "//span[@class='video-info-itemtitle' and contains(text(),  '上映')]/following-sibling::/a/text()",
+  "dtCate": "//span[@class='video-info-itemtitle' and contains(text(), '集数：')]/a/text()",
+  "dtYear": "//span[@class='video-info-itemtitle' and contains(text(),  '上映')]/a/text()",
   "dtArea": "",
   "dtMark": "",
-  "dtDirector": "//span[@class='video-info-itemtitle' and contains(text(), '导演')]/following-sibling::/a/text()",
-  "dtActor": "//span[@class='video-info-itemtitle' and contains(text(), '主演')]/following-sibling::/a/text()",
+  "dtDirector": "//span[@class='video-info-itemtitle' and contains(text(), '导演')]/a/text()",
+  "dtActor": "//span[@class='video-info-itemtitle' and contains(text(), '主演')]/a/text()",
 // 视频简介
-  "dtDesc": "//span[@class='video-info-itemtitle' and contains(text(), '剧情')]/following-sibling::*/text()",
+  "dtDesc": "//span[@class='video-info-itemtitle' and contains(text(), '剧情')]/a/text()",
 // 播放源节点
   "dtFromNode": "//div[@class='module-tab-content']/div/span",
 // 播放源名称
