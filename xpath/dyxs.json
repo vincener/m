@@ -1,89 +1,73 @@
 {
-	"ua": "",
-	"homeUrl": "https://www.dianyi.ng/",
-        "cateNode":"//div[contains(@class,'nav')]/ul[contains(@class,'nav-menu-items')]/li[contains(@class,'nav-menu-item')]/a[contains(@href, 'v')]",
-        "cateName":"/text()",
-        "cateId":"/@href",
-        "cateIdR":"/v/(\\w+).html",
-	"cateManual": {
-        "电影": "dianying",
-        "电视剧": "dainshiju",
-        "综艺": "zongyi",
-        "动漫": "dongman"
+  "ua": "",
+  "homeUrl": "https://www.dianyi.ng/",
+  "cateNode": "//div[contains(@class,'nav')]/ul[contains(@class,'nav-menu-items')]/li[contains(@class,'nav-menu-item')]/a[contains(@href, 'v')]",
+  "cateName": "/text()",
+  "cateId": "/@href",
+  "cateIdR": "/v/(\\w+).html",
+  "cateManual": {
 },
-    // 首页推荐视频的节点
-	"homeVodNode": "//div[@class='module-item']",
-    // 首页推荐视频的名称
-	"homeVodName": "/div/a/@title",
-    // 二次处理正则
-    "homeVodNameR": "\\S+(http\\S+)",
-    // 首页推荐视频的id
-	"homeVodId": "/div/a/@href",
-    // 二次处理正则
-	"homeVodIdR": "/show-(\\w+).html",
-    // 首页推荐视频的图片
-	"homeVodImg": "/div/a/@data-src",
-    // 二次处理正则
-    "homeVodImgR":"\\S+(http\\S+)",
-    // 首页推荐视频的简介
-	"homeVodMark": "//div[@class='module-item-caption']/text()",
-    // 分类页地址 {cateId} 分类id {catePg} 当前页
-	"cateUrl": "https://www.dianyi.ng/pianku-{cateId}--------{catePg}---.html",
-    // 同上面的homeVod字段 分类列表中的视频信息
-	"cateVodNode": "//div[@class='module-item']",
-	"cateVodName": "/div/a/@title",
-	"cateVodId": "/div/a/@href",
-	"cateVodIdR": "/show-(\\w+).html",
-	"cateVodImg": "/div/a/@data-src",
-    "cateVodImgR":"\\S+(http\\S+)",
-	"cateVodMark": "/div[@class='module-item-caption']/text()",
-    // 详情页地址 用于获取详情页信息 及 播放列表和地址
-	"dtUrl": "https://www.dianyi.ng/show{vid}.html",
-    // 详情节点
-	"dtNode": "//div[@class='box view-heading']",
-    // 视频名
-	"dtName": "/h1/text()",
-	"dtNameR": "",
-    // 视频图片
-	"dtImg": "/a/@data-src",
-	"dtImgR":"\\S+(http\\S+)",
-    // 视频分类
-	"dtCate": "/span[@class='video-info-itemtitle' and contains(text(), '类型：')]/following-sibling::*/text()",
-	"dtCateR": "",
-    // 视频年份
-	"dtYear": "/span[@class='video-info-itemtitle' and contains(text(), '年份：')]/following-sibling::*/text()",
-    // 视频简介
-	"dtDesc": "//div[contains(@class,'vod_content')]/span/text()",
-	"dtDescR": "",
-    // 播放源节点
-	"dtFromNode": "//div[@class='module-tab-content']/div/span",
-    // 播放源名称
-	"dtFromName": "/text()",
-    // 二次处理正则
-	"dtFromNameR": "\\S+(http\\S+)",
-    // 播放列表节点
-	"dtUrlNode": "//div[contains(@class,'module-blocklist scroll-box scroll-box-y')]/div[contains(@class,'scroll-content')]",
-    // 播放地址节点
-	"dtUrlSubNode": "/a",
-    // 播放地址
-	"dtUrlId": "/@href",
-    // 二次处理正则
-	"dtUrlIdR": "",
-    // 剧集名称
-	"dtUrlName": "/text()",
-    // 二次处理正则
-	"dtUrlNameR":"/play(\\S+).html",
-    // 播放页面的地址 {playUrl} 对应上面 dtUrlId 获取到的地址
-	"playUrl": "https://www.dianyi.ng/paly{playUrl}.html",
-    // 解析webview的user-agent
-	"playUa": "",
-    // 搜索地址
-	"searchUrl": "https://www.dianyi.ng/index.php/ajax/suggest?mid=1&wd={wd}&limit=10",
-    // 同上面的homeVod字段 搜索结果中的视频信息, 这里有对苹果cms suggest搜索接口的特殊支持，参考示例中的极品影视
-	"scVodNode": "json:list",
-	"scVodName": "name",
-	"scVodId": "id",
-	"scVodIdR": "",
-	"scVodImg": "pic",
-	"scVodMark": ""
+// 首页推荐视频的节点
+  "homeVodNode": "//div[@class='module-item']",
+// 首页推荐视频的名称
+  "homeVodName": "/div/a/@title",
+// 首页推荐视频的id
+  "homeVodId": "/div/a/@href",
+// 二次处理正则
+  "homeVodIdR": "/show-(\\w+).html",
+// 首页推荐视频的图片
+  "homeVodImg": "/div/a/@data-src",
+  "homeVodImgR": "\\S+(http\\S+)",
+// 首页推荐视频更新集数
+  "homeVodMark": "//div[@class='module-item-caption']/text()",
+  "cateUrl": "https://www.dianyi.ng/pianku-{cateId}--------{catePg}---.html",
+  "cateVodNode": "//div[@class='module-item']",
+  "cateVodName": "/div/a/@title",
+  "cateVodId": "/div/a/@href",
+  "cateVodIdR": "/show-(\\w+).html",
+  "cateVodImg": "/div/a/@data-src",
+  "cateVodImgR": "\\S+(http\\S+)",
+  "cateVodMark": "//div[@class='module-item-caption']/text()",
+// 详情页地址 用于获取详情页信息 及 播放列表和地址
+  "dtUrl": "https://www.dianyi.ng/show{vid}.html",
+// 详情节点
+  "dtNode": "//div[@class='box view-heading']",
+// 视频名
+  "dtName": "/h1/text()",
+  "dtNameR": "",
+  "dtImg": "/a/@data-original",
+  "dtImgR": "",
+  "dtCate": "//span[@class='video-info-itemtitle' and contains(text(), '类型：')]/following-sibling::a/text()",
+  "dtYear": "//span[@class='video-info-itemtitle' and contains(text(), '年份')]/following-sibling::a/text()",
+  "dtArea": "//span[@class='video-info-itemtitle' and contains(text(), '地区')]/following-sibling::a/text()",
+  "dtMark": "",
+  "dtDirector": "//span[@class='video-info-itemtitle' and contains(text(), '导演')]/parent::*/a/text()",
+  "dtActor": "//span[@class='video-info-itemtitle' and contains(text(), '主演')]/parent::*/a/text()",
+// 视频简介
+  "dtDesc": "//div[contains(@class,'vod_content')]/span/text()",
+// 播放源节点
+  "dtFromNode": "//div[@class='module-tab-content']/div/span",
+// 播放源名称
+  "dtFromName": "/text()",
+  "dtFromNameR": "",
+// 播放集数
+  "dtUrlNode": "//div[contains(@class,'module-blocklist scroll-box scroll-box-y')]/div[contains(@class,'scroll-content')]",
+// 播放集数节点
+  "dtUrlSubNode": "/a",
+  "dtUrlId": "/@href",
+// 播放地址节点
+  "dtUrlIdR": "/play(\\S+).html",
+// 剧集名称
+  "dtUrlName": "/text()",
+  "dtUrlNameR": "",
+// 播放页面的地址 {playUrl} 对应上面 dtUrlId 获取到的地址
+  "playUrl": "https://www.dianyi.ng/paly{playUrl}.html",
+  "playUa": "",
+  "searchUrl":"https://www.dianyi.ng/index.php/ajax/suggest?mid=1&wd={wd}&limit=10",
+  "scVodNode": "json:list",
+  "scVodName": "name",
+  "scVodId": "id",
+  "scVodIdR": "",
+  "scVodImg": "pic",
+  "scVodMark": ""
 }
