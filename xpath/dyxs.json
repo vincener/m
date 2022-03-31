@@ -56,7 +56,7 @@
   "dtUrlSubNode": "/a/span",
   "dtUrlId": "/@href",
 // 播放地址节点
-  "dtUrlIdR": "/paly-(\\S+).html",
+  "dtUrlIdR": "/paly-(\\w+).html",
 // 剧集名称
   "dtUrlName": "/text()",
   "dtUrlNameR": "",
