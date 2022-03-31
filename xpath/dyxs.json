@@ -46,19 +46,24 @@
 // 视频简介
   "dtDesc": "//span[@class='video-info-itemtitle' and contains(text(), '剧情')]/a/text()",
 // 播放源节点
-  "dtFromNode": "//div[@class='module-tab-content']",
+  "dtFromNode": "//div[2][@class='module-tab-content']//div//span",
 // 播放源名称
   "dtFromName": "/text()",
   "dtFromNameR": "",
 // 播放集数
-  "dtUrlNode": "//div[@class='sort-item']",
+  "dtUrlNode": "//body",
+  "dtUrlSubNode": "//div[@class='scroll-content']/a",
+  "dtUrlId": "@href",
+  "dtUrlIdR": "/paly-(\\S+).html",
+  "dtUrlName": "//span/text()",
+ // "dtUrlNode": "//div[@class='sort-item']",
 // 播放集数节点
-  "dtUrlSubNode": "/a/span",
-  "dtUrlId": "/@href",
+//"dtUrlSubNode": "/a/span",
+//"dtUrlId": "/@href",
 // 播放地址节点
-  "dtUrlIdR": "/paly-(\\w+).html",
+//"dtUrlIdR": "/paly-(\\w+).html",
 // 剧集名称
-  "dtUrlName": "/text()",
+//"dtUrlName": "/text()",
   "dtUrlNameR": "",
 // 播放页面的地址 {playUrl} 对应上面 dtUrlId 获取到的地址
   "playUrl": "https://www.dianyi.ng/paly-{playUrl}.html",
