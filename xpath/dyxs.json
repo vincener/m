@@ -46,7 +46,7 @@
 // 视频简介
   "dtDesc": "//span[@class='video-info-itemtitle' and contains(text(), '剧情')]/a/text()",
 // 播放源节点
-  "dtFromNode": "//div[@class='module-tab-content']//span",
+  "dtFromNode": "//div[@class='module-tab-content']/span",
 // 播放源名称
   "dtFromName": "/text()",
   "dtFromNameR": "",
