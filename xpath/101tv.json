@@ -20,7 +20,7 @@
   "homeVodImgR": "\\S+(http\\S+)",
 // 首页推荐视频更新集数
   "homeVodMark": "//span[@class='pack-prt']/text()",
-  "cateUrl": "https://l0l.tv/index.php/vod/show/area/{area}/class/{class}/id/{cateId}/page/{catePg}/year/{year}.html",
+  "cateUrl": "https://l0l.tv/index.php/vod/show/id/{cateId}/page/{catePg}/year/{year}.html",
   "cateVodNode": "//div[contains(@class,'pack-ykpack')]/div[contains(@class,'pack-packcover returl')]",
   "cateVodName":  "/a/@title",
   "cateVodId": "/a/@href",
