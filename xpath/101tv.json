@@ -29,7 +29,7 @@
   "cateVodImgR": "\\S+(http\\S+)",
   "cateVodMark": "//span[@class='pack-prt']/text()",
 // 详情页地址 用于获取详情页信息 及 播放列表和地址
-  "dtUrl": "https://l0l.tv/index.php/vod/detail/id/{vid}.html",
+  "dtUrl": "https://l0l.tv/index.php/vod/play/id/{vid}.html",
 // 详情节点
   "dtNode": "//body",
 // 视频名
@@ -49,10 +49,10 @@
   "dtDirectorR": "",
   "dtDesc": "//span[contains(@id, 'cText')]/text()",
   "dtDescR": "",
-  "dtFromNode": "//a[contains(@class, 'swiper-slide')]",
+  "dtFromNode": "//div[contains(@class, 'swiper-wrapper cf')]/a",
   "dtFromName": "/text()",
   "dtFromNameR": "",
-  "dtUrlNode": "//div[contains(@id, 'playsx')]//ul[contains(@class,'content_playlist')]",
+  "dtUrlNode": "//ul[contains(@id, 'playsx')]/li[contains(@class,'select-item')]",
   "dtUrlSubNode": "/li/a",
   "dtUrlId": "/@href",
   "dtUrlIdR": "/index.php/vod/play/(\\S+).html",
