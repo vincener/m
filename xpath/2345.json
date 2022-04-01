@@ -45,7 +45,7 @@
 // 视频名
   "dtName": "//div[@class='stui-content__detail']/h1/text()",
   "dtNameR": "",
-  "dtImg": "//div[@class='stui-content__thumb']/a/@data-original",
+  "dtImg": "//div[@class='stui-content__thumb']/a/img/@data-original",
   "dtImgR": "",
   "dtCate": "//span[@class='text-muted' and contains(text(), '类型：')]/following-sibling::/text()",
   "dtYear": "//span[@class='text-muted' and contains(text(), '年份')]/following-sibling::/text()",
