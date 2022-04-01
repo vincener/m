@@ -6,6 +6,11 @@
   "cateId": "/@href",
   "cateIdR": "/whole/(\\d+).html",
   "cateManual": {
+      "电影":"1",
+      "国产剧":"2",
+      "韩剧":"3",
+      "日剧":"5",
+      "综艺":"22"
 },
 // 首页推荐视频的节点
   "homeVodNode": "//div[@class='stui-vodlist__box']",
@@ -44,7 +49,7 @@
   "dtDirector": "//span[@class='text-muted' and contains(text(), '导演')]/following-sibling::/text()",
   "dtActor": "//span[@class='text-muted' and contains(text(), '主演')]/parent::*/text()",
 // 视频简介
-  "dtDesc": "//span[@class='left text-muted' and contains(text(), '简介')]/following-sibling::/span/text()",
+  "dtDesc": "//span[@class='left text-muted' and contains(text(), '简介')]/following-sibling::/span[2]/text()",
 // 播放源节点
   "dtFromNode": "//h3[@class='title']",
 // 播放源名称
