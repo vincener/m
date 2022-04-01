@@ -24,7 +24,7 @@
   "homeVodImg": "/a/@data-original",
   "homeVodImgR": "\\S+(http\\S+)",
 // 首页推荐视频更新集数
-  "homeVodMark": "/span[contains(@class,'pic-text')]/text()",
+  "homeVodMark": "//span[contains(@class,'pic-text')]/text()",
   "cateUrl": "http://1090ys8.com/whole/{cateId}/page/{catePg}/year/{year}.html",
   "cateVodNode": "//div[@class='stui-vodlist__box']",
   "cateVodName": "/a/@title",
@@ -32,7 +32,7 @@
   "cateVodIdR": "/show/(\\w+).html",
   "cateVodImg": "/a/@data-original",
   "cateVodImgR": "\\S+(http\\S+)",
-  "cateVodMark": "/span[contains(@class,'pic-text')]/text()",
+  "cateVodMark": "//span[contains(@class,'pic-text')]/text()",
 // 详情页地址 用于获取详情页信息 及 播放列表和地址
   "dtUrl": "https://www.1090ys8.com/show/{vid}.html",
 // 详情节点
