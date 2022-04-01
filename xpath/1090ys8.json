@@ -1,51 +1,46 @@
 {
   "ua": "",
-  "homeUrl": "https://www.1090ys8.com/",
   "dcVipFlag": "true",
-  "pCfgJs": "http://1090ys8.com/static/js/playerconfig.js",
+  "pCfgJs": "https://www.tvkuys.com/static/js/playerconfig.js",
   "pCfgJsR": "[\\W|\\S|.]*?MacPlayerConfig.player_list[\\W|\\S|.]*?=([\\W|\\S|.]*?),MacPlayerConfig.downer_list",
   "dcShow2Vip": {},
   "dcPlayUrl": "true",
-  "cateNode": "//ul[contains(@class,'type-slide clearfix')]/li/a[contains(@href, 'whole')]",
+  "homeUrl": "https://www.tvkuys.com/",
+  "cateNode": "//ul[contains(@class,'channel_links')]/a[contains(@href, 'vodtype')]",
   "cateName": "/text()",
   "cateId": "/@href",
-  "cateIdR": "/whole/(\\d+).html",
+  "cateIdR": "/vodtype/(\\d+).html",
   "cateManual": {
-      "电影":"1",
-      "国产剧":"2",
-      "韩剧":"3",
-      "日剧":"5",
-      "综艺":"22"
 },
 // 首页推荐视频的节点
-  "homeVodNode": "//div[@class='stui-vodlist__box']",
+  "homeVodNode": "//ul[@class='vodlist']/li/a",
 // 首页推荐视频的名称
-  "homeVodName": "/a/@title",
+  "homeVodName": "/div[@class='name']/text()",
 // 首页推荐视频的id
-  "homeVodId": "/a/@href",
+  "homeVodId": "/@href",
 // 二次处理正则
-  "homeVodIdR": "/show/(\\w+).html",
+  "homeVodIdR": "/voddetail/(\\w+).html",
 // 首页推荐视频的图片
-  "homeVodImg": "/a/@data-original",
+  "homeVodImg": "/div[@class='pic']/img/@src",
   "homeVodImgR": "\\S+(http\\S+)",
 // 首页推荐视频更新集数
-  "homeVodMark": "//span[contains(@class,'pic-text')]/text()",
-  "cateUrl": "http://1090ys8.com/whole/{cateId}/page/{catePg}/year/{year}.html",
-  "cateVodNode": "//div[@class='stui-vodlist__box']",
-  "cateVodName": "/a/@title",
-  "cateVodId": "/a/@href",
-  "cateVodIdR": "/show/(\\w+).html",
-  "cateVodImg": "/a/@data-original",
+  "homeVodMark": "/div[@class='state']/text()",
+  "cateUrl": "https://www.tvkuys.com/vodshow/{cateId}--{area}-{year}--/by/{by}/page/{catePg}.html",
+  "cateVodNode": "//ul[@class='vodlist']/li/a",
+  "cateVodName": "/div[@class='name']/text()",
+  "cateVodId": "/@href",
+  "cateVodIdR": "/voddetail/(\\w+).html",
+  "cateVodImg": "/div[@class='pic']/img/@src",
   "cateVodImgR": "\\S+(http\\S+)",
-  "cateVodMark": "//span[contains(@class,'pic-text')]/text()",
+  "cateVodMark": "/div[@class='state']/text()",
 // 详情页地址 用于获取详情页信息 及 播放列表和地址
-  "dtUrl": "https://www.1090ys8.com/show/{vid}.html",
+  "dtUrl": "https://www.1090ys8.com/voddetail/{vid}.html",
 // 详情节点
   "dtNode": "//body",
 // 视频名
   "dtName": "//div[@class='stui-content__detail']/h1/text()",
   "dtNameR": "",
-  "dtImg": "//div[@class='stui-content__thumb']/a/img/@data-original",
+  "dtImg": "//div[@class='stui-content__thumb']/a/@data-original",
   "dtImgR": "",
   "dtCate": "//span[@class='text-muted' and contains(text(), '类型：')]/following-sibling::/text()",
   "dtYear": "//span[@class='text-muted' and contains(text(), '年份')]/following-sibling::/text()",
@@ -54,7 +49,7 @@
   "dtDirector": "//span[@class='text-muted' and contains(text(), '导演')]/following-sibling::/text()",
   "dtActor": "//span[@class='text-muted' and contains(text(), '主演')]/parent::*/text()",
 // 视频简介
-  "dtDesc": "//span[@class='left text-muted' and contains(text(), '简介')]/following-sibling::/span[2]/text()",
+  "dtDesc": "//span[@class='left text-muted' and contains(text(), '简介')]/following-sibling::/span/text()",
 // 播放源节点
   "dtFromNode": "//h3[@class='title']",
 // 播放源名称
