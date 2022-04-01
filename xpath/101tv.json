@@ -55,7 +55,7 @@
   "dtUrlNode": "//div[contains(@id, 'playsx')]//ul[contains(@class,'content_playlist')]",
   "dtUrlSubNode": "/li/a",
   "dtUrlId": "/@href",
-  "dtUrlIdR": "/vodplay/(\\S+).html",
+  "dtUrlIdR": "/index.php/vod/play/(\\S+).html",
   "dtUrlName": "/text()",
   "dtUrlNameR": "",
   "playUrl": "https://l0l.tv/index.php/vod/play/{playUrl}.html",
