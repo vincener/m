@@ -6,7 +6,7 @@
   "dcShow2Vip": {},
   "dcPlayUrl": "true",
   "homeUrl": "https://www.tvkuys.com/",
-  "cateNode": "//ul[contains(@class,'channel_links')]/a[contains(@href, 'vodtype')]",
+  "cateNode": "//ul[contains(@class,'channel_links')]/i/a[contains(@href, 'vodtype')]",
   "cateName": "/text()",
   "cateId": "/@href",
   "cateIdR": "/vodtype/(\\d+).html",
