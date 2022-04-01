@@ -25,8 +25,8 @@
   "homeVodImgR": "\\S+(http\\S+)",
 // 首页推荐视频更新集数
   "homeVodMark": "/span[contains(@class,'pic-text')]/text()",
-  "cateUrl": "http://1090ys8.com/whole/{cateId}/area/{area}/by/{by}/class/{class}/page/{catePg}/year/{year}.html",
-  "cateVodNode": "//li[contains(@class,'col-xs-3')]/div[@class='stui-vodlist__box']",
+  "cateUrl": "http://1090ys8.com/whole/{cateId}/page/{catePg}/year/{year}.html",
+  "cateVodNode": "//div[@class='stui-vodlist__box']",
   "cateVodName": "/a/@title",
   "cateVodId": "/a/@href",
   "cateVodIdR": "/show/(\\w+).html",
