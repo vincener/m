@@ -58,7 +58,7 @@
   "dtFromNode": "//div[contains(@class, 'padding-0')]/div[contains(@class, 'myui-panel')]/h3",
   "dtFromName": "/text()",
   "dtFromNameR": "",
-  "dtUrlNode": "//ul[contains(@class, 'myui-content__list sort-list clearfix')]/li[contains(@class,'col-xs-4')]",
+  "dtUrlNode": "//ul[contains(@class, 'myui-content__list sort-list')]",
   "dtUrlSubNode": "/li/a",
   "dtUrlId": "/@href",
   "dtUrlIdR": "/bf/(\\S+).html",
