@@ -21,7 +21,7 @@
   "homeVodName": "/a/@title",
 // 首页推荐视频的id
   "homeVodId": "/a/@href",
-  "homeVodIdR": "/voddetail/(\\w+)/",
+  "homeVodIdR": "/voddetail/(\\w+)",
 // 首页推荐视频的图片
   "homeVodImg": "//img[@class='lazy lazyloaded']/@data-src",
   "homeVodImgR": "\\S+(http\\S+)",
@@ -31,7 +31,7 @@
   "cateVodNode": "//div[@class='module-item-pic']",
   "cateVodName": "/a/@title",
   "cateVodId": "/a/@href",
-  "cateVodIdR": "/voddetail/(\\w+).html",
+  "cateVodIdR": "/voddetail/(\\w+)",
   "cateVodImg": "//img[@class='lazy lazyloaded']/@data-src",
   "cateVodImgR": "\\S+(http\\S+)",
   "cateVodMark": "//div[@class='module-item-text']/text()",
