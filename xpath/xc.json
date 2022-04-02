@@ -39,7 +39,7 @@
 // 视频名
   "dtName": "//div[@class='myui-content__detail']/h1/text()",
   "dtNameR": "",
-  "dtImg": "//div[@class='myui-content__thumb']/a/img/@src",
+  "dtImg": "//div[@class='myui-content__thumb']/a/img/@data-original",
   "dtImgR": "",
   "dtArea": "//span[contains(text(), '地区')]/following-sibling::*/text()",
   "dtAreaR": "",
