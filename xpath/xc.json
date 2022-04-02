@@ -53,7 +53,7 @@
   "dtDirectorR": "",
   "dtDesc": "//span[contains(@class, 'text-muted')]/span/text()",
   "dtDescR": "",
-  "dtFromNode": "//ul[contains(@class, 'nav nav-tabs active')]/a[contains(@href, 'playlist')]",
+  "dtFromNode": "//ul[contains(@class, 'nav nav-tabs active')]/li/a[contains(@href, '#playlist')]",
   "dtFromName": "/text()",
   "dtFromNameR": "",
   "dtUrlNode": "//ul[contains(@class, 'myui-content__list sort-list')]",
