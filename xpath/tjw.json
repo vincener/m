@@ -11,6 +11,8 @@
   "cateId": "/@href",
   "cateIdR": "/f1/(\\d+).html",
   "cateManual": {
+      "电视剧":"3",
+      "泰剧":"1"
 },
 // 首页推荐视频的节点
   "homeVodNode": "//div[contains(@class,'myui-vodlist__box')]",
