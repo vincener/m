@@ -33,7 +33,7 @@
   "cateVodImgR": "\\S+(http\\S+)",
   "cateVodMark": "//span[@class='pack-prt']/text()",
 // 详情页地址 用于获取详情页信息 及 播放列表和地址
-  "dtUrl": "https://l0l.tv/index.php/vod/detail/id/{vid}.html",
+  "dtUrl": "https://l0l.tv/index.php/vod/play/id/{vid}.html",
 // 详情节点
   "dtNode": "//body",
 // 视频名
