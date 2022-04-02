@@ -16,7 +16,7 @@
       "港台剧":"15"
 },
 // 首页推荐视频的节点
-  "homeVodNode": "//div[@class='module-items']",
+  "homeVodNode": "//div[@class='module-item']",
 // 首页推荐视频的名称
   "homeVodName": "/div[@class='module-item-titlebox']/a/@title",
 // 首页推荐视频的id
@@ -28,7 +28,7 @@
 // 首页推荐视频更新集数
   "homeVodMark": "/div[@class='module-item-text']/text()",
   "cateUrl": "https://www.bcwzg.com/vodshow/{cateId}--------{catePg}---{year}/",
-  "cateVodNode": "//div[@class='module-items']",
+  "cateVodNode": "//div[@class='module-item']",
   "cateVodName": "/div[@class='module-item-titlebox']/a/@title",
   "cateVodId": "/div[@class='module-item-titlebox']/a/@href",
   "cateVodIdR": "/voddetail/(\\w+).html",
