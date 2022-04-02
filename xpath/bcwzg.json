@@ -18,9 +18,9 @@
 // 首页推荐视频的节点
   "homeVodNode": "//div[@class='module-item-cover']",
 // 首页推荐视频的名称
-  "homeVodName": "/div[@class='module-item-pic']/a/@title",
+  "homeVodName": "/a/@title",
 // 首页推荐视频的id
-  "homeVodId": "/div[@class='module-item-pic']/a/@href",
+  "homeVodId": "/a/@href",
   "homeVodIdR": "/voddetail/(\\w+)",
 // 首页推荐视频的图片
   "homeVodImg": "//img[@class='lazy lazyloaded']/@data-src",
