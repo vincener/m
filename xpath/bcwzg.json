@@ -11,9 +11,12 @@
   "cateId": "/@href",
   "cateIdR": "/vodtype/(\\d+)/",
   "cateManual": {
+      "电影":"1",
       "电视剧":"2",
       "国产剧":"13",
-      "港台剧":"14"
+      "港台剧":"14",
+      "日韩剧":"15",
+      "综艺":"3"
 },
 // 首页推荐视频的节点
   "homeVodNode": "//div[@class='module-item']",
