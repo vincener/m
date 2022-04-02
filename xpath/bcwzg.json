@@ -23,7 +23,7 @@
   "homeVodId": "/div[@class='module-item-titlebox']/a/@href",
   "homeVodIdR": "/voddetail/(\\w+)",
 // 首页推荐视频的图片
-  "homeVodImg": "//img[@class='lazy lazyloaded']/@data-src",
+  "homeVodImg": "/div[@class='module-item-pic']/img[@class='lazy lazyloaded']/@data-src",
   "homeVodImgR": "\\S+(http\\S+)",
 // 首页推荐视频更新集数
   "homeVodMark": "/div[@class='module-item-titlebox']/div[@class='module-item-text']/text()",
