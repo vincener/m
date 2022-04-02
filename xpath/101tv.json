@@ -18,7 +18,7 @@
   "homeVodName": "/a/@title",
 // 首页推荐视频的id
   "homeVodId": "/a/@href",
-  "homeVodIdR": "/index.php/vod/play/id/(\\w+).html",
+  "homeVodIdR": "/index.php/vod/play/(\\w+).html",
 // 首页推荐视频的图片
   "homeVodImg": "/a/div/@data-original",
   "homeVodImgR": "\\S+(http\\S+)",
@@ -28,12 +28,12 @@
   "cateVodNode": "//div[contains(@class,'pack-ykpack')]/div[contains(@class,'pack-packcover returl')]",
   "cateVodName":  "/a/@title",
   "cateVodId": "/a/@href",
-  "cateVodIdR": "/index.php/vod/play/id/(\\w+).html",
+  "cateVodIdR": "/index.php/vod/play/(\\w+).html",
   "cateVodImg": "/a/div/@data-original",
   "cateVodImgR": "\\S+(http\\S+)",
   "cateVodMark": "//span[@class='pack-prb hidden']/text()",
 // 详情页地址 用于获取详情页信息 及 播放列表和地址
-  "dtUrl": "https://l0l.tv/index.php/vod/detail/id/{vid}.html",
+  "dtUrl": "https://l0l.tv/index.php/vod/detail/{vid}.html",
 // 详情节点
   "dtNode": "//body",
 // 视频名
@@ -59,10 +59,10 @@
   "dtUrlNode": "//div[contains(@id, 'playsx')]//ul[contains(@class,'content_playlist cf')]",
   "dtUrlSubNode": "/li/a",
   "dtUrlId": "/@href",
-  "dtUrlIdR": "/index.php/vod/play/id/(\\S+).html",
+  "dtUrlIdR": "/index.php/vod/play/(\\S+).html",
   "dtUrlName": "/text()",
   "dtUrlNameR": "",
-  "playUrl": "https://l0l.tv/index.php/vod/play/id/{playUrl}.html",
+  "playUrl": "https://l0l.tv/index.php/vod/play/{playUrl}.html",
   "playUa": "",
   "searchUrl":"https://l0l.tv/index.php/ajax/suggest?mid=1&wd={wd}&limit=10",
   "scVodNode": "json:list",
