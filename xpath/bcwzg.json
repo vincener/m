@@ -11,6 +11,9 @@
   "cateId": "/@href",
   "cateIdR": "/vodtype/(\\d+).html",
   "cateManual": {
+      "电视剧":"2",
+      "国产剧":"13",
+      "港台剧":"15"
 },
 // 首页推荐视频的节点
   "homeVodNode": "//div[contains(@class,'module-item-pic')]",
