@@ -55,7 +55,7 @@
   "dtDirectorR": "",
   "dtDesc": "//span[contains(@class, 'text-muted')]/text()",
   "dtDescR": "",
-  "dtFromNode": "//div[contains(@class, 'padding-0')]/div[contains(@class, 'myui-panel')]/h3",
+  "dtFromNode": "//div[contains(@class, 'padding-0')]/div[contains(@class, 'myui-panel-box')]/div/h3",
   "dtFromName": "/text()",
   "dtFromNameR": "",
   "dtUrlNode": "//ul[contains(@class, 'myui-content__list sort-list')]",
