@@ -6,8 +6,8 @@
   "pCfgJsR": "[\\W|\\S|.]*?MacPlayerConfig.player_list[\\W|\\S|.]*?=([\\W|\\S|.]*?),MacPlayerConfig.downer_list",
   "dcShow2Vip": {},
   "dcPlayUrl": "true",
-  "cateNode": "//ul[contains(@class,'nav-menu-items')]/li[contains(@class,' nav-menu-item')]/a[contains(@href, 'vodtype')]",
-  "cateName": "/span/text()",
+  "cateNode": "//li[contains(@class, 'grid-item')]/a[contains(@href, 'vodtype')]",
+  "cateName": "/text()",
   "cateId": "/@href",
   "cateIdR": "/vodtype/(\\d+).html",
   "cateManual": {
@@ -16,25 +16,25 @@
       "港台剧":"15"
 },
 // 首页推荐视频的节点
-  "homeVodNode": "//div[@class='module-item-titlebox']",
+  "homeVodNode": "//div[@class='module-item-pic']",
 // 首页推荐视频的名称
-  "homeVodName": "/@title",
+  "homeVodName": "/a/@title",
 // 首页推荐视频的id
-  "homeVodId": "/@href",
+  "homeVodId": "/a/@href",
   "homeVodIdR": "/voddetail/(\\w+).html",
 // 首页推荐视频的图片
-  "homeVodImg": "/img/@data-src",
+  "homeVodImg": "//img[@class='lazy lazyloaded']/@data-src",
   "homeVodImgR": "\\S+(http\\S+)",
 // 首页推荐视频更新集数
-  "homeVodMark": "//div[@class='module-item-text']/text()",
+  "homeVodMark": "/div[@class='module-item-text']/text()",
   "cateUrl": "https://www.bcwzg.com/vodshow/{cateId}--------{catePg}---{year}/",
-  "cateVodNode": "//div[@class='module-item-titlebox']",
-  "cateVodName": "/@title",
-  "cateVodId": "/@href",
+  "cateVodNode": "//div[@class='module-item-pic']",
+  "cateVodName": "/a/@title",
+  "cateVodId": "/a/@href",
   "cateVodIdR": "/voddetail/(\\w+).html",
-  "cateVodImg": "/img/@data-src",
+  "cateVodImg": "//img[@class='lazy lazyloaded']/@data-src",
   "cateVodImgR": "\\S+(http\\S+)",
-  "cateVodMark": "//div[@class='module-item-text']/text()",
+  "cateVodMark": "/div[@class='module-item-text']/text()",
 // 详情页地址 用于获取详情页信息 及 播放列表和地址
   "dtUrl": "https://www.bcwzg.com/voddetail/{vid}.html",
 // 详情节点
