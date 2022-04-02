@@ -9,7 +9,7 @@
   "cateNode": "//li[contains(@class, 'grid-item')]/a[contains(@href, 'vodtype')]",
   "cateName": "/text()",
   "cateId": "/@href",
-  "cateIdR": "/vodtype/(\\d+).html",
+  "cateIdR": "/vodtype/(\\d+)/",
   "cateManual": {
       "电视剧":"2",
       "国产剧":"13",
@@ -21,7 +21,7 @@
   "homeVodName": "/div[@class='module-item-titlebox']/a/@title",
 // 首页推荐视频的id
   "homeVodId": "/div[@class='module-item-titlebox']/a/@href",
-  "homeVodIdR": "/voddetail/(\\w+).html",
+  "homeVodIdR": "/voddetail/(\\w+)/",
 // 首页推荐视频的图片
   "homeVodImg": "//img[@class='lazy lazyloaded']/@data-src",
   "homeVodImgR": "\\S+(http\\S+)",
@@ -36,7 +36,7 @@
   "cateVodImgR": "\\S+(http\\S+)",
   "cateVodMark": "/div[@class='module-item-text']/text()",
 // 详情页地址 用于获取详情页信息 及 播放列表和地址
-  "dtUrl": "https://www.bcwzg.com/voddetail/{vid}.html",
+  "dtUrl": "https://www.bcwzg.com/voddetail/{vid}/",
 // 详情节点
   "dtNode": "//body",
 // 视频名
@@ -62,10 +62,10 @@
   "dtUrlNode": "//div[contains(@class, 'sort-list')]/li[contains(@class,'scroll-content')]",
   "dtUrlSubNode": "/a",
   "dtUrlId": "/@href",
-  "dtUrlIdR": "/vodplay/(\\S+).html",
+  "dtUrlIdR": "/vodplay/(\\S+)/",
   "dtUrlName": "/text()",
   "dtUrlNameR": "",
-  "playUrl": "https://www.bcwzg.com/vodplay/{playUrl}.html",
+  "playUrl": "https://www.bcwzg.com/vodplay/{playUrl}/",
   "playUa": "",
   "searchUrl":"https://www.bcwzg.com/index.php/ajax/suggest?mid=1&wd={wd}&limit=10",
   "scVodNode": "json:list",
