@@ -16,11 +16,11 @@
       "港台剧":"14"
 },
 // 首页推荐视频的节点
-  "homeVodNode": "//div[@class='module-item-titlebox']",
+  "homeVodNode": "//div[@class='module-item']",
 // 首页推荐视频的名称
-  "homeVodName": "/a/@title",
+  "homeVodName": "//div[@class='module-item-titlebox']/a/@title",
 // 首页推荐视频的id
-  "homeVodId": "/a/@href",
+  "homeVodId": "//div[@class='module-item-titlebox']/a/@href",
   "homeVodIdR": "/voddetail/(\\w+)",
 // 首页推荐视频的图片
   "homeVodImg": "//img[@class='lazy lazyloaded']/@data-src",
