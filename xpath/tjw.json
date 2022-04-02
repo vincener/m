@@ -28,7 +28,7 @@
   "cateVodNode": "//div[contains(@class,'myui-vodlist__box')]",
   "cateVodName":  "/a/@title",
   "cateVodId": "/a/@href",
-  "cateVodIdR": "/d-(\\w+).html",
+  "cateVodIdR": "/ny/(\\w+).html",
   "cateVodImg": "/a/@style",
   "cateVodImgR": "\\S+(http\\S+)",
   "cateVodMark": "//span[@class='pic-text text-right']/text()",
