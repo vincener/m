@@ -9,7 +9,7 @@
   "cateNode": "//ul[contains(@class,'nav-menu')]/li[contains(@class,'visible-inline-lg')]/a[contains(@href, 'v-')]",
   "cateName": "/text()",
   "cateId": "/@href",
-  "cateIdR": "/v-(\\d+).html",
+  "cateIdR": "/v-(\\w+).html",
   "cateManual": {
       "电视剧":"dianshiju",
       "电影":"dianying",
