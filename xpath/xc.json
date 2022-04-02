@@ -11,6 +11,12 @@
   "cateId": "/@href",
   "cateIdR": "/v-(\\d+).html",
   "cateManual": {
+      "电视剧":"dianshiju",
+      "电影":"dianying",
+      "综艺":"zongyi",
+      "国产剧":"guochanju",
+      "港剧":"xianggangju",
+
 },
 // 首页推荐视频的节点
   "homeVodNode": "//div[contains(@class,'myui-vodlist__box')]",
