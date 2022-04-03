@@ -10,7 +10,7 @@
 // 首页推荐视频的节点
   "homeVodNode": "//div[contains(@class,'pack-packcover returl')]",
 // 首页推荐视频的名称
-  "homeVodName": "/a/text()",
+  "homeVodName": "/a/@title/text()",
 // 首页推荐视频的id
   "homeVodId": "/a/@href",
 // 二次处理正则
@@ -21,8 +21,8 @@
 // 首页推荐视频更新集数
   "homeVodMark": "//span[contains(@class,'pack-prb hidden')]/text()",
   "cateUrl": "https://zjmiao.com/index.php/vod/show/id/{cateId}/page/{catePg}.html",
-  "cateVodNode": "//div[contains(@class,'vodlist hotgrow')]/div[contains(@class,'pack-ykpack')]",
-  "cateVodName": "/a/text()",
+  "cateVodNode": "//div[contains(@class,'pack-packcover returl')]",
+  "cateVodName": "/a/@title",
   "cateVodId": "/a/@href",
   "cateVodIdR": "/index.php/vod/detail/id/(\\w+).html",
   "cateVodImg": "/a/div/@data-original",
