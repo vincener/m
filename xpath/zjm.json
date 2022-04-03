@@ -55,31 +55,6 @@
   "dtUrlSubNode": "/li/a",
   "dtUrlId": "/@href",
   "dtUrl": "https://zjmiao.com/index.php/vod/detail/id/{vid}/",
-// 详情节点
- // "dtNode": "//body",
-// 视频名
-//  "dtName": "//h1[@class='fyy']/text()",
- // "dtNameR": "",
-//  "dtImg": "//div[@class='s-cover box']/a/img/@src",
-//  "dtImgR": "",
- // "dtCate": "//p[contains(@class,'item item-director')]/span[contains(text(), '类型')]/following-sibling::a/text()",
-//  "dtYear": "//p[contains(@class,'item item-actor')]/span[contains(text(), '年代')]/following-sibling::a/text()",
- // "dtArea": "//p[contains(@class,'item')]/span[contains(text(), '地区')]/following-sibling::a/text()",
-  //"dtMark": "",
-  //"dtDirector": "//p[contains(@class,'item-desc' and contains(text(),'导演')]/parent::*/a/text()",
- // "dtActor": "//p[contains(@class,'item-desc') and contains(text(),'主演')]/parent::*/a/text()",
-// 视频简介
- // "dtDesc": "//span[contains(@id,'cText')]/text()",
-// 播放源节点
- // "dtFromNode": "//a[contains(@class,'swiper-slide')]",
-// 播放源名称
- // "dtFromName": "/text()",
-  //"dtFromNameR": "",
-// 播放集数
-  //"dtUrlNode": "//div[contains(@id,'playsx']//ul[contains(@class,'content_playlist cf')]",
-// 播放集数节点
-  //"dtUrlSubNode": "/li/a",
-  //"dtUrlId": "/@href",
 // 播放地址节点
   "dtUrlIdR": "/index.php/vod/play/id/(\\S+)/",
 // 剧集名称
