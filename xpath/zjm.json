@@ -8,7 +8,7 @@
   "cateIdR": "/index.php/vod/type/id/(\\w+).html",
   "cateManual": {},
 // 首页推荐视频的节点
-  "homeVodNode": "//div[contains(@class,'vodlist hotgrow')]/div[contains(@class,'pack-ykpack')]",
+  "homeVodNode": "//div[contains(@class,'pack-packcover returl')]",
 // 首页推荐视频的名称
   "homeVodName": "/a/text()",
 // 首页推荐视频的id
