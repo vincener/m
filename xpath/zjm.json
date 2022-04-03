@@ -33,13 +33,13 @@
 // 详情节点
   "dtNode": "//body",
 // 视频名
-  "dtName": "//div[@class='s-top-right']/h1/text()",
+  "dtName": "//div[@class='s-top-right']/div/h1/text()",
   "dtNameR": "",
   "dtImg": "//div[@class='s-cover box']/a/img/@data-src",
   "dtImgR": "",
   "dtCate": "//p[contains(@class,'item item-director')]/span[contains(text(), '类型')]/following-sibling::a/text()",
   "dtYear": "//p[contains(@class,'item item-actor')]/span[contains(text(), '年代')]/following-sibling::a/text()",
-  "dtArea": "//ul[contains(@class,'item')]/span[contains(text(), '地区')]/following-sibling::a/text()",
+  "dtArea": "//p[contains(@class,'item')]/span[contains(text(), '地区')]/following-sibling::a/text()",
   "dtMark": "",
   "dtDirector": "//p[contains(@class,'item-desc' and contains(text(),'导演')]/parent::*/a/text()",
   "dtActor": "//p[contains(@class,'item-desc') and contains(text(),'主演')]/parent::*/a/text()",
@@ -51,7 +51,7 @@
   "dtFromName": "/text()",
   "dtFromNameR": "",
 // 播放集数
-  "dtUrlNode": "//ul[contains(@class,'content_playlist cf')]",
+  "dtUrlNode": "//div[contains(@id,'playsx']/ul[contains(@class,'content_playlist cf')]",
 // 播放集数节点
   "dtUrlSubNode": "/li/a",
   "dtUrlId": "/@href",
