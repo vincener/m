@@ -12,9 +12,12 @@
  "cateIdR": "/index.php/vod/type/id/(\\d+).html",
  "cateManual": {
      "电影": "1",
-     "剧集": "2",
-     "动漫": "4",
-     "综艺": "3"
+     "电视剧": "2",
+     "b站": "4",
+     "综艺": "6",
+     "国产剧":"24",
+     "港台剧":"25",
+     "日韩剧":"26"
      },
  "homeVodNode": "//div[@class='module-item-pic']",
  "homeVodName": "/a/@title",
@@ -23,7 +26,7 @@
  "homeVodImg": "//img[@class='lazy lazyloaded']/@data-src",
  "homeVodImgR": "\\S+(http\\S+)",
  "homeVodMark": "/span[@class='module-item-text']/text()",
- "cateUrl": "https://mac.qd234.cn/vod/show/id/{cateId}/page/{catePg}.html",
+ "cateUrl": "https://mac.qd234.cn/vod/type/id/{cateId}/page/{catePg}.html",
  "cateVodNode": "//div[@class='module-item-pic']",
  "cateVodName": "/a/@title",
  "cateVodId": "/a/@href",
