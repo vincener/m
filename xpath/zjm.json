@@ -44,7 +44,7 @@
   "dtMarkR": "",
   "dtActor": "//p[contains(text(), '演员')]/following-sibling::*/a/text()",
   "dtActorR": "",
-  "dtDirector": "//p[contains(text(), '导演')]/following-sibling::/a/*/text()",
+  "dtDirector": "//p[contains(text(), '导演')]/following-sibling::*/a/text()",
   "dtDirectorR": "",
   "dtDesc": "//span[contains(@id, 'cText')]/text()",
   "dtDescR": "",
