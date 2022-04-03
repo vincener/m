@@ -10,7 +10,7 @@
 // 首页推荐视频的节点
   "homeVodNode": "//div[contains(@class,'pack-packcover returl')]",
 // 首页推荐视频的名称
-  "homeVodName": "/a/@title/text()",
+  "homeVodName": "/a/@title",
 // 首页推荐视频的id
   "homeVodId": "/a/@href",
 // 二次处理正则
