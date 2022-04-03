@@ -8,11 +8,11 @@
   "cateManual": {"电视剧":"2",
   "电影":"1"},
 // 首页推荐视频的节点
-  "homeVodNode":  "//div[@class='module-item-pic']",
+  "homeVodNode":  "//div[@class='module-item']",
 // 首页推荐视频的名称
-  "homeVodName": "/a/@title",
+  "homeVodName": "//div[@class='module-item-pic']/a/@title",
 // 首页推荐视频的id
-  "homeVodId": "/a/@href",
+  "homeVodId": "//div[@class='module-item-pic']/a/@href",
 // 二次处理正则
   "homeVodIdR": "/index.php/vod/detail/id/(\\w+).html",
 // 首页推荐视频的图片
