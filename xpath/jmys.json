@@ -5,7 +5,8 @@
   "cateName": "/text()",
   "cateId": "/@href",
   "cateIdR": "/index.php/vod/type/id/(\\w+).html",
-  "cateManual": {},
+  "cateManual": {"电视剧":"2",
+  "电影":"1"},
 // 首页推荐视频的节点
   "homeVodNode":  "//div[@class='module-item-pic']",
 // 首页推荐视频的名称
