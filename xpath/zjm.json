@@ -35,7 +35,7 @@
 // 视频名
   "dtName": "//div[@class='s-top-right']/h1/text()",
   "dtNameR": "",
-  "dtImg": "/div[@class,'s-cover box']/img/@data-src",
+  "dtImg": "//div[@class='s-cover box']/a/img/@data-src",
   "dtImgR": "",
   "dtCate": "//p[contains(@class,'item item-director')]/span[contains(text(), '类型')]/following-sibling::a/text()",
   "dtYear": "//p[contains(@class,'item item-actor')]/span[contains(text(), '年代')]/following-sibling::a/text()",
