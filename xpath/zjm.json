@@ -46,12 +46,12 @@
 // 视频简介
   "dtDesc": "//span[contains(@id,'cText')]/text()",
 // 播放源节点
-  "dtFromNode": "//a[contains(@class,'channelname swiper-slide')]",
+  "dtFromNode": "//a[contains(@class,'swiper-slide')]",
 // 播放源名称
   "dtFromName": "/text()",
   "dtFromNameR": "",
 // 播放集数
-  "dtUrlNode": "//div[contains(@id,'playsx']/ul[contains(@class,'content_playlist cf')]",
+  "dtUrlNode": "//div[contains(@id,'playsx']//ul[contains(@class,'content_playlist cf')]",
 // 播放集数节点
   "dtUrlSubNode": "/li/a",
   "dtUrlId": "/@href",
