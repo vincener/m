@@ -33,7 +33,7 @@
 // 详情节点
   "dtNode": "//body",
 // 视频名
-  "dtName": "//div[@class='s-top-right']/div/h1/text()",
+  "dtName": "//h1[@class='fyy']/text()",
   "dtNameR": "",
   "dtImg": "//div[@class='s-cover box']/a/img/@data-src",
   "dtImgR": "",
