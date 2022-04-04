@@ -76,7 +76,7 @@
   "scVodNode": "//ul[@class='tbox_m']/li[@class='vbox']",
   "scVodName": "/a/@title",
   "scVodId": "/a/@href",
-  "scVodIdR": "(\\w+)",
+  "scVodIdR": "",
   "scVodImg": "/a/@data-original",
   "scVodMark": "/a/span",
   "filter": {
