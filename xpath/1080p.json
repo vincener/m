@@ -16,7 +16,6 @@
       "电影":"1",
       "综艺":"3",
       "动漫":"4"
-
               },
   "homeVodNode": "//div[contains(@class, 'vodlist hotgrow')]//a[@class='aplus-exp ecimgbor']",
   "homeVodName": "/@title",
@@ -33,7 +32,7 @@
   "cateVodImg": "/div/@data-original",
   "cateVodImgR": "\\S+(http\\S+)",
   "cateVodMark": "/span[contains(@class,'pack-prb hidden')]/text()",
-  "dtUrl": "https://1080p.one{vid}",
+  "dtUrl": "https://1080p.one/{vid}",
   "dtNode": "//body",
   "dtName": "//div[@class='player-right r cf']/div/h2/a/text()",
   "dtNameR": "",
