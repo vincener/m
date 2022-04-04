@@ -69,8 +69,8 @@
   "searchUrl":"https://l0l.tv/index.php/vod/search.html?wd={wd}",
   "scVodNode": "//div[contains(@class,'search-list cf')]",
   "scVodName": "/div/div/a/@title",
-  "scVodId": "(\\S+)",
-  "scVodIdR": "/div/div/a/@href",
+  "scVodId": "/div/div/a/@href",
+  "scVodIdR": "(\\S+)",
   "scVodImg": "/div/div/a/div/@data-original",
   "scVodMark": ""
 }
