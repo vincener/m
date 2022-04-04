@@ -39,7 +39,7 @@
 // 视频名
   "dtName": "//div[@class='play-detail']/h1/span/@title",
   "dtNameR": "",
-  "dtImg": "//div[@class='intro-wrap intro-wrapec']/a/@style",
+  "dtImg": "//div[@class='intro-wrap intro-wrapec']/a/pic",
   "dtImgR": "",
   "dtCate": "//span//a[3]/text()",
   "dtCateR": "",
