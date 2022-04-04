@@ -54,7 +54,7 @@
  "dtFromNode":"//div[@class='module-tab-items']/div[contains(@class,'module-tab-item')]/span",
  "dtFromName": "/text()",
  "dtFromNameR": "",
-   "dtUrlNode": "//[contains(@class,'module-blocklist scroll-box')]/div[@class='scroll-content']",
+   "dtUrlNode": "//div[contains(@class,'module-blocklist scroll-box')]/div[@class='scroll-content']",
   "dtUrlSubNode": "/a/span",
   "dtUrlId": "@href",
   "dtUrlIdR": "/vodplay/(\\S+).html",
