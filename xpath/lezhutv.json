@@ -73,7 +73,7 @@
   "playUrl": "http://www.lezhutv.com/play/{playUrl}.html",
   "playUa": "",
   "searchUrl": "http://www.lezhutv.com/search-pg-1-wd-{wd}.html",
-  "scVodNode": "//li[@class='vbox']",
+  "scVodNode": "//ul[@class='tbox_m']/li[@class='vbox']",
   "scVodName": "/a/@title",
   "scVodId": "/a/@href",
   "scVodIdR": "/detail/(\\w+).html)",
