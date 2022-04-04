@@ -72,13 +72,13 @@
   "dtUrlNameR": "",
   "playUrl": "http://www.lezhutv.com/play/{playUrl}.html",
   "playUa": "",
-  "searchUrl": "http://api.pullword.com/get.php?source={wd}&param1=0&param2=0&json=1",
-  "scVodNode": "json:list",
-  "scVodName": "name",
-  "scVodId": "id",
-  "scVodIdR": "",
-  "scVodImg": "pic",
-  "scVodMark": "",
+  "searchUrl": "http://www.lezhutv.com/search-pg-1-wd-{wd}.html",
+  "scVodNode": "//li[@class='vbox']",
+  "scVodName": "/a/@title",
+  "scVodId": "/a/@href",
+  "scVodIdR": "/detail/(\\w+).html)",
+  "scVodImg": "/a/@data-original",
+  "scVodMark": "/a/span",
   "filter": {
     "1": [
  {
