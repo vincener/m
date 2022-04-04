@@ -37,7 +37,7 @@
   "dtNode": "//body",
   "dtName": "//div[@class='player-right r cf']/div/h2/a/text()",
   "dtNameR": "",
-  "dtImg": "//div[@class='intro-wrap intro-wrapec']/a/img",
+  "dtImg": "//div[@class='intro-wrap intro-wrapec']/a/@style",
   "dtImgR": "\\S+(http\\S+)",
   "dtCate": "//span//a[4]/text()",
   "dtCateR": "",
