@@ -62,7 +62,7 @@
   "dtUrlIdR": "(\\S+).html",
   "dtUrlName": "/text()",
   "dtUrlNameR": "",
-  "playUrl": "https://l0l.tv/index.php/vod/play/id/{playUrl}.html",
+  "playUrl": "https://l0l.tv/{playUrl}.html",
   "playUa": "",
   "searchUrl":"https://l0l.tv/index.php/ajax/suggest?mid=1&wd={wd}&limit=10",
   "scVodNode": "json:list",
