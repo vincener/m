@@ -72,5 +72,5 @@
   "scVodId": "/div/div/a/@href",
   "scVodIdR": "/index.php/vod/play/(\\w+).html",
   "scVodImg": "/div/div/a/@data-original",
-  "scVodMark": "/div/div/a/span[3]"
+  "scVodMark": "/div/div/a/span[3]/text()"
 }
