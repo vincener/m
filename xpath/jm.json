@@ -23,7 +23,7 @@
   "homeVodImg": "/a/img/@data-src",
   "homeVodImgR": "\\S+(http\\S+)",
   "homeVodMark": "/div[contains(@class,'video-time')]/text()",
-  "cateUrl": "https://mac.qd234.cn/index.php/vod/show/area/{area}/class/{class}/id/{cateId}/page/{catePg}/year/{year}.html",
+  "cateUrl": "https://mac.qd234.cn/index.php/vod/show/id/{cateId}/page/{catePg}.html",
   "cateVodNode": "//div[contains(@class, 'video anim')]",
   "cateVodName": "/div[@class='video-name']",
   "cateVodId": "/a/@href",
