@@ -66,11 +66,11 @@
   "dtUrlNameR": "",
   "playUrl": "https://l0l.tv/{playUrl}",
   "playUa": "",
-  "searchUrl":"https://l0l.tv/index.php/ajax/suggest?mid=1&wd={wd}&limit=10",
-  "scVodNode": "json:list",
-  "scVodName": "name",
-  "scVodId": "id",
-  "scVodIdR": "",
-  "scVodImg": "pic",
+  "searchUrl":"https://l0l.tv/index.php/vod/search.html?wd={wd}",
+  "scVodNode": "//div[contains(@class,'search-list cf')],
+  "scVodName": "/div/div/a/@title",
+  "scVodId": "(\\S+)",
+  "scVodIdR": "/div/div/a/@href",
+  "scVodImg": "/div/div/a/div/@data-original",
   "scVodMark": ""
 }
