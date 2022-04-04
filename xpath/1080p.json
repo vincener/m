@@ -30,7 +30,7 @@
   "cateVodImg": "/div/@data-original",
   "cateVodImgR": "\\S+(http\\S+)",
   "cateVodMark": "/span[contains(@class,'pack-prb hidden')]/text()",
-  "dtUrl": "https://1080p.one/{vid}",
+  "dtUrl": "https://1080p.one{vid}",
   "dtNode": "//div[@class='player-bj']",
   "dtName": "//div[@class='player-right r cf']/h2/a/text()",
   "dtNameR": "",
