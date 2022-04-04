@@ -24,7 +24,7 @@
   "homeVodImg": "/div/@data-original",
   "homeVodImgR": "\\S+(http\\S+)",
   "homeVodMark": "/span[contains(@class,'pack-prb hidden')]/text()",
-  "cateUrl": "https://1080p.one/vodshow/{cateId}--{by}------{catePg}---{year}.html",
+  "cateUrl": "https://1080p.one/vodshow/{cateId}-{area}--{class}-----{catePg}---{year}.html",
   "cateVodNode": "//div[contains(@class, 'vodlist hotgrow')]//a[@class='aplus-exp ecimgbor']",
   "cateVodName": "/@title",
   "cateVodId": "/@href",
@@ -69,7 +69,7 @@
   "scVodId": "id",
   "scVodIdR": "",
   "scVodImg": "pic",
-  "scVodMark": "",         https://1080p.one/vodshow/2-内地--国产剧-----1---2022.html
+  "scVodMark": "",
   "filter": {
     "1": [
  {
