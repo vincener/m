@@ -13,7 +13,10 @@
   "cateManual": {
       "4K":"45",
       "电视剧":"2",
-      "电影":"1"
+      "电影":"1",
+      "综艺":"3",
+      "动漫":"4"
+
               },
   "homeVodNode": "//div[contains(@class, 'vodlist hotgrow')]//a[@class='aplus-exp ecimgbor']",
   "homeVodName": "/@title",
