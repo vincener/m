@@ -59,7 +59,7 @@
   "dtUrlNode": "//ul[contains(@id, 'playsx')]",
   "dtUrlSubNode": "/li/a",
   "dtUrlId": "/@href",
-  "dtUrlIdR": "/index.php/vod/play/id/(\\S+).html",
+  "dtUrlIdR": "(\\S+).html",
   "dtUrlName": "/text()",
   "dtUrlNameR": "",
   "playUrl": "https://l0l.tv/index.php/vod/play/id/{playUrl}.html",
