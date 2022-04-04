@@ -24,7 +24,7 @@
   "homeVodImgR": "\\S+(http\\S+)",
 // 首页推荐视频更新集数
   "homeVodMark": "//div[@class='video-time']/text()",
-  "cateUrl": "https://mac.qd234.cn/vod/show/{cateId}/page/{catePg}.html",
+  "cateUrl": "https://mac.qd234.cn/vod/show/id/{cateId}/page/{catePg}.html",
   "cateVodNode": "//div[@class='videos']/div[@class='video anim']",
   "cateVodName": "/div[@class='video-name']",
   "cateVodId": "/a/@href",
