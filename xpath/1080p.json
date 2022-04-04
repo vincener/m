@@ -63,11 +63,11 @@
   "dtUrlNameR": "",
   "playUrl": "https://1080p.one{playUrl}",
   "playUa": "",
-  "searchUrl": "https://1080p.one/ajax/suggest?mid=1&wd={wd}&limit=10",
-  "scVodNode": "json:list",
-  "scVodName": "name",
-  "scVodId": "id",
-  "scVodIdR": "",
-  "scVodImg": "pic",
-  "scVodMark": ""
+  "searchUrl": "https://1080p.one/vodsearch/-------------.html?wd={wd}",
+  "scVodNode": "//div[contains(@class,'pack-packcover returl list-top-b')]",
+  "scVodName": "/a/@title",
+  "scVodId": "/a/@href",
+  "scVodIdR": "vodplay/(\\w+).html",
+  "scVodImg": "/a/div/@data-original",
+  "scVodMark": "/a/span[3]"
 }
