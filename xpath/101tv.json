@@ -53,7 +53,7 @@
   "dtDirectorR": "",
   "dtDesc": "//span[contains(text(), '概要'))]/p/text()",
   "dtDescR": "",
-  "dtFromNode": "//div[contains(@class,'player-episode')]//div[contains(@class, 'player-xl-switch')]/a[contains(@class,'swiper-slide')]",
+  "dtFromNode": "//div[contains(@class,'player-episode')]//a[contains(@class,'swiper-slide')]",
   "dtFromName": "/text()",
   "dtFromNameR": "",
   "dtUrlNode": "//ul[contains(@id, 'playsx')]/li[contains(@class,'select-item')]",
