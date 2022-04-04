@@ -78,7 +78,7 @@
   "scVodId": "/a/@href",
   "scVodIdR": "/detail/(\\w+).html",
   "scVodImg": "/a/@data-original",
-  "scVodMark": "/a/span",
+  "scVodMark": "/a/span/text()",
   "filter": {
     "1": [
  {
