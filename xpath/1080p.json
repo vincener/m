@@ -18,7 +18,7 @@
   "homeVodNode": "//div[contains(@class, 'vodlist hotgrow')]//a[@class='aplus-exp ecimgbor']",
   "homeVodName": "/@title",
   "homeVodId": "/@href",
-  "homeVodIdR": "/vodtype/(\\w+).html",
+  "homeVodIdR": "/vodplay/(\\w+).html",
   "homeVodImg": "/div/@data-original",
   "homeVodImgR": "\\S+(http\\S+)",
   "homeVodMark": "/span[contains(@class,'pack-prb hidden')]/text()",
