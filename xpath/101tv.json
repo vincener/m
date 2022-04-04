@@ -67,7 +67,7 @@
   "playUrl": "https://l0l.tv/{playUrl}",
   "playUa": "",
   "searchUrl":"https://l0l.tv/index.php/vod/search.html?wd={wd}",
-  "scVodNode": "//div[contains(@class,'search-list cf')],
+  "scVodNode": "//div[contains(@class,'search-list cf')]",
   "scVodName": "/div/div/a/@title",
   "scVodId": "(\\S+)",
   "scVodIdR": "/div/div/a/@href",
