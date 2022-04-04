@@ -41,7 +41,7 @@
   "cateVodImg": "/@data-original",
   "cateVodImgR": "\\S+(http\\S+)",
   "cateVodMark": "/span/text()",
-  "dtUrl": "http://www.lezhutv.com/detail/{vid}.html",
+  "dtUrl": "http://www.lezhutv.com/{vid}.html",
   "dtNode": "//body",
   "dtName": "//div[@class='data']/h4/text()",
   "dtNameR": "",
