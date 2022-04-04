@@ -33,7 +33,7 @@
   "cateVodImgR": "\\S+(http\\S+)",
   "cateVodMark": "//span[@class='pack-prb hidden']/text()",
 // 详情页地址 用于获取详情页信息 及 播放列表和地址
-  "dtUrl": "https://l0l.tv/{vid}.html",
+  "dtUrl": "https://l0l.tv/{vid}",
 // 详情节点
   "dtNode": "//div[@class='player-bj']",
 // 视频名
@@ -62,7 +62,7 @@
   "dtUrlIdR": "(\\S+)",
   "dtUrlName": "/text()",
   "dtUrlNameR": "",
-  "playUrl": "https://l0l.tv/{playUrl}.html",
+  "playUrl": "https://l0l.tv/{playUrl}",
   "playUa": "",
   "searchUrl":"https://l0l.tv/index.php/ajax/suggest?mid=1&wd={wd}&limit=10",
   "scVodNode": "json:list",
