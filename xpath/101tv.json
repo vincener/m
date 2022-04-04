@@ -70,7 +70,7 @@
   "scVodNode": "//div[contains(@class,'search-list cf')]",
   "scVodName": "/div/div/a/@title",
   "scVodId": "/div/div/a/@href",
-  "scVodIdR": "/index.php/vod/play/(\\S+)",
+  "scVodIdR": "/index.php/vod/play/(\\w+).html",
   "scVodImg": "/div/div/a/div/@data-original",
   "scVodMark": "/div/div/a/span[2]"
 }
