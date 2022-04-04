@@ -31,7 +31,7 @@
   "cateVodImgR": "\\S+(http\\S+)",
   "cateVodMark": "/span[contains(@class,'pack-prb hidden')]/text()",
   "dtUrl": "https://1080p.one{vid}",
-  "dtNode": "//div[@class='player-bj']",
+  "dtNode": "//body",
   "dtName": "//div[@class='player-right r cf']/h2/a/text()",
   "dtNameR": "",
   "dtImg": "//div[@class='intro-wrap intro-wrapec']/a/@image",
