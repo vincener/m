@@ -51,7 +51,7 @@
  "dtDirector": "//span[contains(@class,'video-info-itemtitle') and contains(text(), '导演')]/following-sibling::*/text()",
  "dtDirectorR": "",
  "dtDesc": "//span[contains(@class,'video-info-itemtitle') and contains(text(), '剧情')]",
- "dtFromNode":"//div[@class='module-tab-content']/div[contains(@class,'module-tab-item')]/span",
+ "dtFromNode":"//div[@class='module-tab-items']/div[contains(@class,'module-tab-item')]/span",
  "dtFromName": "/text()",
  "dtFromNameR": "",
    "dtUrlNode": "//body",
