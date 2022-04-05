@@ -52,9 +52,9 @@
   "dtFromName": "//div[@class='stui-vodlist__head']/span/h3/text()",
   "dtFromNameR": "",
 // 播放集数
-  "dtUrlNode": "//ul[contains(@class,'stui-content__playlist clearfix')]",
+  "dtUrlNode": "//ul[contains(@class,'stui-content__playlist clearfix')]/li",
 // 播放集数节点
-  "dtUrlSubNode": "/li/a",
+  "dtUrlSubNode": "/a",
   "dtUrlId": "/@href",
 // 播放地址节点
   "dtUrlIdR": "",
