@@ -36,14 +36,14 @@
   "dtNameR": "",
   "dtImg": "//div[@class='stui-content__thumb']/a/img/@data-original",
   "dtImgR": "",
-  "dtCate": "//span[@class='text-muted' and contains(text(), '分类')]/following-sibling::a/text()",
+  "dtCate": "//span[@class='text-muted' and contains(text(), '类型')]/following-sibling::a/text()",
   "dtYear": "//span[@class='text-muted' and contains(text(), '年份')]/following-sibling::a/text()",
   "dtArea": "//span[@class='text-muted' and contains(text(), '地区')]/following-sibling::a/text()",
   "dtMark": "//span[@class='pic-text text-right']/text()",
   "dtDirector": "//span[@class='text-muted' and contains(text(), '导演')]/following-sibling::a/text()",
   "dtActor": "//span[@class='text-muted' and contains(text(), '主演')]/following-sibling::a/text()",
 // 视频简介
-  "dtDesc": "//span[@class='left text-muted' and contains(text(),'简介')]/following-sibling::/text()",
+  "dtDesc": "//span[@class='left text-muted' and contains(text(),'简介')]/text()",
 // 播放源节点
   "dtFromNode": "//div[contains(@class,'stui-pannel-box b playlist mb')]",
 // 播放源名称
