@@ -4,7 +4,7 @@
   "cateNode": "//ul[contains(@class,'stui-header_menu')]/li/a[contains(@href,'index_1_______')]",
   "cateName": "/text()",
   "cateId": "/@href",
-  "cateIdR": "/(\\w+)/index_1_______.html",
+  "cateIdR": "/(\\w+)/index________.html",
   "cateManual": {"电视剧":"tv"},
 // 首页推荐视频的节点
   "homeVodNode": "//div[@class='stui-vodlist_box']",
