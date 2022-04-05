@@ -9,7 +9,7 @@
   "电影":"mov",
   "综艺":"fun"},
 // 首页推荐视频的节点
-  "homeVodNode": "//ul[@class='stui-vodlist-clearfix']/li/div[@class='stui-vodlist_box']",
+  "homeVodNode": "//div[@class='stui-vodlist_box']",
 // 首页推荐视频的名称
   "homeVodName": "/a/@title",
 // 首页推荐视频的id
@@ -22,7 +22,7 @@
 // 首页推荐视频更新集数
   "homeVodMark": "/a/span[contains(@class,'pic-text text-right')]/text()",
   "cateUrl": "https://www.laodyw.com/{cateId}/index_{catePg}_______.html",
-  "cateVodNode": "//ul[@class='stui-vodlist-clearfix']/li/div[@class='stui-vodlist_box']",
+  "cateVodNode": "//div[@class='stui-vodlist_box']",
   "cateVodName": "/a/@title",
   "cateVodId": "/a/@href",
   "cateVodIdR": "",
