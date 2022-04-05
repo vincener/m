@@ -5,7 +5,7 @@
   "cateName": "/text()",
   "cateId": "/@href",
   "cateIdR": "/(\\w+)/index_1_______.html",
-  "cateManual": {},
+  "cateManual": {"电视剧":"tv"},
 // 首页推荐视频的节点
   "homeVodNode": "//div[@class='stui-vodlist_box']",
 // 首页推荐视频的名称
