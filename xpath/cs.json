@@ -49,7 +49,7 @@
 // 播放源节点
   "dtFromNode": "//body",
 // 播放源名称
-  "dtFromName": "//h3/i/text()",
+  "dtFromName": "//div[@class='stui-vodlist__head']/span/h3/text()",
   "dtFromNameR": "",
 // 播放集数
   "dtUrlNode": "//ul[contains(@class,'stui-content__playlist clearfix')]",
