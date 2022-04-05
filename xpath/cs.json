@@ -15,7 +15,7 @@
 // 首页推荐视频的id
   "homeVodId": "/a/@href",
 // 二次处理正则
-  "homeVodIdR": "/(\\w+)/",
+  "homeVodIdR": "",
 // 首页推荐视频的图片
   "homeVodImg": "/a/@data-original",
   "homeVodImgR": "",
@@ -25,7 +25,7 @@
   "cateVodNode": "//ul[@class='stui-vodlist-clearfix']/li/div[@class='stui-vodlist_box']",
   "cateVodName": "/a/@title",
   "cateVodId": "/a/@href",
-  "cateVodIdR": "/(\\w+)/",
+  "cateVodIdR": "",
   "cateVodImg": "/a/@data-original",
   "cateVodImgR": "",
   "cateVodMark": "/a/span[contains(@class,'pic-text text-right')]/text()",
