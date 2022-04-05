@@ -22,15 +22,15 @@
 // 首页推荐视频更新集数
   "homeVodMark": "/a/span[contains(@class,'pic-text text-right')]/text()",
   "cateUrl": "https://www.laodyw.com/{cateId}/index_{catePg}_______.html",
-  "cateVodNode": "//div[@class='stui-vodlist_box']",
+  "cateVodNode": "//ul[@class='stui-vodlist-clearfix']/li/div[@class='stui-vodlist_box']",
   "cateVodName": "/a/@title",
   "cateVodId": "/a/@href",
   "cateVodIdR": "/(\\w+)/",
   "cateVodImg": "/a/@data-original",
   "cateVodImgR": "\\S+(http\\S+)",
-  "cateVodMark": "//span[contains(@class,'pic-text text-right')]/text()",
+  "cateVodMark": "/a/span[contains(@class,'pic-text text-right')]/text()",
 // 详情页地址 用于获取详情页信息 及 播放列表和地址
-  "dtUrl": "https://www.laodyw.com/\\(w+)/{vid}/",
+  "dtUrl": "https://www.laodyw.com/{cateId}/{vid}/",
 // 详情节点
   "dtNode": "//dl[contains(@class,'mo-deta-info')]",
 // 视频名
