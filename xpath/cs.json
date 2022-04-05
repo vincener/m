@@ -45,11 +45,11 @@
   "dtDirector": "//p[@class='data' and contains(text(), '导演')]/a/text()",
   "dtActor": "//p[@class='data' and contains(text(), '主演')]/a/text()",
 // 视频简介
-  "dtDesc": "//span[@class='left' and contains(text(),'剧情')]/text()",
+  "dtDesc": "//span[@class='left' and contains(text(),'剧情')]/span/text()",
 // 播放源节点
   "dtFromNode": "//body",
 // 播放源名称
-  "dtFromName": "//h3/text()",
+  "dtFromName": "//h3/i/text()",
   "dtFromNameR": "",
 // 播放集数
   "dtUrlNode": "//ul[contains(@class,'stui-content__playlist clearfix')]",
