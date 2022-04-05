@@ -20,13 +20,13 @@
 // 首页推荐视频更新集数
   "homeVodMark": "/div/a/span[contains(@class,'pic-text text-right')]/text()",
   "cateUrl": "https://www.438kp.com/show/{cateId}--------{catePg}---.html",
-  "cateVodNode": "//div[@class='stui-vodlist_box']",
-  "cateVodName": "/a/@title",
-  "cateVodId": "/a/@href",
+  "cateVodNode": "//ul[@class='stui-vodlist clearfix']/li[contains(@class,'col-xs-3')]",
+  "cateVodName": "/div/a/@title",
+  "cateVodId": "/div/a/@href",
   "cateVodIdR": "/vod/(\\w+).html",
-  "cateVodImg": "/a/@data-original",
+  "cateVodImg": "/div/a/@data-original",
   "cateVodImgR": "\\S+(http\\S+)",
-  "cateVodMark": "/a/span[contains(@class,'pic-text text-right')]/text()",
+  "cateVodMark": "/div/a/span[contains(@class,'pic-text text-right')]/text()",
 // 详情页地址 用于获取详情页信息 及 播放列表和地址
   "dtUrl": "https://www.438kp.com/vod/{vid}.html",
 // 详情节点
@@ -43,7 +43,7 @@
   "dtDirector": "//span[@class='text-muted' and contains(text(), '导演')]/following-sibling::a/text()",
   "dtActor": "//span[@class='text-muted' and contains(text(), '主演')]/following-sibling::a/text()",
 // 视频简介
-  "dtDesc": "//span[contains(@class,'left text-muted')]/text()",
+  "dtDesc": "//span[@class='left text-muted' and contains(text(),'简介')]/following-sibling::/text()",
 // 播放源节点
   "dtFromNode": "//div[contains(@class,'stui-pannel-box b playlist mb')]",
 // 播放源名称
