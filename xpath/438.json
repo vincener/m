@@ -19,7 +19,7 @@
   "homeVodImgR": "\\S+(http\\S+)",
 // 首页推荐视频更新集数
   "homeVodMark": "/a/span[contains(@class,'pic-text text-right')]/text()",
-  "cateUrl": "https://www.laodyw.com/{cateId}/index_{catePg}_______.html",
+  "cateUrl": "https://www.438kp.com/show/{cateId}--------{catePg}---.html",
   "cateVodNode": "//div[@class='stui-vodlist_box']",
   "cateVodName": "/a/@title",
   "cateVodId": "/a/@href",
