@@ -7,7 +7,7 @@
   "cateIdR": "/list/(\\d+).html",
   "cateManual": {"电视剧":"2"},
 // 首页推荐视频的节点
-  "homeVodNode": "//ul[@class='stui-vodlist-clearfix']/li/div[@class='stui-vodlist_box']",
+  "homeVodNode": "//ul[@class='stui-vodlist clearfix']/li/div[@class='stui-vodlist_box']",
 // 首页推荐视频的名称
   "homeVodName": "/a/@title",
 // 首页推荐视频的id
