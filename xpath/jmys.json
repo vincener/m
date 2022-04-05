@@ -34,7 +34,7 @@
  "cateVodImg": "//img[@class='lazy lazyloaded']/@data-src",
  "cateVodImgR": "\\S+(http\\S+)",
  "cateVodMark": "/span[@class='module-item-text']/text()",
- "dtUrl": "https://mac.qd234.cn/index.php/vod/detail/id/{vid}.html ",
+ "dtUrl": "https://mac.qd234.cn/{vid} ",
  "dtNode": "//body",
  "dtName": "//h1[@class='page-title']/text()",
  "dtNameR": "",
