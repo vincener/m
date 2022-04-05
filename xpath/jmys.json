@@ -23,7 +23,7 @@
  "homeVodName": "/a/@title",
  "homeVodId": "/a/@href",
  "homeVodIdR": "/index.php/vod/detail/id/(\\w+).html",
- "homeVodImg": "/a/img[@class='lazy lazyloaded']/@data-src",
+ "homeVodImg": "//img[@class='lazy lazyloaded']/@data-src",
  "homeVodImgR": "\\S+(http\\S+)",
  "homeVodMark": "//div[@class='module-item-text']/text()",
  "cateUrl": "https://mac.qd234.cn/index.php/vod/show/id/{cateId}/page/{catePg}.html",
