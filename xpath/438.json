@@ -5,7 +5,12 @@
   "cateName": "/text()",
   "cateId": "/@href",
   "cateIdR": "/list/(\\d+).html",
-  "cateManual": {"电视剧":"2"},
+  "cateManual": {
+      "电影":"1",
+      "电视剧":"2",
+      "综艺":"3",
+      "动漫":"4"
+      },
 // 首页推荐视频的节点
   "homeVodNode": "//ul[@class='stui-vodlist clearfix']/li[contains(@class,'col-xs-3')]",
 // 首页推荐视频的名称
