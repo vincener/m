@@ -15,7 +15,7 @@
 // 首页推荐视频的id
   "homeVodId": "/a/@href",
 // 二次处理正则
-  "homeVodIdR": "/(\\w+)/",
+  "homeVodIdR": "https://www.laody.com/(\\w+)/(\\w+)/",
 // 首页推荐视频的图片
   "homeVodImg": "/a/@data-original",
   "homeVodImgR": "\\S+(http\\S+)",
