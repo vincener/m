@@ -7,18 +7,18 @@
   "cateIdR": "/list/(\\d+).html",
   "cateManual": {"电视剧":"2"},
 // 首页推荐视频的节点
-  "homeVodNode": "//ul[@class='stui-vodlist clearfix']/li/div[@class='stui-vodlist_box']",
+  "homeVodNode": "//ul[@class='stui-vodlist clearfix']/li[contains(@class,'col-xs-3')]",
 // 首页推荐视频的名称
-  "homeVodName": "/a/@title",
+  "homeVodName": "/div/a/@title",
 // 首页推荐视频的id
-  "homeVodId": "/a/@href",
+  "homeVodId": "/div/a/@href",
 // 二次处理正则
   "homeVodIdR": "/vod/(\\w+).html",
 // 首页推荐视频的图片
-  "homeVodImg": "/a/@data-original",
+  "homeVodImg": "/div/a/@data-original",
   "homeVodImgR": "\\S+(http\\S+)",
 // 首页推荐视频更新集数
-  "homeVodMark": "/a/span[contains(@class,'pic-text text-right')]/text()",
+  "homeVodMark": "/div/a/span[contains(@class,'pic-text text-right')]/text()",
   "cateUrl": "https://www.438kp.com/show/{cateId}--------{catePg}---.html",
   "cateVodNode": "//div[@class='stui-vodlist_box']",
   "cateVodName": "/a/@title",
