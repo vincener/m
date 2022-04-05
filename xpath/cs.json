@@ -1,7 +1,7 @@
 {
   "ua": "",
   "homeUrl": "https://www.laodyw.com/",
-  "cateNode": "//ul[contains(@class,'stui-header_menu')]/li/a[contains(@href,'index_1_______')]",
+  "cateNode": "//ul[contains(@class,'stui-header_menu')]/li/a[contains(@href,'index________')]",
   "cateName": "/text()",
   "cateId": "/@href",
   "cateIdR": "/(\\w+)/index________.html",
@@ -19,7 +19,7 @@
   "homeVodImgR": "\\S+(http\\S+)",
 // 首页推荐视频更新集数
   "homeVodMark": "//span[contains(@class,'pic-text text-right')]/text()",
-  "cateUrl": "https://www.laodyw.com/{cateId}/index_{catePg}___{year}____.html",
+  "cateUrl": "https://www.laodyw.com/{cateId}/index_{catePg}_______.html",
   "cateVodNode": "//div[@class='stui-vodlist_box']",
   "cateVodName": "/a/@title",
   "cateVodId": "/a/@href",
