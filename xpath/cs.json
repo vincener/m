@@ -15,10 +15,10 @@
 // 首页推荐视频的id
   "homeVodId": "/a/@href",
 // 二次处理正则
-  "homeVodIdR": "https://www.laody.com/(\\w+)/(\\w+)/",
+  "homeVodIdR": "/(\\w+)/",
 // 首页推荐视频的图片
   "homeVodImg": "/a/@data-original",
-  "homeVodImgR": "\\S+(http\\S+)",
+  "homeVodImgR": "",
 // 首页推荐视频更新集数
   "homeVodMark": "/a/span[contains(@class,'pic-text text-right')]/text()",
   "cateUrl": "https://www.laodyw.com/{cateId}/index_{catePg}_______.html",
@@ -27,7 +27,7 @@
   "cateVodId": "/a/@href",
   "cateVodIdR": "/(\\w+)/",
   "cateVodImg": "/a/@data-original",
-  "cateVodImgR": "\\S+(http\\S+)",
+  "cateVodImgR": "",
   "cateVodMark": "/a/span[contains(@class,'pic-text text-right')]/text()",
 // 详情页地址 用于获取详情页信息 及 播放列表和地址
   "dtUrl": "https://www.laodyw.com/{cateId}/{vid}/",
