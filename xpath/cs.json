@@ -11,16 +11,16 @@
 // 首页推荐视频的节点
   "homeVodNode": "//ul[@class='stui-vodlist clearfix']/li",
 // 首页推荐视频的名称
-  "homeVodName": "/a/@title",
+  "homeVodName": "/div/a/@title",
 // 首页推荐视频的id
-  "homeVodId": "/a/@href",
+  "homeVodId": "/div/a/@href",
 // 二次处理正则
   "homeVodIdR": "",
 // 首页推荐视频的图片
-  "homeVodImg": "/a/@data-original",
+  "homeVodImg": "/div/a/@data-original",
   "homeVodImgR": "",
 // 首页推荐视频更新集数
-  "homeVodMark": "/a/span[contains(@class,'pic-text text-right')]/text()",
+  "homeVodMark": "/div/a/span[contains(@class,'pic-text text-right')]/text()",
   "cateUrl": "https://www.laodyw.com/{cateId}/index_{catePg}_______.html",
   "cateVodNode": "//div[@class='stui-vodlist_box']",
   "cateVodName": "/a/@title",
