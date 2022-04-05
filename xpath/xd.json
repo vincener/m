@@ -19,7 +19,7 @@
      "港台剧":"25",
      "日韩剧":"26"
      },
- "homeVodNode": "//div[@class='module-item']/div",
+ "homeVodNode": "//div[@class='module-item-cover']",
  "homeVodName": "//div[@class='module-item-pic]/a/@title",
  "homeVodId": "//div[@class='module-item-pic']/a/@href",
  "homeVodIdR": "/index.php/vod/detail/id/(\\w+).html",
