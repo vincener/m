@@ -43,28 +43,28 @@
   "dtArea": "//p[@class='data' and contains(text(), '地区')]/a/text()",
   "dtMark": "//p[@class='data' and contains(text(), '状态')]/a/text()",
   "dtDirector": "//p[@class='data' and contains(text(), '导演')]/a/text()",
-  "dtActor": "//p[@class='data' and contains(text(), '主演')]/parent::*/a/text()",
+  "dtActor": "//p[@class='data' and contains(text(), '主演')]/a/text()",
 // 视频简介
-  "dtDesc": "//ul[contains(@class,'mo-cols-rows')]/li[contains(text(),'短评')]/text()",
+  "dtDesc": "//span[@class='left' and contains(text(),'剧情')]/text()",
 // 播放源节点
-  "dtFromNode": "//div[contains(@class,'mo-sort-head')]/h2/a",
+  "dtFromNode": "//div[contains(@class,'stui-vodlist__head')]",
 // 播放源名称
-  "dtFromName": "/text()",
+  "dtFromName": "//h3/text()",
   "dtFromNameR": "",
 // 播放集数
-  "dtUrlNode": "//ul[contains(@class,'mo-movs-item')]",
+  "dtUrlNode": "//ul[contains(@class,'stui-content__playlist clearfix')]",
 // 播放集数节点
   "dtUrlSubNode": "/li/a",
   "dtUrlId": "/@href",
 // 播放地址节点
-  "dtUrlIdR": "/index.php/vod/play/id/(\\S+).html",
+  "dtUrlIdR": "",
 // 剧集名称
   "dtUrlName": "/text()",
   "dtUrlNameR": "",
 // 播放页面的地址 {playUrl} 对应上面 dtUrlId 获取到的地址
-  "playUrl": "https://aixixi.vip/index.php/vod/play/id/{playUrl}.html",
+  "playUrl": "https://www.laodyw.com/{playUrl}.html",
   "playUa": "",
-  "searchUrl": "https://aixixi.vip/index.php/ajax/suggest?mid=1&wd={wd}&limit=10",
+  "searchUrl": "https://www.laodyw.com/index.php/ajax/suggest?mid=1&wd={wd}&limit=10",
   "scVodNode": "json:list",
   "scVodName": "name",
   "scVodId": "id",
