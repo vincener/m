@@ -47,7 +47,7 @@
 // 视频简介
   "dtDesc": "//span[@class='left' and contains(text(),'剧情')]/span/text()",
 // 播放源节点
-  "dtFromNode": "//body",
+  "dtFromNode": "//div",
 // 播放源名称
   "dtFromName": "//i[@class='iconfont icon-iconfontplay2']/text()",
   "dtFromNameR": "",
