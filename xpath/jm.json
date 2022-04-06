@@ -33,7 +33,7 @@
   "cateVodMark": "/div[contains(@class,'video-time')]/text()",
   "dtUrl": "https://mac.qd234.cn{vid}",
   "dtNode": "//body",
-  "dtName": "/div[@class='video-p-name']/text()",
+  "dtName": "//div[@class='video-p-name']/text()",
   "dtNameR": "",
   "dtImg": "//img[@class='author-img']/@src",
   "dtImgR": "",
