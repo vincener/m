@@ -54,7 +54,7 @@
  "dtDirectorR": "",
  "dtDesc": "//span[contains(text(), '剧情')]/text()",
  "dtFromNode":"//body",
- "dtFromName": "//div[@class='module-tab-item tab-item']//span/text()",
+ "dtFromName": "//div[contains(@class,'module-tab-item tab-item)']/span/text()",
  "dtFromNameR": "",
    "dtUrlNode": "//body",
   "dtUrlSubNode": "//div[@class='scroll-content']/a",
