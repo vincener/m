@@ -48,7 +48,7 @@
   "dtNameR": "",
   "dtImg": "//div[@class='module-item-pic']/a/img/@data-src",
   "dtImgR": "",
-  "dtArea": "//a[2][@class='tag-link']/text()",
+  "dtArea": "//span[contains(text(), '地区')]/following-sibling::*/text()",
   "dtAreaR": "",
   "dtYear": "//span[contains(text(), '年代')]/following-sibling::*/text()",
   "dtYearR": "",
