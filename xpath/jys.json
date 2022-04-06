@@ -9,7 +9,7 @@
   "cateNode": "//ul[contains(@class,'nav-menu-items')]/li/a[contains(@href, 'vodtypehtml')]",
   "cateName": "/text()",
   "cateId": "/@href",
-  "cateIdR": "/vodtypehtml/(\\d+).html",
+  "cateIdR": "/vodtypehtml/(\\w+).html",
   "cateManual": {
 "电影":"1",
 "电视剧":"2",
@@ -25,7 +25,7 @@
   "homeVodName": "/a/@title",
 // 首页推荐视频的id
   "homeVodId": "/a/@href",
-  "homeVodIdR": "/vodtypehtml/(\\w+).html",
+  "homeVodIdR": "/vodhtml/(\\w+).html",
 // 首页推荐视频的图片
   "homeVodImg": "//img[@class='lazy lazyloaded']/@data-src",
   "homeVodImgR": "\\S+(http\\S+)",
@@ -35,12 +35,12 @@
   "cateVodNode": "//div[@class='module-item-pic']",
   "cateVodName": "/a/@title",
   "cateVodId": "/a/@href",
-  "cateVodIdR": "/vodtypehtml/(\\w+).html",
+  "cateVodIdR": "/vodhtml/(\\w+).html",
   "cateVodImg": "//img[@class='lazy lazyloaded']/@data-src",
   "cateVodImgR": "\\S+(http\\S+)",
   "cateVodMark": "//div[@class='module-item-caption']/span[2]/text()",
 // 详情页地址 用于获取详情页信息 及 播放列表和地址
-  "dtUrl": "http://www.jinyusuo.com{vid}",
+  "dtUrl": "http://www.jinyusuo.com/vodhtml/{vid}.html",
 // 详情节点
   "dtNode": "//body",
 // 视频名
@@ -69,7 +69,7 @@
   "dtUrlIdR": "/vodplay/(\\S+).html",
   "dtUrlName": "//span/text()",
   "dtUrlNameR": "",
-  "playUrl": "http://www.jinyusuo.com{playUrl}",
+  "playUrl": "http://www.jinyusuo.com/vodplay/{playUrl}.html",
   "playUa": "",
   "searchUrl":"http://www.jinyusuo.com/index.php/ajax/suggest?mid=1&wd={wd}&limit=10",
   "scVodNode": "json:list",
