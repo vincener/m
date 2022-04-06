@@ -31,7 +31,7 @@
   "homeVodImgR": "\\S+(http\\S+)",
 // 首页推荐视频更新集数
   "homeVodMark": "/div[@class='module-item-caption']/span[2]/text()",
-  "cateUrl": "http://www.jinyusuo.com/vodshow/{cateId}/area/{area}/by/{by}/class/{class}/page/{catePg}/year/{year}.html",
+  "cateUrl": "http://www.jinyusuo.com/vodshow/{cateId}/page/{catePg}/.html",
   "cateVodNode": "//div[@class='module-item-cover']",
   "cateVodName": "/div[@class='module-item-pic']/a/@title",
   "cateVodId": "/div[@class='module-item-pic']/a/@href",
