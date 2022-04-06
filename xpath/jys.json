@@ -69,7 +69,7 @@
   "dtUrlIdR": "/vodplay/(\\S+).html",
   "dtUrlName": "//span/text()",
   "dtUrlNameR": "",
-  "playUrl": "http://www.jinyusuo.com/vodplay/{playUrl}.html",
+  "playUrl": "http://www.jinyusuo.com{playUrl}.html",
   "playUa": "",
   "searchUrl":"http://www.jinyusuo.com/index.php/ajax/suggest?mid=1&wd={wd}&limit=10",
   "scVodNode": "json:list",
