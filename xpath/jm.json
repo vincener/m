@@ -55,7 +55,7 @@
   "dtFromName": "/text()",
   "dtFromNameR": "",
   "dtUrlNode": "//div[@class='message-container vod-play-list-container']",
-  "dtUrlSubNode": "/span/a",
+  "dtUrlSubNode": "//span/a",
   "dtUrlId": "/@href",
   "dtUrlIdR": "/index.php/vod/play/id/(\\S+).html",
   "dtUrlName": "/text()",
