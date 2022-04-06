@@ -54,7 +54,7 @@
   "dtFromNode": "//ul[@class='chat-stream-bfqs']//li",
   "dtFromName": "/text()",
   "dtFromNameR": "",
-  "dtUrlNode": "//div[contains(@class, 'message-container vod-play-list-container')]",
+  "dtUrlNode": "//div[@class='message-container vod-play-list-container']",
   "dtUrlSubNode": "/span/a",
   "dtUrlId": "/@href",
   "dtUrlIdR": "/index.php/vod/play/id/(\\S+).html",
