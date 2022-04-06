@@ -27,18 +27,18 @@
   "homeVodId": "/a/@href",
   "homeVodIdR": "/vodtypehtml/(\\w+).html",
 // 首页推荐视频的图片
-  "homeVodImg": "/a/img/@data-src",
+  "homeVodImg": "//img[@class='lazy lazyloaded']/@data-src",
   "homeVodImgR": "\\S+(http\\S+)",
 // 首页推荐视频更新集数
-  "homeVodMark": "/div[@class='module-item-caption']/span[2]/text()",
+  "homeVodMark": "//div[@class='module-item-caption']/span[2]/text()",
   "cateUrl": "http://www.jinyusuo.com/vodshow/{cateId}/page/{catePg}/.html",
   "cateVodNode": "//div[@class='module-item-pic']",
   "cateVodName": "/a/@title",
   "cateVodId": "/a/@href",
   "cateVodIdR": "/vodtypehtml/(\\w+).html",
-  "cateVodImg": "/a/img/@data-src",
+  "cateVodImg": "//img[@class='lazy lazyloaded']/@data-src",
   "cateVodImgR": "\\S+(http\\S+)",
-  "cateVodMark": "/div[@class='module-item-caption']/span[2]/text()",
+  "cateVodMark": "//div[@class='module-item-caption']/span[2]/text()",
 // 详情页地址 用于获取详情页信息 及 播放列表和地址
   "dtUrl": "http://www.jinyusuo.com/vodtypehtml/{vid}.html",
 // 详情节点
