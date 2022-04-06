@@ -49,7 +49,7 @@
 // 播放源节点
   "dtFromNode": "//div",
 // 播放源名称
-  "dtFromName": "//i[@class='iconfont icon-iconfontplay2']/text()",
+  "dtFromName": "//h3/text()",
   "dtFromNameR": "",
 // 播放集数
   "dtUrlNode": "//ul[contains(@class,'stui-content__playlist clearfix')]",
