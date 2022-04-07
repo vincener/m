@@ -45,7 +45,7 @@
   "dtYearR": "",
   "dtMark": "//span[contains(text(), '更新')]/following-sibling::*/text()",
   "dtMarkR": "",
-  "dtDesc": "//span[contains(text(), '简介')]/text()",
+  "dtDesc": "//span[@class= 'pic-text text-right']/text()",
   "dtDescR": "",
  "dtFromNode": "//div[contains(@class,'myui-panel_hd')]/div/ul[contains(@class,'nav nav-tabs active')]/li/a",
  "dtFromName": "/text()",
