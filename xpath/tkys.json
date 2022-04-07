@@ -23,7 +23,7 @@
   "homeVodImg": "/a/@data-original",
   "homeVodImgR": "",
   "homeVodMark": "//span[contains(@class,'pic-text')]/text()",
-  "cateUrl": "https://www.tkys.tv/vodshow/area/{area}/by/{by}/id/{cateId}/page/{catePg}/year/{year}.html",
+  "cateUrl": "https://www.tkys.tv/vodshow/id/{cateId}/page/{catePg}/year/{year}.html",
   "cateVodNode": "//li[contains(@class,'col-xs-3')]/div[@class='myui-vodlist__box']",
   "cateVodName": "/a/@title",
   "cateVodId": "/a/@href",
@@ -72,48 +72,6 @@
   "filter": {
       "2":[
       {
-        "key": "area",
-        "name": "类型",
-        "value": [
-          {
-            "n": "全部",
-            "v": ""
-          },
-          {
-            "n": "内地",
-            "v": "内地"
-          },
-          {
-            "n": "香港",
-            "v": "香港"
-          },
-          {
-            "n": "韩国",
-            "v": "韩国"
-          },
-          {
-            "n": "台湾",
-            "v": "台湾"
-          },
-          {
-            "n": "泰国",
-            "v": "泰国"
-          },
-          {
-            "n": "日本",
-            "v": "日本"
-          },
-          {
-            "n": "美国",
-            "v": "美国"
-          },
-          {
-            "n": "其他",
-            "v": "其他"
-          }
-        ]
-      },
-      {
         "key": "year",
         "name": "年份",
         "value": [
@@ -158,24 +116,6 @@
             "v": "1989-1980"
           }
         ]
-      },
-      {
-        "key": "by",
-        "name": "排序",
-        "value": [
-          {
-            "n": "时间",
-            "v": ""
-          },
-          {
-            "n": "人气",
-            "v": "hits"
-          },
-          {
-            "n": "评分",
-            "v": "score"
-          }
-        ]
       }
-    ]
+      ]
 }
