@@ -11,6 +11,13 @@
     "cateId": "/@href",
     "cateIdR": "/index.php/vod/type/id/(\\d+).html",
     "cateManual": {
+        "电影": "1",
+        "电视剧": "2",
+        "国产剧": "13",
+        "港台剧": "14",
+        "日韩剧": "15",                        
+        "动漫": "4",
+        "综艺": "3"
     },
     "homeVodNode": "//div[@class='module-item']",
     "homeVodName": "//div[@class='module-item-pic']/a/@title",
