@@ -23,7 +23,7 @@
     "homeVodImg": "//div[@class='module-item-pic']//@data-src",
     "homeVodImgR": "",
     "homeVodMark": "//div[@class='module-item-text']/text()",
-    "cateUrl": "http://xingyuezhuiju.com/index.php/vod/show/by/{by}/id/{cateId}/page/{catePg}/year/{year}.html",
+    "cateUrl": "http://xingyuezhuiju.com/index.php/vod/show/by/{by}/id/{cateId}/page/{catePg}.html",
     "cateVodNode": "//div[@class='module-item']",
     "cateVodName": "//div[@class='module-item-pic']/a/@title",
     "cateVodId": "//div[@class='module-item-pic']/a/@href",
@@ -77,24 +77,9 @@
         "key": "by",
         "name": "排序",
         "value": [
-          {"n": "时间","v": ""},
+          {"n": "时间","v": "time"},
           {"n": "人气","v": "hits"},
-          {"n": "港台剧","v": "score"}
-        ]
-      },
-      {
-        "key": "year",
-        "name": "年份",
-        "value": [
-          {"n": "全部","v": ""},
-          {"n": "2021","v": "2021"},
-          {"n": "2020","v": "2020"},
-          {"n": "2019","v": "2019"},
-          {"n": "2018","v": "2018"},
-          {"n": "2017","v": "2017"},
-          {"n": "2016","v": "2016"},
-          {"n": "2015","v": "2015"},
-          {"n": "2014","v": "2014"}
+          {"n": "评分","v": "score"}
         ]
       }
     ]
