@@ -62,7 +62,7 @@
 // 播放页面的地址 {playUrl} 对应上面 dtUrlId 获取到的地址
   "playUrl": "http://m.huigutongying.cn/play/{playUrl}.html",
   "playUa": "",
-  "searchUrl": "http://m.huigutongying.cn/index.php/ajax/suggest?mid=1&wd={wd}&limit=10",
+  "searchUrl": "http://m.huigutongying.cn/search.php?searchword={wd}",
   "scVodNode": "//ul[contains(@class,'stui-vodlist__media')]//li",
   "scVodName": "//div[@class='thumb']/a/@title",
   "scVodId": "//div[@class='thumb']/a/@herf",
