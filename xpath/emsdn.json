@@ -54,7 +54,7 @@
 	"playUrl": "https://v.emsdn.cn/{playUrl}.html",
 	"playUa": "",
 	"searchUrl": "https://v.emsdn.cn/index.php?m=vod-search-wd-{wd}.html",
-	"scVodNode": "/ul[@class='list_01 list_01_03_02']/li/a[@class='b_a']",
+	"scVodNode": "/ul[@class='list_01 list_01_03_02']/li/a",
 	"scVodName": "/@title",
 	"scVodId": "/@href",
 	"scVodIdR": "/vod-detail-id-(\\w+).html",
