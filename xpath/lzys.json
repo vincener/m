@@ -53,11 +53,11 @@
     "dtUrlNameR": "",
     "playUrl": "http://zjys.vip/vodplay/{playUrl}/",
     "playUa": "",
-    "searchUrl": "http://zjys.vip/search/?wd={wd}",
-    "scVodNode": "//div[@class='module-search-item']",
-    "scVodName": "//h3/a/text()",
-    "scVodId": "//h3/a/@href",
-    "scVodIdR": "/detail/(\\w+).html",
-    "scVodImg": "//@data-src",
-    "scVodMark": "//a[@class='video-serial']/text()"
+    "searchUrl": "http://zjys.vip/index.php/ajax/suggest?mid=1&wd={wd}&limit=10",
+    "scVodNode": "json:list",
+    "scVodName": "name",
+    "scVodId": "id",
+    "scVodIdR": "",
+    "scVodImg": "pic",
+    "scVodMark": ""
 }
