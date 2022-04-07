@@ -42,7 +42,7 @@
   "dtNameR": "",
   "dtImg": "//img[@class='lazyload']/@data-original",
   "dtImgR": "",
-  "dtCate": "//span[contains(text(), '类型')]/parent-sibling::*/text()",
+  "dtCate": "//span[contains(text(), '类型')]/following-sibling::*/text()",
   "dtYear": "//span[contains(text(), '年份')]/span/text()",
   "dtArea": "//span[contains(text(), '地区')]/span/text()",
   "dtMark": "//span[contains(text(), '更新')]/parent::*/text()",
