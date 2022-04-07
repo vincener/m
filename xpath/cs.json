@@ -8,7 +8,7 @@
   "cateIdR": "/list/(\\d+).html",
   "cateManual": {},
 // 首页推荐视频的节点
-  "homeVodNode": "//div[@class='"stui-header__menu']",
+  "homeVodNode": "//div[@class='stui-header__menu']",
 // 首页推荐视频的名称
   "homeVodName": "/a/@title",
 // 首页推荐视频的id
