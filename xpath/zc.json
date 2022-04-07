@@ -1,7 +1,7 @@
 { 	
     "ua": "", 	
     "homeUrl": "https://www.4kcz.com/", 	
-    "cateNode": "//div[contains(@class,'xiaoyinqing')]/a", 	
+    "cateNode": "//div[contains(@class,'xiaoyinqing')]/a[contains(@href, 'vodtype')]", 	
     "cateName": "/text()", 	
     "cateId": "/@href", 	
     "cateIdR": "/vodtype/(\\d+)/", 
