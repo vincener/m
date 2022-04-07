@@ -63,10 +63,10 @@
   "playUrl": "http://m.huigutongying.cn/play/{playUrl}.html",
   "playUa": "",
   "searchUrl": "http://m.huigutongying.cn/index.php/ajax/suggest?mid=1&wd={wd}&limit=10",
-  "scVodNode": "json:list",
-  "scVodName": "name",
-  "scVodId": "id",
-  "scVodIdR": "",
-  "scVodImg": "pic",
+  "scVodNode": "//ul[contains(@class,'stui-vodlist__media')]//li",
+  "scVodName": "//div[@class='thumb']/a/@title",
+  "scVodId": "//div[@class='thumb']/a/@herf",
+  "scVodIdR": "/view/(\\w+)",
+  "scVodImg": "//div[@class='thumb']/a/@data-original",
   "scVodMark": ""
 }
