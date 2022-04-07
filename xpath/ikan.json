@@ -28,7 +28,7 @@
   "dtNode": "//div[contains(@class,'myui-content__thumb')]",
   "dtName": "/a/@title",
   "dtImg":"/a/img/@data-original",
-  "dtMark": "//span[@class= 'pic-text text-right']/text()",
+  "dtMark": "/a/span[@class= 'pic-text text-right']/text()",
   "dtMarkR": "",
  "dtFromNode": "//div[contains(@class,'myui-panel_hd')]/div/ul[contains(@class,'nav nav-tabs active')]/li/a",
  "dtFromName": "/text()",
