@@ -23,7 +23,7 @@
     "homeVodImg": "//div[@class='module-item-pic']//@data-src",
     "homeVodImgR": "",
     "homeVodMark": "//div[@class='module-item-text']/text()",
-    "cateUrl": "http://xingyuezhuiju.com/index.php/vod/show/by/{by}/id/{cateId}/page/{catePg}.html",
+    "cateUrl": "http://xingyuezhuiju.com/index.php/vod/show/id/{cateId}/page/{catePg}.html",
     "cateVodNode": "//div[@class='module-item']",
     "cateVodName": "//div[@class='module-item-pic']/a/@title",
     "cateVodId": "//div[@class='module-item-pic']/a/@href",
@@ -62,20 +62,20 @@
     "scVodMark": "",
   "filter": {
     "2": [{
-        "key": "{by}",
-        "name": "排序",
+        "key": "cateId",
+        "name": "类型",
         "value": [
           {
-            "n": "时间",
-            "v": ""
+            "n": "国产剧",
+            "v": "13"
           },
           {
-            "n": "人气",
-            "v": "hits"
+            "n": "港台剧",
+            "v": "14"
           },
           {
-            "n": "评分",
-            "v": "score"
+            "n": "日韩剧",
+            "v": "15"
           }
         ]
       }
