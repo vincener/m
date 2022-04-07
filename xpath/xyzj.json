@@ -19,7 +19,7 @@
     "homeVodImg": "//div[@class='module-item-pic']//@data-src",
     "homeVodImgR": "",
     "homeVodMark": "//div[@class='module-item-text']/text()",
-    "cateUrl": "http://xingyuezhuiju.com/index.php/vod/show//by/{by}/id/{cateId}/page/{catePg}.html",
+    "cateUrl": "http://xingyuezhuiju.com/index.php/vod/show/by/{by}/id/{cateId}/page/{catePg}.html",
     "cateVodNode": "//div[@class='module-item']",
     "cateVodName": "//div[@class='module-item-pic']/a/@title",
     "cateVodId": "//div[@class='module-item-pic']/a/@href",
