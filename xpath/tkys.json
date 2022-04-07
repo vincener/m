@@ -23,7 +23,7 @@
   "homeVodImg": "/a/@data-original",
   "homeVodImgR": "",
   "homeVodMark": "//span[contains(@class,'pic-text')]/text()",
-  "cateUrl": "https://www.tkys.tv/vodshow/id/{cateId}/page/{catePg}.html",
+  "cateUrl": "https://www.tkys.tv/vodshow/area/{area}/by/{by}/id/{cateId}/page/{catePg}/year/{year}.html",
   "cateVodNode": "//li[contains(@class,'col-xs-3')]/div[@class='myui-vodlist__box']",
   "cateVodName": "/a/@title",
   "cateVodId": "/a/@href",
