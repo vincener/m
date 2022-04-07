@@ -2,11 +2,16 @@
 {
   "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1",
   "homeUrl": "http://m.huigutongying.cn/",
-  "cateNode": "//ul[contains(@class,'stui-header__menu')]/li/a[contains(@herf,'list') and not contains(@href,'list/6'))]",
+  "cateNode": "//ul[contains(@class,'stui-header__menu')]/li/a[contains(@herf,'list')]",
   "cateName": "/text()",
   "cateId": "/@href",
   "cateIdR": "/list/(\\d+).html",
-  "cateManual": {},
+  "cateManual": {
+      "电视剧":"2",
+      "电影":"1",
+      "综艺":"3",
+      "动漫":"4"
+  },
 // 首页推荐视频的节点
   "homeVodNode": "//div[@class='stui-vodlist__box']",
 // 首页推荐视频的名称
