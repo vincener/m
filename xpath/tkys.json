@@ -23,7 +23,7 @@
   "homeVodImg": "/a/@data-original",
   "homeVodImgR": "",
   "homeVodMark": "//span[contains(@class,'pic-text')]/text()",
-  "cateUrl": "https://www.tkys.tv/vodshow/id/{cateId}/page/{catePg}/year/{year}.html",
+  "cateUrl": "https://www.tkys.tv/vodshow/id/{cateId}/page/{catePg}.html",
   "cateVodNode": "//li[contains(@class,'col-xs-3')]/div[@class='myui-vodlist__box']",
   "cateVodName": "/a/@title",
   "cateVodId": "/a/@href",
@@ -68,48 +68,5 @@
   "scVodId": "id",
   "scVodIdR": "",
   "scVodImg": "pic",
-  "scVodMark": "",
-  "filter": {
-      "2":[
-      {
-        "key": "year",
-        "name": "年份",
-        "value": [
-          {"n": "全部","v": ""},
-          {"n": "2022","v": "2022"},
-          {
-            "n": "2021",
-            "v": "2021"
-          },
-          {
-            "n": "2020",
-            "v": "2020"
-          },
-          {
-            "n": "2019",
-            "v": "2019"
-          },
-          {
-            "n": "2018",
-            "v": "2018"
-          },
-          {
-            "n": "2016-2011",
-            "v": "2016-2011"
-          },
-          {
-            "n": "2010-2000",
-            "v": "2010-2000"
-          },
-          {
-            "n": "1999-1990",
-            "v": "1999-1990"
-          },
-          {
-            "n": "1989-1980",
-            "v": "1989-1980"
-          }
-        ]
-      }
-    ]
+  "scVodMark": ""
 }
