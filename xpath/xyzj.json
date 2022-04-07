@@ -59,28 +59,5 @@
     "scVodId": "id",
     "scVodIdR": "",
     "scVodImg": "pic",
-    "scVodMark": "",
-  "filter": {
-    "2": [
-      {
-        "key": "cateId",
-        "name": "地区",
-        "value": [
-          {"n": "全部","v": ""},
-          {"n": "国产剧","v": "13"},
-          {"n": "港台剧","v": "14"},
-          {"n": "日韩剧","v": "15"},
-          {"n": "欧美剧","v": "16"}
-        ]
-      },
-      {
-        "key": "by",
-        "name": "排序",
-        "value": [
-          {"n": "时间","v": "time"},
-          {"n": "人气","v": "hits"},
-          {"n": "评分","v": "score"}
-        ]
-      }
-    ]
+    "scVodMark": ""
 }
