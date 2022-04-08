@@ -32,7 +32,7 @@
 // 详情节点
   "dtNode": "//body",
 // 视频名
-  "dtName": "//h1[@class='title']/text()",
+  "dtName": "//div[@class='stui-content__thumb']/a/@title",
   "dtNameR": "",
   "dtImg": "//img[@class='lazyload']/@src",
   "dtImgR": "",
