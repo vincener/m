@@ -9,7 +9,7 @@
   "cateNode": "//ul[contains(@class, 'navbar-items')]/li/a[contains(@href, 'vodtype')]",
   "cateName": "/text()",
   "cateId": "/@href",
-  "cateIdR": "/vodtype/(\\w+).html",
+  "cateIdR": "/vodtype/(\\w+)/",
   "cateManual": {
     "电影":"1",
     "连续剧":"2",
