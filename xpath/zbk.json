@@ -45,7 +45,7 @@
 // 视频简介
   "dtDesc": "//span[contains(text(), '简介')]/following-sibling::*/text()",
 // 播放源节点
-  "dtFromNode": "//body",
+  "dtFromNode": "//div[contains(@class,stui-pannel']",
 // 播放源名称
   "dtFromName": "//h3[@class='title']/text()",
   "dtFromNameR": "",
