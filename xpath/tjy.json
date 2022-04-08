@@ -48,7 +48,7 @@
  "dtActorR": "",
  "dtDirector": "//span[contains(text(), '导演')]/following-sibling::*/text()",
  "dtDirectorR": "",
- "dtDesc": "//span[contains(text(), '简介')]//text()",
+ "dtDesc": "//span[contains(text(), '简介')]//span/text()",
  "dtFromNode":"//ul[@class='nav nav-tabs pull-right']/li/a",
  "dtFromName": "/text()",
  "dtFromNameR": "",
