@@ -30,13 +30,13 @@
 // 详情页地址 用于获取详情页信息 及 播放列表和地址
   "dtUrl": "http://www.zhenbuka3.com/voddetail/{vid}/",
 // 详情节点
-  "dtNode": "//body",
+  "dtNode": "//div[@class='stui-pannel-box']",
 // 视频名
   "dtName": "//div[@class='stui-content__detail']/h1/text()",
   "dtNameR": "",
   "dtImg": "//img[@class='lazyload']/@src",
   "dtImgR": "",
-  "dtCate": "//span[contains(text(), '分类')]/following-sibling::*/text()",
+  "dtCate": "//span[contains(text(), '类型')]/following-sibling::*/text()",
   "dtYear": "//span[contains(text(), '年份')]/following-sibling::*/text()",
   "dtArea": "//span[contains(text(), '地区')]/following-sibling::*/text()",
   "dtMark": "",
