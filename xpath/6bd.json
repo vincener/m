@@ -22,7 +22,7 @@
  "homeVodImg": "//img[@class='lazy lazyloaded']/@data-src",
  "homeVodImgR": "\\S+(http\\S+)",
  "homeVodMark": "//div[@class='module-item-text']/text()",
- "cateUrl": "https://www.6bd.net/show/{cateId}--------{catePg}---.html",
+ "cateUrl": "https://www.6bd.net/show/{cateId}-{area}--{class}-----{catePg}---{year}.html",
  "cateVodNode": "//div[@class='module-item-pic']",
  "cateVodName": "/a/@title",
  "cateVodId": "/a/@href",
@@ -68,18 +68,17 @@
   "scVodImg": "pic",
   "scVodMark": "",
   "filter":{
-"2":[
+"dianshiju":[
 {
 "key":"cateId",
 "name":"类型",
 "value":[
 {"n":"全部","v":""},
-{"n":"国产剧","v":"13"},
-{"n":"港台剧","v":"14"},
-{"n":"日韩剧","v":"15"},
-{"n":"欧美剧","v":"16"},
-{"n":"海外剧","v":"23"},
-{"n":"动画片","v":"50"}
+{"n":"国产剧","v":"guochanju"},
+{"n":"港台剧","v":"gangtaiju"},
+{"n":"日韩剧","v":"rihanju"},
+{"n":"欧美剧","v":"oumeiju"},
+{"n":"海外剧","v":"haiwaiju"}
 ]
 },
 {
