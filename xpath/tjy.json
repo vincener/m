@@ -22,7 +22,7 @@
  "homeVodImg": "/a/@data-original",
  "homeVodImgR": "\\S+(http\\S+)",
  "homeVodMark": "/a/span[@class='pic-text text-right']/text()",
- "cateUrl": "https://so2.cc/vodshow/{cateId}-{area}-hits------{catePg}---{year}.html",
+ "cateUrl": "https://so2.cc/vodshow/{cateId}--------{catePg}---.html",
  "cateVodNode": "//ul[@class='stui-vodlist clearfix']/li/div[@class='stui-vodlist__box']",
  "cateVodName": "/a/@title",
  "cateVodId": "/a/@href",
