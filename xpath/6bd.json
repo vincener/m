@@ -1,5 +1,5 @@
 {
-  "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1",
+  "ua": "",
   "homeUrl": "https://www.6bd.net",
   "dcVipFlag": "true",
   "pCfgJs": "https://www.6bd.net/static/js/playerconfig.js",
@@ -11,10 +11,10 @@
   "cateId": "/@href",
   "cateIdR": "/type/(\\w+).html",
   "cateManual": {
-    "电影":"1",
-    "连续剧":"2",
-    "动漫":"4",
-    "综艺":"3"},  
+    "电影":"dianying",
+    "电视剧":"dianshiju",
+    "动漫":"dongman",
+    "综艺":"zongyi"},  
  "homeVodNode": "//div[@class='module-item-pic']",
  "homeVodName": "/a/@title",
  "homeVodId": "/a/@href",
@@ -22,7 +22,7 @@
  "homeVodImg": "//img[@class='lazy lazyloaded']/@data-src",
  "homeVodImgR": "\\S+(http\\S+)",
  "homeVodMark": "//div[@class='module-item-text']/text()",
- "cateUrl": "https://www.6bd.net/show/{cateId}-{area}-{by}-{class}-{lang}----{catePg}---{year}.html
+ "cateUrl": "https://www.6bd.net/show/{cateId}-{area}-{by}-{class}-{lang}----{catePg}---{year}.html",
  "cateVodNode": "//div[@class='module-item-pic']",
  "cateVodName": "/a/@title",
  "cateVodId": "/a/@href",
