@@ -58,7 +58,7 @@
   "dtUrlIdR": "/vodplay/(\\S+)/",
   "dtUrlName": "/text()",
  "dtUrlNameR": "",
-  "playUrl": "https://qpys.qd234.cn/vodplay/{playUrl}.html",
+  "playUrl": "https://qpys.qd234.cn/vodplay/{playUrl}/",
   "playUa": "",
   "searchUrl": "https://qpys.qd234.cn/index.php/ajax/suggest?mid=1&wd={wd}&limit=10",
   "scVodNode": "json:list",
