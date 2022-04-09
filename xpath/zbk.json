@@ -45,12 +45,12 @@
 // 视频简介
   "dtDesc": "//span[contains(text(), '简介')]/following-sibling::*/text()",
 // 播放源节点
-  "dtFromNode": "//div[contains(@class,'stui-pannel__head bottom-line active')]//h3",
+  "dtFromNode": "//div[contains(@class,'stui-pannel__head')]/h3",
 // 播放源名称
-  "dtFromName": "//text()",
+  "dtFromName": "/text()",
   "dtFromNameR": "",
 // 播放集数
-  "dtUrlNode": "//div[contains(@class,'stui-pannel_bd col-pd')]/ul[contains(@class,'stui-content__playlist')]",
+  "dtUrlNode": "//ul[contains(@class,'stui-content__playlist')]",
 // 播放集数节点
   "dtUrlSubNode": "/li/a",
   "dtUrlId": "@href",
