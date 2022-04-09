@@ -22,7 +22,7 @@
 "homeVodIdR": "/detail/(\\w+).html",
 "homeVodImg": "/a/@data-original",
 "homeVodMark": "/a/span[@class='pic-text']/text()",
-"cateUrl": "http://www.huamaotv.com/list/{cateId}_{catePg}____{year}___.html",
+"cateUrl": "http://www.huamaotv.com/list/{cateId}_{catePg}_______.html",
 "cateVodNode": "//ul[@class='stui-vodlist clearfix']/li[@class='stui-vodlist__item']a",
 "cateVodName": "/a/@title",
 "cateVodId": "/a/@href",
