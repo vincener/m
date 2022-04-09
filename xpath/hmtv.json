@@ -15,7 +15,7 @@
 "日剧":"24"
 "综艺":"3",
 "动漫":"4"},
-  "homeVodNode": "//li[@class='stui-vodlist__item']",
+  "homeVodNode": "//ul[@class='stui-vodlist clearfix']/li[@class='stui-vodlist__item']",
   "homeVodName": "/a/@title",
   "homeVodId": "/a/@href",
   "homeVodIdR": "/detail/(\\w+).html",
