@@ -32,7 +32,7 @@
   "dtNode": "//div[@class='stui-content col-pd clearfix']",
   "dtName": "//h3[@class='title']/text()",
   "dtImg": "//img[@class='img-responsive lazyload']/@data-original",
-  "dtFromNode": "//div[contains(@class, 'stui-pannel__head')]/h3",
+  "dtFromNode": "//div[contains(@class, 'stui-pannel__head')]//h3[@class='title']",
   "dtFromName": "/text()",
   "dtUrlNode": "//ul[contains(@class,'stui-content__playlist')]",
   "dtUrlSubNode": "/li/a",
