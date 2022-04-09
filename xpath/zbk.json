@@ -53,7 +53,7 @@
   "dtUrlNode": "//div[contains(@class,'stui-pannel_bd col-pd')]/ul[contains(@class,'stui-content__playlist')]",
 // 播放集数节点
   "dtUrlSubNode": "/li/a",
-  "dtUrlId": "/@href",
+  "dtUrlId": "@href",
 // 播放地址节点
   "dtUrlIdR": "/vodplay/(\\S+)/",
 // 剧集名称
