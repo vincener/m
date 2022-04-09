@@ -4,7 +4,7 @@
   "cateNode": "//ul[@class='clearfix']/li/a[contains(@href, 'type')]",
   "cateName": "/text()",
   "cateId": "/@href",
-  "cateIdR": "",
+  "cateIdR": "(\\w+)",
   "cateManual": {},
   "homeVodNode": "//li[@class='stui-vodlist__item']/a",
   "homeVodName": "/@title",
