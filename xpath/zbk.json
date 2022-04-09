@@ -47,12 +47,12 @@
 // 播放源节点
   "dtFromNode": "//div[contains(@class,'stui-pannel__head bottom-line active')]//h3",
 // 播放源名称
-  "dtFromName": "/text()",
+  "dtFromName": "//text()",
   "dtFromNameR": "",
 // 播放集数
-  "dtUrlNode": "//ul[contains(@class,'stui-content__playlist')]//li",
+  "dtUrlNode": "//ul[contains(@class,'stui-content__playlist')]",
 // 播放集数节点
-  "dtUrlSubNode": "/a",
+  "dtUrlSubNode": "/li/a",
   "dtUrlId": "/@href",
 // 播放地址节点
   "dtUrlIdR": "/vodplay/(\\S+)/",
