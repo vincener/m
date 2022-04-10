@@ -19,7 +19,7 @@
  "homeVodImg": "/a/img/@src",
  "homeVodImgR": "\\S+(http\\S+)",
  "homeVodMark": "",
- "cateUrl": "https://www.novipnoad.com/{cateId}/page/{catePg}/",
+ "cateUrl": "https://www.novipnoad.com/tv/{cateId}/page/{catePg}/",
  "cateVodNode": "//div[@class='item-thumbnail']",
  "cateVodName": "/a/@title",
  "cateVodId": "/a/@href",
