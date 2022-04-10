@@ -36,16 +36,16 @@
   "dtNameR": "",
   "dtImg": "//div[@class='media-left']/a/img/@data-original",
   "dtImgR": "",
-  "dtCate": "//dl[contains(@class,'dl-horizontal')]/dt[contains(text(), '类型')]/following-sibling::*/text()",
-  "dtYear":"//dl[contains(@class,'dl-horizontal')]/dt[contains(text(), '年份')]/following-sibling::*/text()",
-  "dtArea": "//dl[contains(@class,'dl-horizontal')]/dt[contains(text(), '地区')]/following-sibling::*/text()",
-  "dtMark": "",
-  "dtDirector": "//dl[contains(@class,'dl-horizontal')]/dt[contains(text(), '导演')]/following-sibling::*/text()",
-  "dtActor": "//dl[contains(@class,'dl-horizontal')]/dt[contains(text(), '主演')]/following-sibling::*/text()",
+//  "dtCate": "//dl[contains(@class,'dl-horizontal')]/dt[contains(text(), '类型')]/following-sibling::*/text()",
+ // "dtYear":"//dl[contains(@class,'dl-horizontal')]/dt[contains(text(), '年份')]/following-sibling::*/text()",
+ // "dtArea": "//dl[contains(@class,'dl-horizontal')]/dt[contains(text(), '地区')]/following-sibling::*/text()",
+//  "dtMark": "",
+//  "dtDirector": "//dl[contains(@class,'dl-horizontal')]/dt[contains(text(), '导演')]/following-sibling::*/text()",
+//  "dtActor": "//dl[contains(@class,'dl-horizontal')]/dt[contains(text(), '主演')]/following-sibling::*/text()",
 // 视频简介
   "dtDesc": "",
 // 播放源节点
-  "dtFromNode": "//div[@class='tab-content']//span[contains(@class,'glyphicon glyphicon-facetime-video ff-text')]",
+  "dtFromNode": "//div[@class='tab-content']//h2//span",
 // 播放源名称
   "dtFromName": "/text()",
   "dtFromNameR": "",
