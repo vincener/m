@@ -30,7 +30,7 @@
 // 详情页地址 用于获取详情页信息 及 播放列表和地址
   "dtUrl": "http://m1.tv9box.com/vod-read-id-{vid}.html",
 // 详情节点
-  "dtNode": "//div[contains(@class,'container ff-bg')]/div[@class='media']",
+  "dtNode": "//body",
 // 视频名
   "dtName": "//div[@class='media-body']/h2/a/text()",
   "dtNameR": "",
