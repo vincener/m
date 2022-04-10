@@ -19,7 +19,7 @@
   "homeVodImgR": "\\S+(http\\S+)",
 // 首页推荐视频更新集数
   "homeVodMark": "/a/div[contains(@class,'carousel-caption')]/text()",
-  "cateUrl": "http://m1.tv9box.com/list-select-id-{cateId}-type-{type}-area-{area}-year-{year}-star--state--order-{order}-p-{catePg}.html",
+  "cateUrl":"http://m1.tv9box.com/list-select-id-{cateId}-type--area--year--star--state--order-addtime-p-{catePg}.html",
   "cateVodNode": "//li[@class='col-xs-4']",
   "cateVodName": "//h2/a/@title",
   "cateVodId": "//p/a/@href",
