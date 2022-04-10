@@ -32,7 +32,7 @@
 // 详情节点
   "dtNode": "//body",
 // 视频名
-  "dtName": "//div[@class='media-body']/h2/a/text()",
+  "dtName": "//div[@class='media-body']/h2/a/@herf",
   "dtNameR": "",
   "dtImg": "//div[@class='media-left']/a/img/@data-original",
   "dtImgR": "",
