@@ -45,12 +45,12 @@
 // 视频简介
   "dtDesc": "",
 // 播放源节点
-  "dtFromNode": "//div[@class='tab-content']//h2//span",
+  "dtFromNode": "//div[@class='tab-content']/div/div/h2/span",
 // 播放源名称
   "dtFromName": "/text()",
   "dtFromNameR": "",
 // 播放集数
-  "dtUrlNode": "//ul[contains(@class,'list-unstyled row text-center ff-playurl-line ff-playurl')]",
+  "dtUrlNode": "//ul[@class='list-unstyled row text-center ff-playurl-line ff-playurl']",
 // 播放集数节点
   "dtUrlSubNode": "/li/a",
   "dtUrlId": "/@href",
