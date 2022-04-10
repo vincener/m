@@ -32,9 +32,9 @@
 // 详情节点
   "dtNode": "//body",
 // 视频名
-  "dtName": "//div[@class='media-body']/h2/a/@herf",
+  "dtName": "//div[@class='media-body']/h2/text()",
   "dtNameR": "",
-  "dtImg": "//div[@class='media-left']/a/img/@data-original",
+  "dtImg": "//div[@class='media-left']/a/@data-original",
   "dtImgR": "",
 //  "dtCate": "//dl[contains(@class,'dl-horizontal')]/dt[contains(text(), '类型')]/following-sibling::*/text()",
  // "dtYear":"//dl[contains(@class,'dl-horizontal')]/dt[contains(text(), '年份')]/following-sibling::*/text()",
@@ -52,7 +52,7 @@
 // 播放集数
   "dtUrlNode": "//ul[contains(@class,'list-unstyled row text-center ff-playurl-line ff-playurl')]",
 // 播放集数节点
-  "dtUrlSubNode": "//li/a",
+  "dtUrlSubNode": "/li/a",
   "dtUrlId": "/@href",
 // 播放地址节点
   "dtUrlIdR": "/vod-play-id-(\\S+).html",
