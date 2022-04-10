@@ -3,6 +3,8 @@
   "homeUrl": "https://www.1010dy.vip",
   "dcVipFlag": "true",
   "dcPlayUrl": "true",
+  "pCfgJs": "https://www.1010dy.vip/static/js/playerconfig.js",
+ "pCfgJsR": "[\\W|\\S|.]*?MacPlayerConfig.player_list[\\W|\\S|.]*?=([\\W|\\S|.]*?),MacPlayerConfig.downer_list",
   "cateNode": "//ul[contains(@class,'stui-header__menu type-slide')]/li/a[contains(@href, 'type') and not(contains(@href,'label'))]",
   "cateName": "/text()",
   "cateId": "/@href",
