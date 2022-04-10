@@ -45,17 +45,17 @@
 // 视频简介
   "dtDesc": "",
 // 播放源节点
-  "dtFromNode": "//div[contains(@class,'tab-pane fade in active vod-nav-play')]//h2/span",
+  "dtFromNode": "//span[contains(@class,'glyphicon glyphicon-facetime-video ff-text')]",
 // 播放源名称
   "dtFromName": "/text()",
   "dtFromNameR": "",
 // 播放集数
   "dtUrlNode": "//ul[contains(@class,'list-unstyled row text-center ff-playurl-line ff-playurl')]",
 // 播放集数节点
-  "dtUrlSubNode": "/li/a",
+  "dtUrlSubNode": "//li/a",
   "dtUrlId": "/@href",
 // 播放地址节点
-  "dtUrlIdR": "/index.php/vod/play/id/(\\S+).html",
+  "dtUrlIdR": "/vod-play-id-(\\S+).html",
 // 剧集名称
   "dtUrlName": "/text()",
   "dtUrlNameR": "",
