@@ -49,7 +49,7 @@
 	"dtActorR": "",
 	"dtDirector": "//span[contains(@class,'text-muted') and contains(text(), '导演')]/following-sibling::*/text()",
 	"dtDirectorR": "",
-	"dtDesc": "//span[contains(@class,'text-muted') and contains(text(), '更新')]/follwowing::*/text()",
+	"dtDesc": "//span[@class='left text-muted']/text()",
 	"dtDescR": "",
 	"dtFromNode": "//div[contains(@class,'stui-pannel-box b playlist mb')]",
 	"dtFromName": "//h3[@class='title']/text()",
