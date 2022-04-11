@@ -46,7 +46,7 @@
 // 播放源节点
   "dtFromNode": "//div[@class='tab-content']",
 // 播放源名称
-  "dtFromName": "concat('播放源',count(//div[contains(@class,'page-header')]//preceding::*)+1)",
+  "dtFromName": "concat('播放源',count(parent::*/preceding::*//div[contains(@class,'page-header')]) + 1)",
   "dtFromNameR": "(\\S+).0",
 // 播放集数
   "dtUrlNode": "//ul[@class='list-unstyled row text-center ff-playurl-line ff-playurl']",
