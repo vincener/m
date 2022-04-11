@@ -32,9 +32,9 @@
 // 详情节点
   "dtNode": "//body",
 // 视频名
-  "dtName": "//div[@class='media-left']/a/@alt",
+  "dtName": "//h2[@class='text-nowrap']/text()",
   "dtNameR": "",
-  "dtImg": "//div[@class='media-left']/a/@data-original",
+  "dtImg": "//img[@class='media-object img-thumbnail ff-img']/@data-original",
   "dtImgR": "",
 //  "dtCate": "//dl[contains(@class,'dl-horizontal')]/dt[contains(text(), '类型')]/following-sibling::*/text()",
  // "dtYear":"//dl[contains(@class,'dl-horizontal')]/dt[contains(text(), '年份')]/following-sibling::*/text()",
