@@ -32,7 +32,7 @@
 // 详情节点
   "dtNode": "//body",
 // 视频名
-  "dtName": "//h2[@class='text-nowrap']/text()",
+  "dtName": "//h2[@class='text-nowrap']/a/text()",
   "dtNameR": "",
   "dtImg": "//img[@class='media-object img-thumbnail ff-img']/@data-original",
   "dtImgR": "",
