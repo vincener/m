@@ -43,7 +43,7 @@
 	"dtYearR": "",
 	"dtArea": "//span[contains(@class,'text-muted') and contains(text(), '地区')]/following-sibling::*/text()",
 	"dtAreaR": "",
-	"dtMark": "//span[contains(@class,'text-muted') and contains(text(), '导演')]/following::*/text()",
+	"dtMark": "//div[@class='stui-content__thumb']//span[@class'pic-text text-right']/text()",
 	"dtMarkR": "",
 	"dtActor": "//span[contains(@class,'text-muted') and contains(text(), '主演')]/following-sibling::*/text()",
 	"dtActorR": "",
