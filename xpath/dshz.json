@@ -45,9 +45,9 @@
 // 视频简介
   "dtDesc": "",
 // 播放源节点
-  "dtFromNode": "//div[@class='tab-pane fade in active vod-nav-play']/div/h2/span",
+  "dtFromNode": "//div[@class='tab-content']",
 // 播放源名称
-  "dtFromName": "/text()",
+  "dtFromName": "//div[@class='page-header']/h2/span/span/text()",
   "dtFromNameR": "",
 // 播放集数
   "dtUrlNode": "//ul[@class='list-unstyled row text-center ff-playurl-line ff-playurl']",
@@ -59,7 +59,6 @@
 // 剧集名称
   "dtUrlName": "/text()",
   "dtUrlNameR": "",
-// 播放页面的地址 {playUrl} 对应上面 dtUrlId 获取到的地址
   "playUrl": "http://m1.tv9box.com/vod-play-id-{playUrl}.html",
   "playUa": "",
   "searchUrl": "http://m1.tv9box.com/index.php?s=vod-search-name-{wd}",
