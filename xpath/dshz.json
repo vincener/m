@@ -45,7 +45,7 @@
 // 视频简介
   "dtDesc": "",
 // 播放源节点
-  "dtFromNode": "//div[@class='tab-content']/div/div/h2/span",
+  "dtFromNode": "//div[@class='tab-pane fade in active vod-nav-play']/div/h2/span",
 // 播放源名称
   "dtFromName": "/text()",
   "dtFromNameR": "",
