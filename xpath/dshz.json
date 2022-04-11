@@ -46,7 +46,7 @@
 // 播放源节点
   "dtFromNode": "//div[@class='tab-content']",
 // 播放源名称
-  "dtFromName": "//div[contains(@class,'page-header')]/following-sibling::*/text()",
+  "dtFromName": "//div[contains(@class,'page-header')]//h2/text()",
   "dtFromNameR": "",
 // 播放集数
   "dtUrlNode": "//ul[@class='list-unstyled row text-center ff-playurl-line ff-playurl']",
