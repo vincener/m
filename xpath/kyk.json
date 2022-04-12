@@ -57,7 +57,7 @@
   "dtDesc": "",
   "dtDescR": "",
   "dtFromNode": "//div[@class='tab-down mb clearfix']",
-  "dtFromName": "//li[contains(@id,'tab8')]/i/text()",
+  "dtFromName": "//li[contains(@id,'tab8')]/text()",
   "dtFromNameR": "",
   "dtUrlNode": "//div[contains(@class, 'videourl clearfix')]/ul/li",
   "dtUrlSubNode": "/a",
