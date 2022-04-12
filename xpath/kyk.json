@@ -6,14 +6,14 @@
   "cateId": "/@href",
   "cateIdR": "/vodtypehtml/(\\w+)/",
   "cateManual": {
-"电影":"dianying",
-"电视剧":"lianxuju",
+"电影":"1",
+"电视剧":"2",
 "国产剧":"12",
 "港台剧":"13",
 "日韩剧":"14",
 "泰剧":"19",
-"综艺":"zongyi",
-"动漫":"dongman"
+"综艺":"3",
+"动漫":"4"
 },
 // 首页推荐视频的节点
   "homeVodNode": "//div[@class='index-tj-l']/ul/li[contains(@class,'p2 m1')]",
