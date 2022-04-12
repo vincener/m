@@ -27,7 +27,7 @@
   "homeVodImgR": "\\S+(http\\S+)",
 // 首页推荐视频更新集数
   "homeVodMark": "/a/p[@class='other']/i/text()",
-  "cateUrl": "https://www.kyikan.cc/vodtypehtml/{cateId}/index-{catePg}.html",
+  "cateUrl": "https://www.kyikan.cc/index.php?m=vod-list-id-{cateId}-pg-{catePg}-order--by-time-class-0-year-0-letter--area--lang-.html",
   "cateVodNode": "//div[@class='index-area clearfix']/ul/li[contains(@class,'p1 m1')]",
   "cateVodName": "/a/@title",
   "cateVodId": "/a/@href",
