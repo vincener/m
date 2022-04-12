@@ -34,13 +34,13 @@
   "cateVodIdR": "/vodhtml/(\\w+)/",
   "cateVodImg": "/a/img/@data-original",
   "cateVodImgR": "\\S+(http\\S+)",
-  "cateVodMark": "/a/p[@class='other']/i",
+  "cateVodMark": "/a/p[@class='other']/i/text()",
 // 详情页地址 用于获取详情页信息 及 播放列表和地址
   "dtUrl": "https://www.kyikan.cc/vodhtml/{vid]/",
 // 详情节点
   "dtNode": "//div[@class='ct mb clearfix']",
 // 视频名
-  "dtName": "//div[@class='ct-c']//dt[@class='name']",
+  "dtName": "//div[@class='ct-c']//dt[@class='name']/text()",
   "dtNameR": "",
   "dtImg": "//div[@class='ct-l']/img/@data-original",
   "dtImgR": "",
