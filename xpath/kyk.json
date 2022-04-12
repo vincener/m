@@ -26,7 +26,7 @@
   "homeVodImg": "/a/img/@data-original",
   "homeVodImgR": "\\S+(http\\S+)",
 // 首页推荐视频更新集数
-  "homeVodMark": "/a/p[@class='other']",
+  "homeVodMark": "/a/p[@class='other']/i/text()",
   "cateUrl": "https://www.kyikan.cc/vodtypehtml/{cateId}/index-{catePg}.html",
   "cateVodNode": "//div[@class='index-area clearfix']/ul/li[contains(@class,'p1 m1')]",
   "cateVodName": "/a/@title",
@@ -34,7 +34,7 @@
   "cateVodIdR": "/vodhtml/(\\w+)/",
   "cateVodImg": "/a/img/@data-original",
   "cateVodImgR": "\\S+(http\\S+)",
-  "cateVodMark": "/a/p[@class='other']",
+  "cateVodMark": "/a/p[@class='other']/i",
 // 详情页地址 用于获取详情页信息 及 播放列表和地址
   "dtUrl": "https://www.kyikan.cc/vodhtml/{vid]/",
 // 详情节点
