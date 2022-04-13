@@ -1,5 +1,5 @@
 { 
-"ua": "", 
+"ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1", 
 "homeUrl": "https://www.ekvod.com", 
 "dcVipFlag": "true", 
 "pCfgJs": "https://www.ekvod.com/static/js/playerconfig.js", 
@@ -12,11 +12,13 @@
 "cateIdR": "/vodtype/(\\S+).html", 
 "cateManual":{ 
 "电影":"1", 
-"连续剧":"2", 
-"综艺":"3", 
-"动漫":"4", 
+"电视剧":"2", 
+"国产剧":"13", 
+"港台剧":"14", 
 "日韩剧":"15", 
-"欧美剧":"16"},  
+"泰剧":"23"
+"综艺":"3", 
+"动漫":"4", },  
  "homeVodNode": "//div[@class='module-item-pic']",
  "homeVodName": "/a/@title",
  "homeVodId": "/a/@href",
