@@ -45,9 +45,9 @@
 // 视频简介
   "dtDesc": "//span[contains(text(), '简介')]/following-sibling::*/text()",
 // 播放源节点
-  "dtFromNode": "//div[@class='stui-pannel__head bottom-line active clearfix']",
+  "dtFromNode": "//div[@class='stui-pannel__head bottom-line active clearfix']//h3",
 // 播放源名称
-  "dtFromName": "//h3/text()",
+  "dtFromName": "[substring-before(text(),'(')]",
   "dtFromNameR": "",
 // 播放集数
   "dtUrlNode": "//div[contains(@class,'stui-pannel_bd col-pd clearfix')]",
@@ -55,7 +55,7 @@
   "dtUrlSubNode": "/ul/li/a",
   "dtUrlId": "@href",
 // 播放地址节点
-  "dtUrlIdR": "vodplay/(\\S+)/",
+  "dtUrlIdR": "/vodplay/(\\S+)/",
 // 剧集名称
   "dtUrlName": "/text()",
   "dtUrlNameR": "",
