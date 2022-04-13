@@ -40,7 +40,7 @@
 // 详情节点
   "dtNode": "//body",
 // 视频名
-  "dtName": "//div[@class='ct-l']/img/@alt",
+  "dtName": "//dt[@class='name']/text()",
   "dtNameR": "",
   "dtImg": "//div[@class='ct-l']/img/@data-original",
   "dtImgR": "",
