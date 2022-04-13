@@ -59,7 +59,7 @@
   "dtFromNode": "//div[(@class='playfrom tab8 clearfix')]",
   "dtFromName": "/ul/li/text()",
   "dtFromNameR": "",
-  "dtUrlNode": "//div[(@id='stab81')]/div[2]/ul",
+  "dtUrlNode": "//div[@class='videourl clearfix']/ul",
   "dtUrlSubNode": "/li/a",
   "dtUrlId": "/@href",
   "dtUrlIdR": "/index.php?m=vod-play-id-(\\S+).html",
