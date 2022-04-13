@@ -52,7 +52,7 @@
 // 播放集数
   "dtUrlNode": "//ul[contains(@class,'stui-content__playlist')]",
 // 播放集数节点
-  "dtUrlSubNode": "/li/a",
+  "dtUrlSubNode": "//li/a",
   "dtUrlId": "@href",
 // 播放地址节点
   "dtUrlIdR": "/vodplay/(\\S+)/",
