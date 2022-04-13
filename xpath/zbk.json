@@ -50,9 +50,9 @@
   "dtFromName": "//div[@class='stui-pannel__head bottom-line active clearfix']//h3/text()",
   "dtFromNameR": "",
 // 播放集数
-  "dtUrlNode": "//ul[contains(@class,'stui-content__playlist')]",
+  "dtUrlNode": "//div[contains(@class,'stui-pannel_bd col-pd clearfix')]",
 // 播放集数节点
-  "dtUrlSubNode": "//li/a",
+  "dtUrlSubNode": "/ul/li/a",
   "dtUrlId": "@href",
 // 播放地址节点
   "dtUrlIdR": "/vodplay/(\\S+)/",
