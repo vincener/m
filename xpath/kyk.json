@@ -38,9 +38,9 @@
 // 详情页地址 用于获取详情页信息 及 播放列表和地址
   "dtUrl": "https://www.kyikan.cc/vodhtml/{vid]/",
 // 详情节点
-  "dtNode": "//div[@class='main']",
+  "dtNode": "//body",
 // 视频名
-  "dtName": "//h1/a[3]/text()",
+  "dtName": "//div[@class='ct-l']/img/@alt",
   "dtNameR": "",
   "dtImg": "//div[@class='ct-l']/img/@data-original",
   "dtImgR": "",
@@ -57,7 +57,7 @@
   //"dtDesc": "",
   //"dtDescR": "",
   "dtFromNode": "//div[(@class='playfrom tab8 clearfix')]",
-  "dtFromName": "//ul/li/text()",
+  "dtFromName": "/ul/li/text()",
   "dtFromNameR": "",
   "dtUrlNode": "//div[(@id='stab81')]/div[2]/ul",
   "dtUrlSubNode": "/li/a",
