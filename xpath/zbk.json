@@ -62,11 +62,11 @@
 // 播放页面的地址 {playUrl} 对应上面 dtUrlId 获取到的地址
   "playUrl": "http://www.zhenbuka3.com/vodplay/{playUrl}/",
   "playUa": "",
-  "searchUrl": "http://www.zhenbuka3.com/index.php/ajax/suggest?mid=1&wd={wd}&limit=10",
-  "scVodNode": "json:list",
-  "scVodName": "name",
-  "scVodId": "id",
-  "scVodIdR": "",
-  "scVodImg": "pic",
-  "scVodMark": ""
+  "searchUrl": "http://www.zhenbuka3.com/vodsearch/-------------/?wd={wd}",
+  "scVodNode": "//div[@class='thumb']",
+  "scVodName": "/a/@title",
+  "scVodId": "/@herf",
+  "scVodIdR": "/voddetail/(\\w+)/",
+  "scVodImg": "/a/@data-original",
+  "scVodMark": "/a/span[@class='pic-text text-right']/text()"
 }
