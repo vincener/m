@@ -1,7 +1,7 @@
 { 
 "ua": "",
 "homeUrl": "https://www.lkvod.com/", 
-"cateNode": "//li[contains(@class, 'grid-item')]/a[contains(@href, 'index.php/vod/type/id')]",
+"cateNode": "//li[contains(@class, 'grid-item')]/a[contains(@href, 'type')]",
 "cateName": "/text()",
 "cateId": "/@href",
 "cateIdR": "/type/(\\w+).html", 
