@@ -53,7 +53,7 @@
  "dtDirector": "//span[contains(text(), '导演')]/following-sibling::*/a/text()",
  "dtDirectorR": "",
  "dtDesc": "//p[contains(text(), '简介')]/text()",
- "dtFromNode":"//ul[@class='tab-top play-tab clearfix']//li/a",
+ "dtFromNode":"//ul[@class='tab-top play-tab clearfix']/li/a",
  "dtFromName": "/text()",
  "dtFromNameR": "",
    "dtUrlNode": "//ul[@class='stui-play__list clearfix']",
