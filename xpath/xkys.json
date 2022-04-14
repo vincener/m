@@ -10,7 +10,15 @@
   "cateName": "/span/text()",
   "cateId": "/@href",
   "cateIdR": "/Moviestype/(\\w+).html",
-  "cateManual": {"电视剧":"2"},
+  "cateManual": {
+      "电影":"1",
+      "电视剧":"2",
+      "国产剧":"13",
+      "港台剧":"14",
+      "日韩剧":"15",
+      "综艺":"3",
+      "动漫":"4"
+      },
   "homeVodNode": "//div[@class='module-item-pic']",
   "homeVodName": "/a/@title",
   "homeVodId": "/a/@href",
