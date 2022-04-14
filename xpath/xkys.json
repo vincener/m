@@ -8,10 +8,10 @@
       "电视剧":"2"
   },
   "dcPlayUrl": "true",
-  "cateNode": "//ul[contains(@class,'nav-menu-items')]/li/a[contains(@href, 'Movietype')]",
+  "cateNode": "//ul[contains(@class,'nav-menu-items')]/li/a[contains(@href, 'Moviestype')]",
   "cateName": "/span/text()",
   "cateId": "/@href",
-  "cateIdR": "/Movietype/(\\w+).html",
+  "cateIdR": "/Moviestype/(\\w+).html",
   "cateManual": {},
   "homeVodNode": "//div[@class='module-item-pic']",
   "homeVodName": "/a/@title",
