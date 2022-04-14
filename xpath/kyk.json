@@ -36,7 +36,7 @@
   "cateVodImgR": "\\S+(http\\S+)",
   "cateVodMark": "/a/p[@class='other']/i/text()",
 // 详情页地址 用于获取详情页信息 及 播放列表和地址
-  "dtUrl": "https://www.kyikan.cc/vodhtml/{vid]/",
+  "dtUrl": "https://www.kyikan.cc/vodhtml/{vid}/",
 // 详情节点
   "dtNode": "//body",
 // 视频名
