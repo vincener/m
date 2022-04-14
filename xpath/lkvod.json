@@ -1,8 +1,9 @@
-{ "ua": "", 
+{ 
+"ua": "",
 "homeUrl": "https://www.lkvod.com/", 
- "cateNode": "//li[contains(@class, 'grid-item')]/a[contains(@href, 'index.php/vod/type/id')]",
- "cateName": "/text()",
- "cateId": "/@href",
+"cateNode": "//li[contains(@class, 'grid-item')]/a[contains(@href, 'index.php/vod/type/id')]",
+"cateName": "/text()",
+"cateId": "/@href",
 "cateIdR": "/type/(\\w+).html", 
 "cateManual": {
     "电影": "1",
