@@ -4,7 +4,9 @@
   "dcVipFlag": "true",
   "pCfgJs": "https://xkys.tv/static/js/playerconfig.js",
   "pCfgJsR": "[\\W|\\S|.]*?MacPlayerConfig.player_list[\\W|\\S|.]*?=([\\W|\\S|.]*?),MacPlayerConfig.downer_list",
-  "dcShow2Vip": {},
+  "dcShow2Vip": {
+      "电视剧":"2"
+  },
   "dcPlayUrl": "true",
   "cateNode": "//ul[contains(@class,'nav-menu-items')]/li/a[contains(@href, 'Movietype')]",
   "cateName": "/span/text()",
