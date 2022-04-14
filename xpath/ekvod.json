@@ -18,7 +18,7 @@
 "日韩剧":"15", 
 "泰剧":"23"
 "综艺":"3", 
-"动漫":"4", },  
+"动漫":"4" },  
  "homeVodNode": "//div[@class='module-item-pic']",
  "homeVodName": "/a/@title",
  "homeVodId": "/a/@href",
