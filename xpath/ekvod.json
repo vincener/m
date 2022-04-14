@@ -26,7 +26,7 @@
  "homeVodImg": "//img[@class='lazy lazyloaded']/@data-src",
  "homeVodImgR": "",
  "homeVodMark": "//div[@class='module-item-text']/text()",
-"cateUrl": "https://www.ekvod.com/vodshow/{cateId}--------{catePg}---.html", 
+"cateUrl": "https://www.ekvod.com/vodshow/{cateId}--------{catePg}---.htmll", 
 "cateVodNode": "//div[@class='module-item-pic']",
  "cateVodName": "/a/@title",
  "cateVodId": "/a/@href",
