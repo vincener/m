@@ -66,7 +66,7 @@
   "dtUrlNameR": "",
   "playUrl": "https://l0l.tv/{playUrl}",
   "playUa": "",
-  "searchUrl":"https://l0l.tv/index.php/vod/search/wd={wd}.html",
+  "searchUrl":"https://l0l.tv/index.php/vod/search/wd/{wd}.html",
   "scVodNode": "//li[contains(@class,'cf list-width')]",
   "scVodName": "/div/a/@title",
   "scVodId": "/div/a/@href",
