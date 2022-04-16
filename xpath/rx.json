@@ -4,16 +4,21 @@
   "dcVipFlag": "true",
   "pCfgJs": " https://www.rongxingvr.cn/static/js/playerconfig.js",
   "pCfgJsR": "[\\W|\\S|.]*? MacPlayerConfig.player_list[\\W|\\S|.]*?=([\\W|\\S|.]*?), MacPlayerConfig.downer_list",
-  "dcShow2Vip": {
-    
-  },
+  "dcShow2Vip": {},
   "dcPlayUrl": "true",
   "cateNode": "//ul[contains(@class,'nav-menu-items')]/li/a[contains(@href, 'vodtype')]",
   "cateName": "/@title",
   "cateId": "/@href",
   "cateIdR": "/vodtype/(\\d+).html",
   "cateManual": {
-    
+      "电影":"1",
+"电视剧":"2",
+"国产剧":"13",
+"港台剧":"14",
+"日韩剧":"15",
+"美泰":"16",
+"综艺":"46",
+"bilibili":"38"
   },
   "homeVodNode": "//div[contains(@class,'module-list')]//div[contains(@class,'module-item-pic')]",
   "homeVodName": "/a/@title",
@@ -22,7 +27,7 @@
   "homeVodImg": "/img/@data-src",
   "homeVodImgR": "",
   "homeVodMark": "//div[contains(@class,'module-list')]//div[(@class='module-item-text']/text()",
-  "cateUrl": " https://www.rongxingvr.cn/vodshow/{cateId}--------{catePg} ---.html",
+  "cateUrl": " https://www.rongxingvr.cn/vodshow/{cateId}--------{catePg}---.html",
   "cateVodNode": "//div[contains(@class,'module-list')]//div[contains(@class,'module-item-pic')]",
   "cateVodName": "/a/@title",
   "cateVodId": "/a/@href",
