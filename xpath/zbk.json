@@ -63,10 +63,10 @@
   "playUrl": "http://www.zhenbuka3.com/vodplay/{playUrl}/",
   "playUa": "",
   "searchUrl": "http://www.zhenbuka3.com/vodsearch/-------------/?wd={wd}",
-  "scVodNode": "//div[@class='thumb']",
-  "scVodName": "/a/@title",
-  "scVodId": "/@herf",
+  "scVodNode": "//li[@class='active clearfix']",
+  "scVodName": "/div[@class='thumb']/a/@title",
+  "scVodId": "/div[@class='thumb']/a/@herf",
   "scVodIdR": "/vodplay/(\\w+)/",
-  "scVodImg": "/a/@data-original",
-  "scVodMark": "/a/span[@class='pic-text text-right']/text()"
+  "scVodImg": "/div[@class='thumb']/a/@data-original",
+  "scVodMark": "//span[@class='pic-text text-right']/text()"
 }
