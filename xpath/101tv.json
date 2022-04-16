@@ -67,10 +67,10 @@
   "playUrl": "https://l0l.tv/{playUrl}",
   "playUa": "",
   "searchUrl":"https://l0l.tv/index.php/vod/search/wd/{wd}.html",
-  "scVodNode": "//li[contains(@class,'cf list-width')]",
-  "scVodName": "/div/a/@title",
-  "scVodId": "/div/a/@href",
+  "scVodNode": "//div[contains(@class,'top list-hide l')]/a",
+  "scVodName": "/@title",
+  "scVodId": "/@href",
   "scVodIdR": "/index.php/vod/play/(\\w+).html",
-  "scVodImg": "/div/a/@data-original",
-  "scVodMark": "/div/a/span[2]/text()"
+  "scVodImg": "/@data-original",
+  "scVodMark": "/span[2]/text()"
 }
