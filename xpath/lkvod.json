@@ -29,7 +29,7 @@
     "cateVodImg": "//div[@class='module-item-pic']/img/@data-src",
     "cateVodImgR": "\\S+(http\\S+)",
     "cateVodMark": "//div[@class='module-item-caption right']/span/text()",
-    "dtUrl": "https://www.lkvod.cc/detail/{vid}.html",
+    "dtUrl": "https://www.nkvod.cc/detail/{vid}.html",
     "dtNode": "//body",
     "dtName": "//div[@class='video-info-header']/h1/text()",
     "dtImg": "//div[@class='video-cover']/div/div/img/@data-src",
