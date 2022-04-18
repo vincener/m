@@ -45,7 +45,7 @@
   "scVodNode": "//ul[@class='list-unstyled vod-item-img ff-img-140']/li[@class='col-xs-4']",
   "scVodName": "//h2[@class='text-nowrap ff-text-right']/a/@title",
   "scVodId": "//p[@class='image']/a/@herf",
-  "scVodIdR": "/vod-read-id-(\\w+).html",
+  "scVodIdR": "/vod-read-id-(\\S+).html",
   "scVodImg": "//p[@class='image']/a/img/@data-original",
   "scVodMark": "//span[@class='continu']/text()"
 }
