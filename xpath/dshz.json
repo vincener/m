@@ -28,13 +28,13 @@
   "cateVodImgR": "\\S+(http\\S+)",
   "cateVodMark": "//p/a/span[@class='continu']/text()",
 // 详情页地址 用于获取详情页信息 及 播放列表和地址
-  "dtUrl": "http://m1.tv9box.com/vod-read-id-{vid}.html",
+  "dtUrl": "http://www.tv9box.com/vod-read-id-{vid}.html",
 // 详情节点
   "dtNode": "//body",
 // 视频名
-  "dtName": "//h2[@class='text-nowrap']/a/text()",
-  "dtNameR": "",
-  "dtImg": "//img[@class='media-object img-thumbnail ff-img']/@data-original",
+  "dtName": "//div[@class='poster_placeholder']/div/img/@alt",
+  "dtNameR": "(\\S+)背景图",
+  "dtImg": "//div[@class='poster_placeholder']/div/img/@data-src",
   "dtImgR": "",
   "dtCate": "//dt[contains(text(), '类型')]/following-sibling::*/a/text()",
  "dtYear":"//dt[contains(text(), '年份')]/following-sibling::*/a/text()",
@@ -51,7 +51,7 @@
   "dtUrlIdR":"",
   "dtUrlName":"/em/text()",
   "dtUrlNameR":"",
-  "playUrl": "http://m1.tv9box.com/vod-play-id-{playUrl}.html",
+  "playUrl":"http://www.tv9box.com{playUrl}",
   "playUa": "",
   "searchUrl": "http://m1.tv9box.com/index.php?s=vod-search-name-{wd}",
   "scVodNode": "//ul[@class='list-unstyled vod-item-img ff-img-140']/li[@class='col-xs-4']",
