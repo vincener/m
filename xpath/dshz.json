@@ -43,21 +43,29 @@
   "dtDirector": "//dt[contains(text(), '导演')]/following-sibling::*/a/text()",
   "dtActor": "//dt[contains(text(), '主演')]/following-sibling::*/a/text()",
   "dtDesc": "//div[@class='tab-pane fade vod-nav-content']/text()",
-"dtFromNode":"//ul[contains(@class,'play_source_tab')]/li/a",
-"dtFromName":"/text()",
-"dtUrlNode":"//div[@class='v_con_box']/ul",
-"dtUrlSubNode":"/li/a",
-"dtUrlId":"@href",
-"dtUrlIdR":"",
-"dtUrlName":"/em/text()",
-"dtUrlNameR":"",
-"playUrl":"http://www.tv9box.com{playUrl}",
-"playUa":"",
- "searchUrl": "http://m1.tv9box.com/index.php?s=vod-search-name-{wd}",
- "scVodNode": "//ul[@class='list-unstyled vod-item-img ff-img-140']/li[@class='col-xs-4']",
- "scVodName": "//h2[@class='text-nowrap ff-text-right']/a/@title",
- "scVodId": "//p[@class='image']/a/@herf",
- "scVodIdR": "/vod-read-id-(\\w+).html",
- "scVodImg": "//p[@class='image']/a/img/@data-original",
- "scVodMark": "//span[@class='continu']/text()"
+// 播放源节点
+  "dtFromNode": "//div[@class='container ff-bg']/div[@class='tab-content']",
+// 播放源名称
+  "dtFromName": "//div[contains(@class,'page-header')]//h2/text()",
+  "dtFromName": "//div[@class='page-header']/h2/text()",
+  "dtFromNameR": "",
+// 播放集数
+  "dtUrlNode": "//ul[@class='list-unstyled row text-center ff-playurl-line ff-playurl']",
+// 播放集数节点
+  "dtUrlSubNode": "/li/a",
+  "dtUrlId": "/@href",
+// 播放地址节点
+  "dtUrlIdR": "/vod-play-id-(\\S+).html",
+// 剧集名称
+  "dtUrlName": "/text()",
+  "dtUrlNameR": "",
+  "playUrl": "http://m1.tv9box.com/vod-play-id-{playUrl}.html",
+  "playUa": "",
+  "searchUrl": "http://m1.tv9box.com/index.php?s=vod-search-name-{wd}",
+  "scVodNode": "//ul[@class='list-unstyled vod-item-img ff-img-140']/li[@class='col-xs-4']",
+  "scVodName": "//h2[@class='text-nowrap ff-text-right']/a/@title",
+  "scVodId": "//p[@class='image']/a/@herf",
+  "scVodIdR": "/vod-read-id-(\\w+).html",
+  "scVodImg": "//p[@class='image']/a/img/@data-original",
+  "scVodMark": "//span[@class='continu']/text()"
 }
