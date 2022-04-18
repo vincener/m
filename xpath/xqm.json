@@ -76,11 +76,11 @@
     "playUrl": "https://www.xqmi.top/index.php/vod/play/id/{playUrl}.html",
     // 解析webview的user-agent
     "playUa": "",
-    "searchUrl": "https://www.xqmi.top/index.php/vod/search?wd={wd}",
-    "scVodNode": "//li[@class='stui-vodlist__item']/a",
-    "scVodName": "/@title",
-    "scVodId": "/@href",
-    "scVodIdR": "/id/(\\w+).html",
-    "scVodImg": "/@data-original",
-    "scVodMark": "/span[@class='pic-text text-right']/text()"
+    "searchUrl": "http://www.xqmi.top/index.php/ajax/suggest?mid=1&wd={wd}&limit=10",
+    "scVodNode": "json:list",
+    "scVodName": "name",
+    "scVodId": "id",
+    "scVodIdR": "",
+    "scVodImg": "pic",
+    "scVodMark": ""
 }
