@@ -49,7 +49,7 @@
   "dtFromName": "//div[@class='stui-pannel__head bottom-line active clearfix']//h3/text()",
   "dtFromNameR": "",
 // 播放集数
-  "dtUrlNode": "//ul[contains(@class,'stui-content__playlist')]",
+  "dtUrlNode": "//ul[contains(@class,'stui-content__playlist clearfix column8')]",
 // 播放集数节点
   "dtUrlSubNode": "/li/a",
   "dtUrlId": "/@href",
