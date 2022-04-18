@@ -1,4 +1,12 @@
 🇭🇰港台,#genre#
+TVB翡翠台,http://119.77.96.184:1935/chn21/chn21/playlist.m3u8
+TVB翡翠台,http://antvlive.ab5c6921.cdnviet.com/antv/chunklist.m3u8
+TVB翡翠台海外版(粤语),https://fox-foxnewsnow-samsungus.amagi.tv/playlist720p.m3u8
+TVB翡翠台海外版(普通话),https://livecdn.fptplay.net/sdc/quochoivn_hls.smil/chunklist_b2800000.m3u8
+TVB明珠台,https://livecdn.fptplay.net/sdc/quocphongvnhd_hls.smil/chunklist_b2800000.m3u8
+TVB明珠台,http://51.222.193.143:10010/2
+TVB功夫台(普通话),http://51.222.193.143:10010/5
+TVB J2,http://51.222.193.143:10010/6
 卫视中文,http://59.125.101.187:8720/http/192.168.77.24:8081/hls/62/804/ch05.m3u8
 卫视电影,http://59.125.101.187:8753/http/192.168.77.24:8081/hls/62/804/ch07.m3u8
 卫视电影GOLD,http://59.125.101.187:8745/http/192.168.77.24:8081/hls/62/804/ch08.m3u8
