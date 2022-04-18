@@ -7,15 +7,15 @@
   "cateIdR": "/type/(\\w+).html",
   "cateManual": {},
 // 首页推荐视频的节点
-  "homeVodNode": "//li[@class='col-xs-3']",
+  "homeVodNode": "//lidiv[@class='stui-vodlist__box']",
 // 首页推荐视频的名称
-  "homeVodName": "//div/a/@title",
+  "homeVodName": "/a/@title",
 // 首页推荐视频的id
-  "homeVodId": "//div/a/@href",
+  "homeVodId": "/a/@href",
 // 二次处理正则
   "homeVodIdR": "/vod/(\\w+).html",
 // 首页推荐视频的图片
-  "homeVodImg": "//div/a/@data-original",
+  "homeVodImg": "/a/@data-original",
   "homeVodImgR": "\\S+(http\\S+)",
 // 首页推荐视频更新集数
   "homeVodMark": "//span[@class='pic-text text-right']/text()",
