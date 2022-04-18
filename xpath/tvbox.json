@@ -46,7 +46,7 @@
 // 播放源节点
   "dtFromNode": "//div[@class='container ff-bg']/div[@class='tab-content']",
 // 播放源名称
-  "dtFromName": "//div[@class='tab-pane fade in active vod-nav-play']//div[@class='page-header']//h2/text()",
+  "dtFromName": "//div[@class='tab-pane fade in active vod-nav-play']//div[contains(@class,'page-header')]//h2//text()",
   "dtFromNameR": "",
 // 播放集数
   "dtUrlNode": "//ul[@class='list-unstyled row text-center ff-playurl-line ff-playurl']",
