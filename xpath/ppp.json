@@ -7,7 +7,7 @@
   "cateIdR": "/type/(\\w+).html",
   "cateManual": {},
 // 首页推荐视频的节点
-  "homeVodNode": "//lidiv[@class='stui-vodlist__box']",
+  "homeVodNode": "//div[@class='stui-vodlist__box']",
 // 首页推荐视频的名称
   "homeVodName": "/a/@title",
 // 首页推荐视频的id
@@ -20,11 +20,11 @@
 // 首页推荐视频更新集数
   "homeVodMark": "//span[@class='pic-text text-right']/text()",
   "cateUrl":"http://www.pipipao.com/vodshow/id/{cateId}/page/{catePg}.html",
-  "cateVodNode": "//li[@class='col-xs-3']",
-  "cateVodName": "//div/a/@title",
-  "cateVodId": "//div/a/@href",
+  "cateVodNode": "//div[@class='stui-vodlist__box']",
+  "cateVodName": "/a/@title",
+  "cateVodId": "/a/@href",
   "cateVodIdR": "/vod/(\\w+).html",
-  "cateVodImg": "/div/a/@data-original",
+  "cateVodImg": "/a/@data-original",
   "cateVodImgR": "\\S+(http\\S+)",
   "cateVodMark": "//span[@class='pic-text text-right']/text()",
 // 详情页地址 用于获取详情页信息 及 播放列表和地址
