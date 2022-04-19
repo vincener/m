@@ -1,5 +1,5 @@
 {
-  "author": "Tangsan99999",
+  "author": "",
   "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1",
   "homeUrl": "https://gimytv.com/",
   "dcVipFlag": "true",
@@ -50,7 +50,7 @@
   "dtDirectorR": "",
   "dtDesc": "//div[contains(@class,'col-pd')]/p/text()",
   "dtDescR": "",
-  "dtFromNode": "//div[contains(@class,'bottom-line active clearfix')]/h3[contains(text(),'線路')]",
+  "dtFromNode": "//div[contains(@class,'bottom-line active clearfix')]//h3",
   "dtFromName": "/text()",
   "dtUrlNode": "//ul[contains(@class,'myui-content__list')]",
   "dtUrlSubNode": "/li/a",
