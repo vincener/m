@@ -46,13 +46,13 @@
 // 播放源节点
   "dtFromNode": "//div[@class='stui-pannel-box b playlist mb']",
 // 播放源名称
-  "dtFromName": "//h3/text()",
+  "dtFromName": "//div[@class='stui-pannel_hd']//h3/text()",
   "dtFromNameR": "",
 // 播放集数
   "dtUrlNode": "//ul[@class='stui-content__playlist clearfix column8']",
 // 播放集数节点
   "dtUrlSubNode": "/li/a",
-  "dtUrlId": "/@href",
+  "dtUrlId": "@href",
 // 播放地址节点
   "dtUrlIdR": "/play/(\\S+).html",
 // 剧集名称
