@@ -60,11 +60,11 @@
   "dtUrlNameR": "",
   "playUrl": "http://www.pipipao.com/play/{playUrl}.html",
   "playUa": "",
-  "searchUrl": "http://m1.tv9box.com/index.php?s=vod-search-name-{wd}",
-  "scVodNode": "//ul[@class='list-unstyled vod-item-img ff-img-140']/li[@class='col-xs-4']",
-  "scVodName": "//h2[@class='text-nowrap ff-text-right']/a/@title",
-  "scVodId": "//p[@class='image']/a/@herf",
-  "scVodIdR": "/vod-read-id-(\\w+).html",
-  "scVodImg": "//p[@class='image']/a/img/@data-original",
-  "scVodMark": "//span[@class='continu']/text()"
+  "searchUrl": "http://www.pipipao.com/index.php/ajax/suggest?mid=1&wd={wd}&limit=10",
+  "scVodNode": "json:list",
+  "scVodName": "name",
+  "scVodId": "id",
+  "scVodIdR": "",
+  "scVodImg": "pic",
+  "scVodMark": ""
 }
