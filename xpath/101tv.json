@@ -66,11 +66,11 @@
   "dtUrlNameR": "",
   "playUrl": "https://l0l.tv/{playUrl}",
   "playUa": "",
-  "searchUrl":"https://l0l.tv/index.php/vod/search/wd/{wd}.html",
-  "scVodNode": "//div[contains(@class,'pack-packcover returl list-top-b')]",
-  "scVodName": "/a/@title",
-  "scVodId": "/a/@href",
-  "scVodIdR": "/index.php/vod/play/(\\w+).html",
-  "scVodImg": "/a/@data-original",
-  "scVodMark": "/a/span[@class='pack-prb']/text()"
+  "searchUrl": "https://l0l.tv/index.php/ajax/suggest?mid=1&wd={wd}&limit=10",
+	"scVodNode": "json:list",
+	"scVodName": "name",
+	"scVodId": "id",
+	"scVodIdR": "",
+	"scVodImg": "pic",
+	"scVodMark": ""
 }
