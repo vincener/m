@@ -13,7 +13,7 @@
   "homeVodImg": "/a/@data-original",
   "homeVodImgR": "\\S+(http\\S+)",
   "homeVodMark": "//span[contains(@class,'mo-situ-rema')]/text()",
-  "cateUrl": "https://aixixi.vip/index.php/vod/show/id/{cateId}/page/{catePg}.html",
+  "cateUrl": "https://myaixixi.com/index.php/vod/show{area}/id/{cateId}/page/{catePg}{year}.html",
   "cateVodNode": "//ul[@class='mo-cols-rows']/li",
   "cateVodName": "/a[2]/text()",
   "cateVodId": "/a/@href",
