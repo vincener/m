@@ -46,8 +46,8 @@
 // 播放源节点
   "dtFromNode": "//div[@class='stui-pannel-box b playlist mb']",
 // 播放源名称
-  "dtFromName": "//div[@class='stui-pannel__head bottom-line active clearfix']/h3/text()",
-  "dtFromNameR": "",
+  "dtFromName": "//div[@class='stui-pannel__head bottom-line active clearfix']/h3",
+  "dtFromNameR": "[substring-before(text(),'(')]",
 // 播放集数
   "dtUrlNode": "//ul[@class='stui-content__playlist clearfix column8']",
 // 播放集数节点
