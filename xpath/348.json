@@ -21,7 +21,7 @@
   "homeVodImg": "/div/@data-original",
   "homeVodImgR": "\\S+(http\\S+)",
   "homeVodMark": "/span[@class='pack-prb hidden']/text()", 
-  "cateUrl": "https://348z.com/vodshow/id/{cateId}/page/{catePg}/year/{year}.html",
+  "cateUrl": "https://348z.com/vodshow/area/{area}/id/{cateId}/page/{catePg}/year/{year}.html",
   "cateVodNode": "//div[contains(@class, 'vodlist hotgrow')]//a[@class='aplus-exp ecimgbor']",
   "cateVodName": "/@title",
   "cateVodId": "/@href",
