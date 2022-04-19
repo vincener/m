@@ -9,7 +9,7 @@
   "urlCategory": "/vodshow/|/",
   "urlDetail": "/voddetail/|/",
   "urlPlay": "/vodplay/|/",
-  "urlSearch": "",
+  "urlSearch": "vodsearch/-------------/?wd={wd}",
   "player": {
     "qqpic": {
       "sh": "不卡超清[推荐]",
