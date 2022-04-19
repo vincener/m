@@ -50,7 +50,7 @@
   "dtDirectorR": "",
   "dtDesc": "//div[contains(@class,'col-pd')]/p/text()",
   "dtDescR": "",
-  "dtFromNode": "//div[@class='myui-panel_hd']//h3",
+  "dtFromNode": "//div[@class='myui-panel_hd']/div/h3",
   "dtFromName": "/text()",
   "dtUrlNode": "//ul[contains(@class,'myui-content__list')]",
   "dtUrlSubNode": "/li/a",
