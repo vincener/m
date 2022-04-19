@@ -61,10 +61,10 @@
   "playUrl": "http://m1.tv9box.com/vod-play-id-{playUrl}.html",
   "playUa": "",
   "searchUrl": "http://m1.tv9box.com/index.php?s=vod-search-name-{wd}",
-  "scVodNode": "//li[@class='col-xs-4']",
-  "scVodName": "/p[@class='image']/a/img/@alt",
-  "scVodId": "//p[@class='image']/a/@herf",
+  "scVodNode": "//li[@class='col-xs-4']/p[@class='image']",
+  "scVodName": "/a/img/@alt",
+  "scVodId": "/a/@herf",
   "scVodIdR": "/vod-read-id-(\\w+).html",
-  "scVodImg": "/p[@class='image']/a/img/@data-original",
-  "scVodMark": "/p/a/span[@class='continu']/text()"
+  "scVodImg": "/a/img/@data-original",
+  "scVodMark": "/a/span[@class='continu']/text()"
 }
