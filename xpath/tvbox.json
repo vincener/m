@@ -41,11 +41,11 @@
   "dtDirector": "//em[contains(text(), '导演')]/following-sibling::*/text()",
   "dtActor": "//em[contains(text(), '主演')]/following-sibling::*/text()",
   "dtDesc":" //em[contains(text(), '简介')]/following-sibling::*/span/text()",
-  "searchUrl": "http://m1.tv9box.com/index.php?s=vod-search-name-{wd}",
-  "scVodNode": "//ul[@class='list-unstyled vod-item-img ff-img-140']/li[@class='col-xs-4']",
-  "scVodName": "//h2[@class='text-nowrap ff-text-right']/a/@title",
-  "scVodId": "//p[@class='image']/a/@herf",
+  "searchUrl": "http://www.tv9box.com/index.php?s=vod-search-name-{wd}",
+  "scVodNode": "//div[@class='v_pic']",
+  "scVodName": "/img/@alt",
+  "scVodId": "/a/@herf",
   "scVodIdR": "(\\w+).html",
-  "scVodImg": "//p[@class='image']/a/img/@data-original",
-  "scVodMark": "//span[@class='continu']/text()"
+  "scVodImg": "/img/@data-src",
+  "scVodMark": "//span[@class='v_bottom_tips']/text()"
 }
