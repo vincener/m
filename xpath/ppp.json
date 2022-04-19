@@ -51,7 +51,7 @@
 // 播放集数
   "dtUrlNode": "//ul[@class='stui-content__playlist clearfix column8']",
 // 播放集数节点
-  "dtUrlSubNode": "//li/a",
+  "dtUrlSubNode": "/li/a",
   "dtUrlId": "@href",
 // 播放地址节点
   "dtUrlIdR": "/play/(\\S+).html",
