@@ -54,7 +54,7 @@
   "dtUrlNameR": "",
   "playUrl": "https://vip.52sjmz.cn/play/{playUrl}/",
   "playUa": "",
-  "searchUrl": "https://vip.52sjmz.cn/index.php/ajax/suggest?mid=1&wd={wd}&limit=10&btwaf=87789002",
+  "searchUrl": "https://vip.52sjmz.cn/index.php/ajax/suggest?mid=1&wd={wd}&limit=10",
   "scVodNode": "json:list",
   "scVodName": "name",
   "scVodId": "id",
