@@ -42,7 +42,7 @@
   "dtDescR": "",
   "dtFromNode": "//div[contains(@class,'resource-list')]/div[@class='panel-heading']/strong",
   "dtFromName": "/text()",
-  "dtFromNameR": "\\S+\\.(\\S+)",
+  "dtFromNameR": "\\S+\\.",
   "dtUrlNode": "//div[contains(@class,'resource-list')]/ul[@class='dslist-group']",
   "dtUrlSubNode": "/li/a",
   "dtUrlId": "@href",
