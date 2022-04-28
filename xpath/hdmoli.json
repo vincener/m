@@ -33,7 +33,7 @@
   "dtYear": "//span[contains(@class,'text-muted')and contains( text(),'年份')]/../text()[6]",
   "dtArea": "//span[contains(@class,'text-muted')and contains( text(),'地区')]/../text()[4]",
   "dtActor": "//span[contains(@class,'text-muted')and contains( text(),'演员')]/following-sibling::*/text()",
-  "dtMark": "//span[contains(@class,'text-muted')and contains( text(),'更新周期')]/../text()",
+  "dtMark": "//span[contains(@class,'text-muted')and contains( text(),'更新')]/../text()",
   "dtDirector": "//span[contains(@class,'text-muted')and contains( text(),'导演')]/../text()",
   "dtDesc": "//span[contains(@class,'text-muted')and contains( text(),'短评')]/../text()",   
 // Playlist =====================================================     
