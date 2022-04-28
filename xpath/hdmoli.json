@@ -6,8 +6,8 @@
   "cateId": "/@href",
   "cateIdR": "/mlist/(\\w+).html",
   "cateManual": {
-    "电影": "1", 
-    "剧集": "2"
+    "电影": "index1", 
+    "剧集": "index2"
   },    
 // Home Summary ================================================  
   "homeVodNode": "//ul[@class='myui-vodlist clearfix']/li/div",
