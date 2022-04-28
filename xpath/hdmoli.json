@@ -32,9 +32,9 @@
   "dtCate": "//p[contains(@class,'data')]/span/following-sibling::text()[1]",
   "dtYear": "//p[contains(@class,'data')]/span/following-sibling::text()[5]",
   "dtArea": "//p[contains(@class,'data')]/span/following-sibling::text()[3]",
-  "dtActor": "//p[contains(@class,'data')]/span/following::text()[10]",
+  "dtActor": "//span[contains(@class,'text-muted')and contains( text(),'演员')]/following-sibling::*/text()",
   "dtMark": "//p[contains(@class,'data')]/span/following::text()[25]",
-  "dtDirector": "//p[contains(@class,'data')]/span/following::text()[22]",
+  "dtDirector": "//span[contains(@class,'text-muted')and contains( text(),'导演')]/text()",
   "dtDesc": "//p[contains(@class,'data')]/span/following::text()[31]",   
 // Playlist =====================================================     
   "dtFromNode": "//div[@class='myui-panel myui-panel-bg clearfix']/div/div/div/h3",
