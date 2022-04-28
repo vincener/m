@@ -29,7 +29,7 @@
   "dtNode": "//div[contains(@class,'myui-panel col-pd clearfix')]",
   "dtName": "//div[@class='myui-content__thumb']/a/@title",
   "dtImg":  "//div[@class='myui-content__thumb']/a/@data-original",
-  "dtCate": "//p[contains(@class,'data')]/span/following-sibling::text()[1]",
+  "dtCate": "//span[contains(@class,'text-muted')and contains( text(),'分类')]",
   "dtYear": "//p[contains(@class,'data')]/span/following-sibling::text()[5]",
   "dtArea": "//p[contains(@class,'data')]/span/following-sibling::text()[3]",
   "dtActor": "//span[contains(@class,'text-muted')and contains( text(),'演员')]/following-sibling::*/text()",
