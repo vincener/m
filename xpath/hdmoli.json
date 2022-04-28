@@ -4,10 +4,10 @@
   "cateNode": "//ul[contains(@class,'myui-header__menu')]/li/a[contains(@href, 'mlist')]",
   "cateName": "/text()",
   "cateId": "/@href",
-  "cateIdR": "/mlist/(\\w+).html",
+  "cateIdR": "/mlist/index(\\d+).html",
   "cateManual": {
-    "电影": "index1", 
-    "剧集": "index2"
+    "电影": "1", 
+    "剧集": "2"
   },    
 // Home Summary ================================================  
   "homeVodNode": "//ul[@class='myui-vodlist clearfix']/li/div",
