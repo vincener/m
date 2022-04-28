@@ -1,0 +1,58 @@
+{
+  "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1",
+  "homeUrl": "https://www.hdmoli.com/",
+  "cateNode": "//ul[contains(@class,'myui-header__menu')]/li/a[contains(@href, 'mlist')]",
+  "cateName": "/text()",
+  "cateId": "/@href",
+  "cateIdR": "/mlist/(\\w+).html",
+  "cateManual": {
+    "电影": "1", 
+    "剧集": "2"
+  },    
+// Home Summary ================================================  
+  "homeVodNode": "//ul[@class='myui-vodlist clearfix']/li/div",
+  "homeVodName": "/a/@title",
+  "homeVodId": "/a/@href",
+  "homeVodIdR": "/movie/(\\w+)",
+  "homeVodImg": "/a/@data-original",
+  "homeVodMark": "/a/span[3]/text()", 
+// Category Summary ================================================    
+  "cateUrl": "https://www.hdmoli.com/search.php?page={catePg}&searchtype=5&tid={cateId}&area={area}",
+  "cateVodNode": "//div[contains(@class,'myui-vodlist__box')]",
+  "cateVodName": "/a/@title",
+  "cateVodId": "/a/@href",
+  "cateVodIdR": "/movie/(\\w+).html",
+  "cateVodImg": "/a/@data-original",
+  "cateVodMark": "/a/span[3]/text()",  
+// Category Details ================================================    
+  "dtUrl": "https://www.hdmoli.com/movie/{vid}.html",
+  "dtNode": "//div[contains(@class,'myui-panel col-pd clearfix')]",
+  "dtName": "//div[@class='myui-content__thumb']/a/@title",
+  "dtImg":  "//div[@class='myui-content__thumb']/a/@data-original",
+  "dtCate": "//div[contains(@class,'content_detail content_min fl')]/ul/li[1]/a[3]/text()",
+  "dtYear": "//div[contains(@class,'content_detail content_min fl')]/ul/li[1]/a[1]/text()",
+  "dtArea": "//div[contains(@class,'content_detail content_min fl')]/ul/li[1]/a[2]/text()",
+  "dtActor": "//div[contains(@class,'content_detail content_min fl')]/ul/li[4]/a[1]/text()",
+  "dtMark": "//div[@class='stui-content__detail']/p[4]/text()",
+  "dtDirector": "//div[contains(@class,'content_detail content_min fl')]/ul/li[5]/a[1]/text()",
+  "dtDesc": "//div[contains(@class,'content_detail content_min fl')]/ul/li[6]",   
+// Playlist =====================================================     
+  "dtFromNode": "//div[@class='myui-panel myui-panel-bg clearfix']/div/div/div/h3",
+  "dtFromName": "/text()",
+  "dtFromNameR": "(.+) \\(\\S+",
+  "dtUrlNode": "//ul[@class='myui-content__list sort-list clearfix']",  // number must match
+  "dtUrlSubNode": "/li/a",
+  "dtUrlId": "/@href",
+  "dtUrlIdR": "/play/(\\S+).html",
+  "dtUrlName": "/text()",
+  "playUrl": "https://www.hdmoli.com/play/{playUrl}.html",
+  "playUa": "",
+// Search Results ================================================         
+  "searchUrl": "https://www.hdmoli.com/vodsearch/-------------.html?wd={wd}&submit=",
+  "scVodNode": "//div[@class='searchlist_img']",
+  "scVodName": "/a/@title",
+  "scVodId": "/a/@href",
+  "scVodIdR": "/voddetail/(\\w+).html",
+  "scVodImg": "/a/@data-original",
+  "scVodMark": "/a/span[2]/text()"
+}
