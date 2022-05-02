@@ -57,7 +57,7 @@
 	"playUrl": "http://ioo.ouyewow.com/index.php/vod/play/id/{playUrl}.html",
 	"playUa": "",
  	"searchUrl": "http://ioo.ouyewow.com/index.php/vod/search.html?wd={wd}&submit=",
-	"scVodNode": "//div[@class='searchlist_titbox']",
+	"scVodNode": "//li[@class='searchlist_item']",
 	"scVodName": "/a/@title",
 	"scVodId": "/a/@href",
 	"scVodIdR": "",
