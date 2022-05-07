@@ -45,7 +45,7 @@
 // 视频简介
   "dtDesc": "//span[contains(text(),'简介')]/text()",
 // 播放源节点
-  "dtFromNode": "//div[contains(@id,'playlist')]/div[@class='stui-pannel__head bottom-line active clearfix']/h3[@class='title']",
+  "dtFromNode": "//div[contains(@id,'playlist')]//div[@class='stui-pannel__head bottom-line active clearfix']//h3[@class='title']",
 // 播放源名称
   "dtFromName": "/text()",
   "dtFromNameR": "",
