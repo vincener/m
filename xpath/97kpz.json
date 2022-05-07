@@ -33,18 +33,18 @@
 // 详情节点
   "dtNode": "//body",
 // 视频名
-  "dtName": "//div[@class'stui-content__detail']/h1/text()",
+  "dtName": "//div[@class='stui-content__detail']/h1/text()",
   "dtNameR": "",
-  "dtImg": "//div[@class'stui-content__thumb']/a/@data-original",
+  "dtImg": "//div[@class='stui-content__thumb']/a/@data-original",
   "dtImgR": "",
-  "dtCate": "//ul[contains(@class,'mo-cols-rows')]/li/span[contains(text(), '分类')]/following-sibling::a/text()",
-  "dtYear": "//ul[contains(@class,'mo-cols-rows')]/li/span[contains(text(), '年份')]/following-sibling::a/text()",
-  "dtArea": "//ul[contains(@class,'mo-cols-rows')]/li/span[contains(text(), '地区')]/following-sibling::a/text()",
+  "dtCate": "//span[contains(text(), '分类')]/following-sibling::a/text()",
+  "dtYear": "//span[contains(text(), '年份')]/following-sibling::a/text()",
+  "dtArea": "//span[contains(text(), '地区')]/following-sibling::a/text()",
   "dtMark": "",
-  "dtDirector": "//ul[contains(@class,'mo-cols-rows')]/li/span[contains(text(), '导演')]/parent::*/a/text()",
-  "dtActor": "//ul[contains(@class,'mo-cols-rows')]/li/span[contains(text(), '主演')]/parent::*/a/text()",
+  "dtDirector": "//span[contains(text(), '导演')]/parent::*/a/text()",
+  "dtActor": "//span[contains(text(), '主演')]/parent::*/a/text()",
 // 视频简介
-  "dtDesc": "//ul[contains(@class,'mo-cols-rows')]/li[contains(text(),'短评')]/text()",
+  "dtDesc": "//li[contains(text(),'简介')]/text()",
 // 播放源节点
   "dtFromNode": "//div[contains(@class,'stui-pannel-box')]//h3",
 // 播放源名称
