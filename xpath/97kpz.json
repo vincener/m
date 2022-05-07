@@ -1,4 +1,3 @@
-
 {
   "ua": "",
   "homeUrl": "http://www.97kpz.com/",
@@ -6,7 +5,7 @@
   "cateName": "/text()",
   "cateId": "/@href",
   "cateIdR": "/(\\w+)/index.html",
-  "cateManual": {"电视剧":"tv"},
+  "cateManual": {},
 // 首页推荐视频的节点
   "homeVodNode": "//div[@class='stui-vodlist__box']/a",
 // 首页推荐视频的名称
