@@ -1,6 +1,7 @@
 {
   "ua": "",
-  "homeUrl": "http://www.ltezb.com/", "cateNode":"//ul[contains(@class,'clearfix')]/li/a[contains(@href, 'vodtype')]",
+  "homeUrl": "http://www.ltezb.com/",
+  "cateNode":"//ul[contains(@class,'clearfix')]/li/a[contains(@href, 'vodtype')]",
   "cateName": "/text()",
   "cateId": "/@href",
   "cateIdR": "/vodtype/(\\d+).html",
