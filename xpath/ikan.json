@@ -27,7 +27,7 @@
   "cateVodImgR": "\\S+(http\\S+)",
   "cateVodMark": "/a/span[contains(@class,'pic-text text-right')]/text()",
 // 详情页地址 用于获取详情页信息 及 播放列表和地址
-  "dtUrl": "http://www.ltezb.com/vodplay/{vid}.html",
+  "dtUrl": "http://www.ltezb.com/vodplay/{vid}-1-1.html",
 // 详情节点
   "dtNode": "//div[contains(@class,'stui-pannel clearfix')]",
 // 视频名
