@@ -50,7 +50,7 @@
   "dtFromName": "/text()",
   "dtFromNameR": "",
 // 播放集数
-  "dtUrlNode": "//ul[@class='stui-content__playlist playlink clearfix column8']",
+  "dtUrlNode": "//ul[contains(@class,'stui-content__playlist')]",
 // 播放集数节点
   "dtUrlSubNode": "/li/a",
   "dtUrlId": "/@href",
