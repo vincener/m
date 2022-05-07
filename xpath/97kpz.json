@@ -44,7 +44,7 @@
   "dtDirector": "//span[contains(text(), '导演')]/parent::*/a/text()",
   "dtActor": "//span[contains(text(), '主演')]/parent::*/a/text()",
 // 视频简介
-  "dtDesc": "//li[contains(text(),'简介')]/text()",
+  "dtDesc": "//span[contains(text(),'简介')]/text()",
 // 播放源节点
   "dtFromNode": "//div[contains(@class,'stui-pannel-box')]//h3",
 // 播放源名称
