@@ -6,7 +6,7 @@
   "cateName": "/text()",
   "cateId": "/@href",
   "cateIdR": "/(\\w+)/index.html",
-  "cateManual": {},
+  "cateManual": {"电视剧":"tv"},
 // 首页推荐视频的节点
   "homeVodNode": "//div[@class='stui-vodlist__box']/a",
 // 首页推荐视频的名称
@@ -14,7 +14,7 @@
 // 首页推荐视频的id
   "homeVodId": "/@href",
 // 二次处理正则
-  "homeVodIdR": "/(\\w+)/(\\w+)/",
+  "homeVodIdR": "/(\\w+)/",
 // 首页推荐视频的图片
   "homeVodImg": "/@data-original",
   "homeVodImgR": "\\S+(http\\S+)",
@@ -24,7 +24,7 @@
   "cateVodNode": "//div[@class='stui-vodlist__box']/a",
   "cateVodName": "/@title",
   "cateVodId": "/@href",
-  "cateVodIdR": "/(\\w+)/(\\w+)/",
+  "cateVodIdR": "/(\\w+)/",
   "cateVodImg": "/@data-original",
   "cateVodImgR": "\\S+(http\\S+)",
   "cateVodMark": "/span[contains(@class,'pic-text text-right')]/text()",
