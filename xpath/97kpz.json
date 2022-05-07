@@ -1,6 +1,10 @@
 {
   "ua": "",
   "homeUrl": "http://www.97kpz.com/",
+  "dcVipFlag": "true",
+	"pCfgJs": "http://www.97kpz.com/static/js/playerconfig.js",
+	"pCfgJsR": "[\\W|\\S|.]*?MacPlayerConfig.player_list[\\W|\\S|.]*?=([\\W|\\S|.]*?),MacPlayerConfig.downer_list",
+	"dcShow2Vip": {},
   "cateNode": "//ul[contains(@class,'type-slide clearfix')]/li/a[contains(@href, 'index')]",
   "cateName": "/text()",
   "cateId": "/@href",
