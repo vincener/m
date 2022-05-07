@@ -29,7 +29,7 @@
   "cateVodImgR": "\\S+(http\\S+)",
   "cateVodMark": "/span[contains(@class,'pic-text text-right')]/text()",
 // 详情页地址 用于获取详情页信息 及 播放列表和地址
-  "dtUrl": "http://www.97kpz.com/{vid}/",
+  "dtUrl": "http://www.97kpz.com{vid}",
 // 详情节点
   "dtNode": "//div[contains(@class,'col-lg-wide-8 col-xs-1 padding-0')]",
 // 视频名
