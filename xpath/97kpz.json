@@ -6,7 +6,7 @@
   "cateName": "/text()",
   "cateId": "/@href",
   "cateIdR": "/(\\w+)/index.html",
-  "cateManual": {},
+  "cateManual": {"电视剧":"guochanju"},
 // 首页推荐视频的节点
   "homeVodNode": "//div[@class='stui-vodlist__box']/a",
 // 首页推荐视频的名称
