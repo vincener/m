@@ -1,6 +1,6 @@
 {
     "ua":"Mozilla/5.0 (Linux; Android 10; DBY-W09) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.104 Safari/537.36",
-  "homeUrl": "http://www.zhenbuka3.com/?btwaf=10838805",
+  "homeUrl": "http://www.zhenbuka3.com/",
   "cateNode": "//ul[contains(@class,'stui-header__menu')]/li/a[contains(@href, 'vodtype')]",
   "cateName": "/text()",
   "cateId": "/@href",
