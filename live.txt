@@ -1371,28 +1371,37 @@ tvNMovies,mitv://ns2.hellotvvod.com:9906/93226f918c0a4231bdff4910da8fa8e1
 韩国娱乐,http://93.190.139.36:8278/streams/d/chcaction/playlist.m3u8
 韩国娱乐,P2p://ns2.hellotvvod.com:9906/b2d9ec709c0841da96848678de696115.ts
 
-🌎海外,#genre#
-[泰国]ASTVNews1,http://news1.live14.com/stream/news1_hi.m3u8
-[泰国]Channel7(240p),https://bcovlive-a.akamaihd.net/2d37038b355f4ea6a6b0d46993dc285c/ap-southeast-1/5282994675001/profile_0/chunklist.m3u8
-[泰国]Channel8,http://usa.login.in.th:1935/ch8/ch8/playlist.m3u8
-[泰国]DLTV1(720p),https://dltv-live-edge.catcdn.cloud/dltv01_720p/index.m3u8
-[泰国]DLTV10(720p),https://dltv-live-edge.catcdn.cloud/dltv10_720p/index.m3u8
-[泰国]DLTV12(720p),https://dltv-live-edge.catcdn.cloud/dltv12_720p/index.m3u8
-[泰国]DLTV13(720p),https://dltv-live-edge.catcdn.cloud/dltv13_720p/index.m3u8
-[泰国]DLTV14(720p),https://dltv-live-edge.catcdn.cloud/dltv14_720p/index.m3u8
-[泰国]DLTV15(720p),https://dltv-live-edge.catcdn.cloud/dltv15_720p/index.m3u8
-[泰国]DLTV3(720p),https://dltv-live-edge.catcdn.cloud/dltv03_720p/index.m3u8
-[泰国]DLTV4(720p),https://dltv-live-edge.catcdn.cloud/dltv04_720p/index.m3u8
-[泰国]DLTV5(720p),https://dltv-live-edge.catcdn.cloud/dltv05_720p/index.m3u8
-[泰国]DLTV6(720p),https://dltv-live-edge.catcdn.cloud/dltv06_720p/index.m3u8
-[泰国]DLTV7(720p),https://dltv-live-edge.catcdn.cloud/dltv07_720p/index.m3u8
-[泰国]DLTV8(720p),https://dltv-live-edge.catcdn.cloud/dltv08_720p/index.m3u8
-[泰国]NBTBangkok[Not24/7],http://live.prd.go.th:1935/live/ch1_L.sdp/chunklist.m3u8
-[泰国]News1,http://news1.live14.com/stream/news1.m3u8
-[泰国]ThaiPBS(Opt-4),http://thaipbs-live.cdn.byteark.com/live/playlist_480p/index.m3u8
-[泰国]ThaiPBS3,https://thaipbs-live.cdn.byteark.com/live/playlist_1080p/index.m3u8
-[泰国]ThaiPBS3(1080p),https://thaipbs-live.cdn.byteark.com/live/playlist.m3u8
-[泰国]ThairathTV32(720p),https://live.thairath.co.th/trtv2/playlist.m3u8
-[泰国]TPTV(286p),http://49.231.66.85:1935/live/tptv/playlist.m3u8
-[泰国]TVMuslim(1080p)[Not24/7],http://vip2.liveanywhere.asia:1935/tvmuslim/tvmuslim/playlist.m3u8
-[泰国]WhiteChannel,http://symc-cdn.violin.co.th:1935/tndedge/whitechannel/chunklist.m3u8
+🌎最新港台,#genre#
+翡翠台,http://iptv.tvfix.org/hls/jade.m3u8
+翡翠台[1920*1080],http://radius.8866.org:880/hls/80/index.m3u8
+无线新闻[1920*1080],http://radius.8866.org:880/hls/82/index.m3u8
+无线财经[1920*1080],http://radius.8866.org:880/hls/83/index.m3u8
+明珠台[1920*1080],http://radius.8866.org:880/hls/84/index.m3u8
+J2[1920*1080],http://120.84.96.29:808/hls/86/index.m3u8
+民视新闻台[1920*1080],http://38.64.72.148:80/hls/modn/list/4012/chunklist0.m3u8
+三立台湾[1920*1080],http://59.125.101.187:8501/http/60.251.39.91:8081/hls/65/807/ch20.m3u8
+台视新闻[1920*1080],http://38.64.72.148:80/hls/modn/list/4013/chunklist0.m3u8
+台视新闻[1920*1080],http://38.64.72.148:80/hls/modn/list/4013/chunklist1.m3u8
+民视[1280*720],rtmp://59.124.75.150/sat/tv051
+台视[1280*720],rtmp://59.124.75.150/sat/tv071
+中视[1280*720],rtmp://59.124.75.150/sat/tv091
+华视[1280*720],rtmp://59.124.75.150/sat/tv111
+TVBS欢乐台[1280*720],rtmp://59.124.75.150/sat/tv421
+TVBS新闻[1920*1080],http://38.64.72.148:80/hls/modn/list/4006/chunklist0.m3u8
+TVBS新闻台[1280*720],rtmp://59.124.75.150/sat/tv551
+TVBS HD[1920*1080],http://38.64.72.148:80/hls/modn/list/8005/chunklist0.m3u8
+东森戏剧.[1920*1080],http://easy_001.ztpfuoodzsthwn.xyz:8888/mylive/103/333540/index.m3u8
+东森洋片[1920*1080],http://zb.688768.xyz/jiudian/jddb.php?playurl=http://120.84.96.222:808/hls/33/index.m3u8
+东森电影[1920*1080],http://120.84.96.42:808/hls/32/index.m3u8
+东森电影[1920*1080],http://120.84.96.43:808/hls/32/index.m3u8
+东森电影[1920*1080],http://120.84.96.46:808/hls/32/index.m3u8
+东森财经新闻[1280*720],rtmp://59.124.75.150/sat/tv571
+纬来日本[1280*720],rtmp://59.124.75.150/sat/tv771
+纬来育乐[1280*720],rtmp://59.124.75.150/sat/tv701
+纬来体育[1280*720],rtmp://59.124.75.150/sat/tv721
+MoMo综合台[1280*720],rtmp://59.124.75.150/sat/tv761
+JET綜合[1280*720],http://50.7.218.42:8278/jettv_japan/playlist.m3u8?tid=mec9806b42012&ct=18335&tsum=e4518647627cab22a9faca0710d987ec
+龙华日韩[1920*1080],http://59.125.98.83:8535/http/192.168.1.9:8066/hls/210/10011/cstv11.m3u8?token=7375646f1298469fcd2cecf4cc31d29c6f203f0d
+龙华戏剧.[1920*1080],http://59.125.98.83:8534/http/192.168.1.9:8066/hls/210/10010/cstv10.m3u8?token=7375646f1298469fcd2cecf4cc31d29c6f203f0d
+龙华戏剧.[1920*1080],http://59.125.98.83:8534/http/192.168.1.9:8066/hls/210/10010/cstv10.m3u8?token=7375646f1298469fcd2cecf4cc31d29c6f203f0d
+龙华日韩[1920*1080],http://59.125.98.83:8535/http/192.168.1.9:8066/hls/210/10011/cstv11.m3u8?token=7375646f1298469fcd2cecf4cc31d29c6f203f0d
