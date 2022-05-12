@@ -1,10 +1,4 @@
 🇭🇰港台,#genre#
-SBS,http://ye23.win/iptv/sbs5.1.php?id=S01
-MBC,http://vod.mpmbc.co.kr:1935/live/encoder-tv/playlist.m3u8
-KBS-1,http://ye23.vip/z7z8/2021/kbs2020.php?id=1
-KBS-2,http://ye23.vip/z7z8/2021/kbs2020.php?id=2
-KBS-WORLD,http://ye23.vip/z7z8/2021/kbs2020.php?id=3
-KBS-WORLD,https://kbsworld-ott.akamaized.net:443/hls/live/2002341/kbsworld/01.m3u8
 翡翠台,http://tv.mushui.tk:9090/itv/gd/utv/play.php?id=xgfeicui_1500
 TVB翡翠台,http://119.77.96.184:1935/chn21/chn21/playlist.m3u8
 TVB翡翠台,http://antvlive.ab5c6921.cdnviet.com/antv/chunklist.m3u8
@@ -24,6 +18,14 @@ TVBS新闻HD,rtmp://59.124.75.150/sat/tv551
 TVBS新闻,rtmp://59.124.75.138:1935/sat/tv551
 TVBS新闻,http://38.64.72.148:80/hls/modn/list/4006/chunklist0.m3u8
 TVBS新闻,http://38.64.72.148:80/hls/modn/list/4006/chunklist1.m3u8
+
+🇯🇵日韩,#genre#
+SBS,http://ye23.win/iptv/sbs5.1.php?id=S01
+MBC,http://vod.mpmbc.co.kr:1935/live/encoder-tv/playlist.m3u8
+KBS-1,http://ye23.vip/z7z8/2021/kbs2020.php?id=1
+KBS-2,http://ye23.vip/z7z8/2021/kbs2020.php?id=2
+KBS-WORLD,http://ye23.vip/z7z8/2021/kbs2020.php?id=3
+KBS-WORLD,https://kbsworld-ott.akamaized.net:443/hls/live/2002341/kbsworld/01.m3u8
 
 🈲测试,#genre#
 卫视中文,http://220.134.196.147:8933/http/116.50.42.18:8081/hls/62/804/ch05.m3u8?token=7375646fa0886d71294f378c722be3491efdaa4a
@@ -1148,24 +1150,6 @@ EU超时任务,http://txtest-xp2p.p2p.huya.com/src/1199561223711-1199561223711-5
 大头绿衣斗僵尸,http://txtest-xp2p.p2p.huya.com/src/1199563488528-1199563488528-5444356138466279424-2399127100512-10057-A-0-1.xs
 西游记2,http://txtest-xp2p.p2p.huya.com/src/1199561181026-1199561181026-5434445492840824832-2399122485508-10057-A-0-1.xs
 封神榜,http://txtest-xp2p.p2p.huya.com/src/1199561158071-1199561158071-5434346901866545152-2399122439598-10057-A-0-1.xs
-
-🇯🇵日韩,#genre#
-KBS,http://luotuo.ycchenrong.cn/dl/youku.php?id=8034767
-KBS1,mitv://ns2.hellotvvod.com:9906/8bce97b04ee94db6a8a4153dd4c4fe6c
-KBS1,P2p://ns2.hellotvvod.com:9906/3c99fe7844c44fe09e82dd2b26ea7713.ts
-KBS2,mitv://ns2.hellotvvod.com:9906/f9dbdcd019704498bed94495d0217ca1
-KBS2,P2p://ns2.hellotvvod.com:9906/ee353c9d52d74b63ae949b296eb68213.ts
-KBSDrama,mitv://ns2.hellotvvod.com:9906/a32747a969fe461684322b2281b75d9b
-KBSDrama,P2p://ns2.hellotvvod.com:9906/ddd29fb309f94b36b7c6a5a4c241b898.ts
-KBSJoy,mitv://ns2.hellotvvod.com:9906/0a17f29805544906af28f564b5315e3c
-KBSJoy,P2p://ns2.hellotvvod.com:9906/d920db9ae2684c619ea5b2e09845376c.ts
-KBSWorld,P2p://ns2.hellotvvod.com:9906/9360874ebb1f4082896589c164cba811.ts
-KBS京都,P2p://ns2.hellotvvod.com:9906/e73b254cd5a14e9896d3a475b1d0a57f.ts
-KCTV,http://119.77.96.184:1935/chn21/chn21/chunklist_w252131137.m3u8
-MBC,http://www.pickcom.co.kr:1935/sjp/live07/chunklist_w2107750490.m3u8
-MBC,https://5c3639aa99149.streamlock.net/live_TV/TV/playlist.m3u8
-MBC,mitv://ns2.hellotvvod.com:9906/4c7b7a9d11824d7c8f480e2b3dc5602e
-MBC,P2p://ns2.hellotvvod.com:9906/3e3808415fad4e8098aca7378dc7ff13.ts
 
 🌎最新港台,#genre#
 翡翠台,http://iptv.tvfix.org/hls/jade.m3u8
