@@ -1166,7 +1166,6 @@ MBC,http://www.pickcom.co.kr:1935/sjp/live07/chunklist_w2107750490.m3u8
 MBC,https://5c3639aa99149.streamlock.net/live_TV/TV/playlist.m3u8
 MBC,mitv://ns2.hellotvvod.com:9906/4c7b7a9d11824d7c8f480e2b3dc5602e
 MBC,P2p://ns2.hellotvvod.com:9906/3e3808415fad4e8098aca7378dc7ff13.ts
-韩国-MBC综合频道,http://vod.mpmbc.co.kr:1935/live/encoder-tv/playlist.m3u8
 
 🌎最新港台,#genre#
 翡翠台,http://iptv.tvfix.org/hls/jade.m3u8
