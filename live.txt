@@ -1389,7 +1389,6 @@ J2[1920*1080],http://120.84.96.29:808/hls/86/index.m3u8
 TVBS欢乐台[1280*720],rtmp://59.124.75.150/sat/tv421
 TVBS新闻[1920*1080],http://38.64.72.148:80/hls/modn/list/4006/chunklist0.m3u8
 TVBS新闻台[1280*720],rtmp://59.124.75.150/sat/tv551
-TVBS HD[1920*1080],http://38.64.72.148:80/hls/modn/list/8005/chunklist0.m3u8
 东森戏剧.[1920*1080],http://easy_001.ztpfuoodzsthwn.xyz:8888/mylive/103/333540/index.m3u8
 东森洋片[1920*1080],http://zb.688768.xyz/jiudian/jddb.php?playurl=http://120.84.96.222:808/hls/33/index.m3u8
 东森电影[1920*1080],http://120.84.96.42:808/hls/32/index.m3u8
@@ -1400,8 +1399,11 @@ TVBS HD[1920*1080],http://38.64.72.148:80/hls/modn/list/8005/chunklist0.m3u8
 纬来育乐[1280*720],rtmp://59.124.75.150/sat/tv701
 纬来体育[1280*720],rtmp://59.124.75.150/sat/tv721
 MoMo综合台[1280*720],rtmp://59.124.75.150/sat/tv761
-JET綜合[1280*720],http://50.7.218.42:8278/jettv_japan/playlist.m3u8?tid=mec9806b42012&ct=18335&tsum=e4518647627cab22a9faca0710d987ec
 龙华日韩[1920*1080],http://59.125.98.83:8535/http/192.168.1.9:8066/hls/210/10011/cstv11.m3u8?token=7375646f1298469fcd2cecf4cc31d29c6f203f0d
 龙华戏剧.[1920*1080],http://59.125.98.83:8534/http/192.168.1.9:8066/hls/210/10010/cstv10.m3u8?token=7375646f1298469fcd2cecf4cc31d29c6f203f0d
 龙华戏剧.[1920*1080],http://59.125.98.83:8534/http/192.168.1.9:8066/hls/210/10010/cstv10.m3u8?token=7375646f1298469fcd2cecf4cc31d29c6f203f0d
 龙华日韩[1920*1080],http://59.125.98.83:8535/http/192.168.1.9:8066/hls/210/10011/cstv11.m3u8?token=7375646f1298469fcd2cecf4cc31d29c6f203f0d
+龙华偶像,http://59.125.98.83:8536/playlist.m3u8
+龙华日韩,http://59.125.98.83:8535/playlist.m3u8
+龙华戏剧,http://59.125.98.83:8534/playlist.m3u8
+三立台湾,http://59.125.101.187:8501/playlist.m3u8
