@@ -1271,50 +1271,6 @@ EU超时任务,http://txtest-xp2p.p2p.huya.com/src/1199561223711-1199561223711-5
 封神榜,http://txtest-xp2p.p2p.huya.com/src/1199561158071-1199561158071-5434346901866545152-2399122439598-10057-A-0-1.xs
 
 🇯🇵日韩,#genre#
-abc朝日,mitv://ns2.hellotvvod.com:9906/e08cab3503f6485fa2c091b5be4e727b
-Arirang,mitv://ns2.hellotvvod.com:9906/0a89887bb3604794b1fda5c3eae45021
-Arirang,P2p://ns2.hellotvvod.com:9906/dc09260380da4121a029ac172c3450c4.ts
-Atx,https://sub2.neetball.net/live/neet.m3u8
-BS-1,mitv://ns2.hellotvvod.com:9906/61b17f3fbbcb403d847bc9303c8b0d8d
-BS-1,P2p://ns2.hellotvvod.com:9906/8d0806356f5c4764bb515340d9a302ed.ts
-BS-TBS,mitv://ns2.hellotvvod.com:9906/aeec4b86617e4103af24b41253a660b8
-BS-TBS,P2p://ns2.hellotvvod.com:9906/0ace30ccd4924caeb5bbfe1351597a75.ts
-BS11,P2p://ns2.hellotvvod.com:9906/fa35109d8068440f892fd7f66b06c373.ts
-BS12,P2p://ns2.hellotvvod.com:9906/d1ad4cd619ee4301b0f42cf4b19e225c.ts
-BSアニマックス,mitv://ns2.hellotvvod.com:9906/972fb28d06264a4cabe21b844b224446
-BSアニマックス,P2p://ns2.hellotvvod.com:9906/39fe13f7bd36434abc5fc49212a31d40.ts
-BSジャパン,mitv://ns2.hellotvvod.com:9906/2b1b9cb1d426443fa678d4f761f35818
-BSプレミアム,mitv://ns2.hellotvvod.com:9906/36c2308e707f4db39faebd749284938f
-BSフジ,mitv://ns2.hellotvvod.com:9906/98a122e66dee46dc94cfc487f86c9f33
-BSプレミアム,P2p://ns2.hellotvvod.com:9906/851f5eafdd234bf0a87e8bb41a6002d1.ts
-BSフジ,P2p://ns2.hellotvvod.com:9906/c83b4807f28f43e39a9e7bacb792a4ca.ts
-BS日テレ,mitv://ns2.hellotvvod.com:9906/836b15faf163430e88da2b7baba78215
-BS朝日,mitv://ns2.hellotvvod.com:9906/f389cffb91e1492da594f7ff913b1a33
-BS朝日,P2p://ns2.hellotvvod.com:9906/ea940b2f11db4827a320140f242d49c4.ts
-BS钓りビジョン,P2p://ns2.hellotvvod.com:9906/73d5bd05bdb94597b18aa799d49838de.ts
-CartoonNetwork,mitv://ns2.hellotvvod.com:9906/5419e8cfbb6a496aade3406e257768a7
-Cbeebies,P2p://ns2.hellotvvod.com:9906/88994f34b2ff49e5a63925f073639db2.ts
-CBS,mitv://ns2.hellotvvod.com:9906/3fe45552e55a4725b7927a8cb0cf7b31
-EBS,mitv://ns2.hellotvvod.com:9906/550363d1e7b34da1aab25a8ae3b5c042
-EBS,P2p://ns2.hellotvvod.com:9906/f2a86da583ca4517a6307d7b4af2b84b.ts
-EBSE频道,http://ebsonairios.ebs.co.kr/plus3tablet500k/tablet500k/plus3tablet500k.index.m3u8
-EBS第一频道,http://ebsonairios.ebs.co.kr/groundwavetablet500k/tablet500k/groundwavetablet500k.m3u8
-EBS第一频道,http://ebsonairios.ebs.co.kr/plus1tablet500k/tablet500k/plus1tablet500k.index.m3u8
-EBS第二频道,http://ebsonairios.ebs.co.kr/ebs2tablet500k/tablet500k/ebs2tablet500k.index.m3u8
-EBS第二频道,http://ebsonair.ebs.co.kr:1935/ebs2familypc/familypc1m/playlist.m3u8
-EBS第二频道,http://ebsonairios.ebs.co.kr/plus2tablet500k/tablet500k/plus2tablet500k.index.m3u8
-Fashion & Lifestyle (UA),http://95.67.47.115/hls/hdfashion_ua_low/index.m3u8
-GEM,P2p://ns2.hellotvvod.com:9906/7ec6e72413794a54858fba8d341ebd0f.ts
-GunmaTV,https://movie.mcas.jp/switcher/smil:mcas8.smil/master.m3u8
-Jasmin TV,http://109.71.162.112:1935/live/hd.jasminchannel.stream/playlist.m3u8
-JSports1,mitv://ns2.hellotvvod.com:9906/8f789a849c85440d9f1447d5c5977df1
-JSports2,mitv://ns2.hellotvvod.com:9906/db5d1bc45f454e6f850b3a379e625e3f
-JSports3,mitv://ns2.hellotvvod.com:9906/eacdea4d8fdc4070ac0b94f4c57d8e30
-JSports4,mitv://ns2.hellotvvod.com:9906/7bd2b99f5b874e028edb6e7e9915bc33
-JTBC,mitv://ns2.hellotvvod.com:9906/190c376cab1f4ef4be4b55fb26ce2f8b
-JTBC,P2p://ns2.hellotvvod.com:9906/62b3281e04a240c89625d3da4529f3b5.ts
-JTBCGOLF,mitv://ns2.hellotvvod.com:9906/a16d5e5357444665ae91388cfab7eaf9
-JTBCGOLF,P2p://ns2.hellotvvod.com:9906/813433f7c21b49518783e7856db251a6.ts
 KBS,http://luotuo.ycchenrong.cn/dl/youku.php?id=8034767
 KBS1,mitv://ns2.hellotvvod.com:9906/8bce97b04ee94db6a8a4153dd4c4fe6c
 KBS1,P2p://ns2.hellotvvod.com:9906/3c99fe7844c44fe09e82dd2b26ea7713.ts
@@ -1331,45 +1287,7 @@ MBC,http://www.pickcom.co.kr:1935/sjp/live07/chunklist_w2107750490.m3u8
 MBC,https://5c3639aa99149.streamlock.net/live_TV/TV/playlist.m3u8
 MBC,mitv://ns2.hellotvvod.com:9906/4c7b7a9d11824d7c8f480e2b3dc5602e
 MBC,P2p://ns2.hellotvvod.com:9906/3e3808415fad4e8098aca7378dc7ff13.ts
-MBCevery1,mitv://ns2.hellotvvod.com:9906/8f4d4c484841489c9e54f684fb191ffa
-MBN,P2p://ns2.hellotvvod.com:9906/3a37b236590843fabde67f0b9aa17420.ts
-Mnet,P2p://ns2.hellotvvod.com:9906/46795795b36a4e4eb3129587704c6416.ts
-MusicJapanTV,mitv://ns2.hellotvvod.com:9906/16a8ff808b3649109d0f21a269682111
-MusicJapanTV,P2p://ns2.hellotvvod.com:9906/337f5ef562e94bdabcb131ac25de5346.ts
-tvN,mitv://ns2.hellotvvod.com:9906/0a4d0d0c6e164cd093061bc31cf30ae8
-tvN,P2p://ns2.hellotvvod.com:9906/d861d8edb38d4235a9ae26851f2f4f29.ts
-tvNMovies,mitv://ns2.hellotvvod.com:9906/93226f918c0a4231bdff4910da8fa8e1
-韩国-Ajyal TV,http://htvajyal.mada.ps:8888/ajyal/tracks-v1a1/mono.m3u8?checkedby:iptvcat.com
-韩国-Arirang,http://amdlive-ch01.ctnd.com.edgesuite.net/arirang_1ch/smil:arirang_1ch.smil/playlist.m3u8
-韩国-Arirang,http://amdlive.ctnd.com.edgesuite.net/arirang_1ch/smil:arirang_1ch.smil/playlist.m3u8
-韩国-Arirang,http://amdlive-ch03.ctnd.com.edgesuite.net/arirang_3ch/smil:arirang_3ch.smil/chunklist_b1728000_sleng.m3u8
-韩国-Arirang,https://amdlive-ch01-ctnd-com.akamaized.net/arirang_1ch/smil:arirang_1ch.smil/playlist.m3u8
-韩国-Arirang,http://amdlive.ctnd.com.edgesuite.net/arirang_1ch/smil:arirang_1ch.smil/.m3u8
-韩国-Arirang,http://amdlive.ctnd.com.edgesuite.net/arirang_3ch/smil:arirang_3ch.smil/.m3u8
-韩国-ARS,https://media1.cpbc.co.kr:8888/vod/_definst_/mp4:ads/spot_khs.mp4/chunklist.m3u8
-韩国-BBS,http://bbstv.clouducs.com:1935/bbstv-live/livestream/chunklist_w1216149699.m3u8
-韩国-BBS,http://bbstv.clouducs.com:1935/bbstv-live/livestream/playlist.m3u8
-韩国-BBS佛教广播,http://bbstv.clouducs.com:1935/bbstv-live/livestream/chunklist_w1403706733.m3u8
-韩国-EBS1,http://ebsonairios.ebs.co.kr/groundwavefamilypc/familypc1m/playlist.m3u8
-韩国-EBS2,http://ebsonairios.ebs.co.kr/ebs2familypc/familypc1m/playlist.m3u8
-韩国-EBSe,http://ebsonairios.ebs.co.kr/plus3familypc/familypc1m/playlist.m3u8
-韩国-KBC,http://119.200.131.11:1935/KBCTV/tv/playlist.m3u8
-韩国-KBS World,https://livecdn.fptplay.net/sdb/kbs_hls.smil/chunklist_b2500000.m3u8
-韩国-KCTV ?? CH05,http://119.77.96.184:1935/chn05/chn05/chunklist_w644291506.m3u8
-韩国-KCTV_HV2,http://119.77.96.184:1935/chn05/chn05/chunklist_w1306745753.m3u8
-韩国-Luxury World,http://nano.teleservice.su:8080/hls/luxury.m3u8
 韩国-MBC综合频道,http://vod.mpmbc.co.kr:1935/live/encoder-tv/playlist.m3u8
-韩国-MTN,http://183.110.27.87/mtnlive/_definst_/720/chunklist.m3u8
-韩国-NBS Korea Agricultural Broadcasting,https://media.joycorp.co.kr:4443/live/live_720p/playlist.m3u8
-韩国-SBS CJB,http://1.222.207.80:1935/live/cjbtv/chunklist_w1357270949.m3u8
-韩国-TBS,http://58.234.158.60:1935/catvlive/myStream/playlist.m3u8
-韩国-TJB (SBS 大田),http://1.245.74.5:1935/live/tv/.m3u8
-韩国-TV5 INFO,http://v3plusinfo247hls-i.akamaihd.net/hls/live/218877-b/v3plusinfo247hls/v3plusinfo247hls_1_1.m3u8
-韩国-阿里郎WORLD,http://amdlive.ctnd.com.edgesuite.net/arirang_1ch/smil:arirang_1ch/master.m3u8
-韩国娱乐,http://51.222.193.143:40004/4
-韩国娱乐,rtmp://45.88.148.114/channel/60c2d183961593122ebaf8ae?sign=epgg4bkSF4hx%2BZ5WNsuYKsEpljb%2FpPGYAqq21iv2vQJp%2B%2B%2FBLThgPxbdMeXbUy1XfWEH
-韩国娱乐,http://93.190.139.36:8278/streams/d/chcaction/playlist.m3u8
-韩国娱乐,P2p://ns2.hellotvvod.com:9906/b2d9ec709c0841da96848678de696115.ts
 
 🌎最新港台,#genre#
 翡翠台,http://iptv.tvfix.org/hls/jade.m3u8
