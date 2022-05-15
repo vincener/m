@@ -1,7 +1,7 @@
 {
     "ua": "",
     "homeUrl": "https://fantuan.tv",
-    "cateNode": "//ul[contains(@class,'myui-header__menu')]/li/a[contains(@href, 'vodtype')]",
+    "cateNode": "//ul[contains(@class,'myui-header__menu')]/li[@class='dropdown-hover']//ul/li/a[contains(@href, 'vodtype')]",
     "cateName": "/text()",
     "cateId": "/@href",
     "cateIdR": "/vodtype/(\\d+).html",
@@ -28,7 +28,6 @@
     "homeVodImgR": "\\S+(http\\S+)",
     "homeVodMark": "/span[contains(@class,'pic-text')]/text()",
     "cateUrl": "https://fantuan.tv/vodshow/{area}/{by}/{class}/id/{cateId}/page/{catePg}/{year}.html",
-    "cateUrl": "https://fantuan.tv/vodtype/{cateId}-{catePg}.html",
     "cateVodNode": "//ul[contains(@class,'myui-vodlist')]//li//a[contains(@class,'myui-vodlist__thumb')]",
     "cateVodName": "/@title",
     "cateVodId": "/@href",
