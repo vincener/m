@@ -1,12 +1,16 @@
 {
   "sites": [
+{"key":"csp_biubiu_饭团影院","name":"🥒饭团影院(XB)","type":3,"api":"csp_XBiubiu","searchable":1,"quickSearch":1,"filterable":0,"ext":"https://xmtin.coding.net/p/m/d/OneClickRun/git/raw/master/Biubiu/饭团影院.json"},
+{"key":"csp_biubiu_影视工厂","name":"🥒影视工厂(XB)","type":3,"api":"csp_XBiubiu","searchable":1,"quickSearch":1,"filterable":0,"ext":"https://xmtin.coding.net/p/m/d/OneClickRun/git/raw/master/Biubiu/影视工厂.json"},
+//{"key":"csp_biubiu_饭团影院","name":"🥒饭团影院(XB)","type":3,"api":"csp_XBiubiu","searchable":1,"quickSearch":1,"filterable":0,"ext":"https://xmtin.coding.net/p/m/d/OneClickRun/git/raw/master/Biubiu/饭团影院.json"},
+//{"key":"csp_biubiu_影视工厂","name":"🥒影视工厂(XB)","type":3,"api":"csp_XBiubiu","searchable":1,"quickSearch":1,"filterable":0,"ext":"https://xmtin.coding.net/p/m/d/OneClickRun/git/raw/master/Biubiu/影视工厂.json"},
 {"key":"csp_biubiu_厂长资源-蓝光","name":"🥒厂长资源-蓝光(XB)","type":3,"api":"csp_XBiubiu","searchable":1,"quickSearch":1,"filterable":0,"ext":"https://xmtin.coding.net/p/m/d/OneClickRun/git/raw/master/Biubiu/厂长资源-蓝光.json"},
 {"key":"csp_biubiu_真不卡影院(不支持搜索)","name":"🥒真不卡影院(不支持搜索)(XB)","type":3,"api":"csp_XBiubiu","searchable":1,"quickSearch":1,"filterable":0,"ext":"https://xmtin.coding.net/p/m/d/OneClickRun/git/raw/master/Biubiu/真不卡影院(不支持搜索).json"},
 {"key":"csp_biubiu_蓝光影视","name":"🥒蓝光影视(XB)","type":3,"api":"csp_XBiubiu","searchable":1,"quickSearch":1,"filterable":0,"ext":"https://xmtin.coding.net/p/m/d/OneClickRun/git/raw/master/Biubiu/蓝光影视.json"},
 {"key":"csp_biubiu_在线之家","name":"🥒在线之家(XB)","type":3,"api":"csp_XBiubiu","searchable":1,"quickSearch":1,"filterable":0,"ext":"https://xmtin.coding.net/p/m/d/OneClickRun/git/raw/master/Biubiu/在线之家.json"},
 {"key":"csp_biubiu_COKEMV","name":"🥒COKEMV(XB)","type":3,"api":"csp_XBiubiu","searchable":1,"quickSearch":1,"filterable":0,"ext":"https://xmtin.coding.net/p/m/d/OneClickRun/git/raw/master/Biubiu/COKEMV.json"},
-{"key":"csp_biubiu_饭团影院","name":"🥒饭团影院(XB)","type":3,"api":"csp_XBiubiu","searchable":1,"quickSearch":1,"filterable":0,"ext":"https://xmtin.coding.net/p/m/d/OneClickRun/git/raw/master/Biubiu/饭团影院.json"},
-{"key":"csp_biubiu_影视工厂","name":"🥒影视工厂(XB)","type":3,"api":"csp_XBiubiu","searchable":1,"quickSearch":1,"filterable":0,"ext":"https://xmtin.coding.net/p/m/d/OneClickRun/git/raw/master/Biubiu/影视工厂.json"},
+//{"key":"csp_biubiu_饭团影院","name":"🥒饭团影院(XB)","type":3,"api":"csp_XBiubiu","searchable":1,"quickSearch":1,"filterable":0,"ext":"https://xmtin.coding.net/p/m/d/OneClickRun/git/raw/master/Biubiu/饭团影院.json"},
+//{"key":"csp_biubiu_影视工厂","name":"🥒影视工厂(XB)","type":3,"api":"csp_XBiubiu","searchable":1,"quickSearch":1,"filterable":0,"ext":"https://xmtin.coding.net/p/m/d/OneClickRun/git/raw/master/Biubiu/影视工厂.json"},
 {"key":"csp_biubiu_555资源","name":"🥒555资源(XB)","type":3,"api":"csp_XBiubiu","searchable":1,"quickSearch":1,"filterable":0,"ext":"https://xmtin.coding.net/p/m/d/OneClickRun/git/raw/master/Biubiu/555资源.json"},
 {"key":"csp_biubiu_骚火电影","name":"🥒骚火电影(XB)","type":3,"api":"csp_XBiubiu","searchable":1,"quickSearch":1,"filterable":0,"ext":"https://xmtin.coding.net/p/m/d/OneClickRun/git/raw/master/Biubiu/骚火电影.json"},
 {"key":"csp_biubiu_LIBVIO","name":"🥒LIBVIO(XB)","type":3,"api":"csp_XBiubiu","searchable":1,"quickSearch":1,"filterable":0,"ext":"https://xmtin.coding.net/p/m/d/OneClickRun/git/raw/master/Biubiu/LIBVIO.json"},
@@ -79,12 +83,12 @@
   ],
   "lives": [
     {
-      "group": "1",
+      "group": "redirect",
       "channels": [
         {
-          "name": "1",
+          "name": "redirect",
           "urls": [
-            "1"
+            "proxy://do=live&type=txt&ext=aHR0cHM6Ly94bXRpbi5jb2RpbmcubmV0L3AvbS9kL21hby9naXQvcmF3L21hc3Rlci9saXZlLnR4dA=="
           ]
         }
       ]
@@ -334,5 +338,6 @@
     "cms.qdwght.com"
   ],
   //"spider": "https://gst163.coding.net/p/fu/d/m/git/raw/master/0.jar?download=false"
-  "spider":"img+https://inews.gtimg.com/newsapp_ls/0/14940316852/0.jiketuchuang.png"
+  //"spider":"img+https://inews.gtimg.com/newsapp_ls/0/14940316852/0.jiketuchuang.png"
+  "spider":"https://xmtin.coding.net/p/m/d/mao/git/raw/master/333.jar",
 }
