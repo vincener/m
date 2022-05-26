@@ -10,7 +10,7 @@
 "filterable":1
 },
 {
-"key":"buka_spider",
+"key":"csp_Buka",
 "name":"🐼真不卡(SP)",
 "type":3,
 "api":"csp_Buka",
@@ -20,7 +20,7 @@
 "ext":""
 },
 {
-"key":"auete_spider",
+"key":"csp_Auete",
 "name":"🐼Auete影视(SP)",
 "type":3,
 "api":"csp_Auete",
@@ -30,7 +30,7 @@
 "ext":""
 },
 {
-"key":"adys_spider",
+"key":"csp_Aidi",
 "name":"爱迪影视(SP)",
 "type":3,
 "api":"csp_Aidi",
@@ -39,7 +39,7 @@
 "filterable":1
 },
 {
-"key":"enlienli_spider",
+"key":"csp_Enlienli",
 "name":"嗯哩嗯哩(SP)",
 "type":3,
 "api":"csp_Enlienli",
