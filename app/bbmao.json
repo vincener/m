@@ -1,6 +1,15 @@
 {
   "sites": [
 {
+"key":"csp_Kmys",
+"name":"🐼酷喵(SP)",
+"type":3,
+"api":"csp_Kmys",
+"searchable":1,
+"quickSearch":1,
+"filterable":1
+},
+{
 "name":"🐼七七(SP)",
 "api":"csp_Kunyu77",
 "type":3,
